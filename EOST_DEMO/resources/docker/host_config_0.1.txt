@@ -1,0 +1,11 @@
+  "HostConfig": {
+     "NetworkMode" : "mysql_network",
+     "Mounts": [
+        {
+           "Source":   "c:/talend/tmp/docker",
+           "Target":   "/talend/tmp",
+           "Type":     "bind", 
+           "ReadOnly": false
+        }
+     ]
+  }

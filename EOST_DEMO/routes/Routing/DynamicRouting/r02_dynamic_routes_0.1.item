@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_7JbAkJWPEfCy3MPMAf-UTQ" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_7JbAkZWPEfCy3MPMAf-UTQ" confirmationNeeded="false" name="Default"/>
+  <parameters xmi:id="_7JbAkpWPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7JbAk5WPEfCy3MPMAf-UTQ" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_7JbAlJWPEfCy3MPMAf-UTQ" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_7JbAlZWPEfCy3MPMAf-UTQ" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_7JbAlpWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_7JbAl5WPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_7JbAmJWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_7JbAmZWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_7JbAmpWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_7JbAm5WPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_7JbAnJWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_7JbAnZWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_7JbAnpWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_7JbAn5WPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_7JbAoJWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_7JbAoZWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_7JbAopWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_7JbAo5WPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <routinesParameter xmi:id="_7JbApJWPEfCy3MPMAf-UTQ" id="_Bd0wgIA5EeOwya0-9JCcIg" name="DQTechnical"/>
+    <routinesParameter xmi:id="_7JbApZWPEfCy3MPMAf-UTQ" id="_BebNcIA5EeOwya0-9JCcIg" name="DataOperation"/>
+    <routinesParameter xmi:id="_7JbAppWPEfCy3MPMAf-UTQ" id="_BYEGwIA5EeOwya0-9JCcIg" name="DataQuality"/>
+    <routinesParameter xmi:id="_7JbAp5WPEfCy3MPMAf-UTQ" id="_BdLQQIA5EeOwya0-9JCcIg" name="DqStringHandling"/>
+    <routinesParameter xmi:id="_7JbAqJWPEfCy3MPMAf-UTQ" id="_BfBqYIA5EeOwya0-9JCcIg" name="Mathematical"/>
+    <routinesParameter xmi:id="_7JbAqZWPEfCy3MPMAf-UTQ" id="_BfrKoIA5EeOwya0-9JCcIg" name="Numeric"/>
+    <routinesParameter xmi:id="_7JbAqpWPEfCy3MPMAf-UTQ" id="_BgVR8IA5EeOwya0-9JCcIg" name="Relational"/>
+    <routinesParameter xmi:id="_7JbAq5WPEfCy3MPMAf-UTQ" id="_BjJ8cIA5EeOwya0-9JCcIg" name="SQLike"/>
+    <routinesParameter xmi:id="_7JbArJWPEfCy3MPMAf-UTQ" id="_Bg55sIA5EeOwya0-9JCcIg" name="StringHandling"/>
+    <routinesParameter xmi:id="_7JbArZWPEfCy3MPMAf-UTQ" id="_Bhd6YIA5EeOwya0-9JCcIg" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_7JbArpWPEfCy3MPMAf-UTQ" id="_BiAs8IA5EeOwya0-9JCcIg" name="TalendDate"/>
+    <routinesParameter xmi:id="_7JbAr5WPEfCy3MPMAf-UTQ" id="_BiktoIA5EeOwya0-9JCcIg" name="TalendString"/>
+    <routinesParameter xmi:id="_7JbAsJWPEfCy3MPMAf-UTQ" id="_8qwkYFjNEdyj6eiqDt60Og" name="DemoRoutines"/>
+    <routinesParameter xmi:id="_7JbAsZWPEfCy3MPMAf-UTQ" id="_HKXfQGIZEd26GZmhFZLTPA" name="GetRandomPhoneNum"/>
+    <routinesParameter xmi:id="_7JbAspWPEfCy3MPMAf-UTQ" id="_HX3E4OJpEeCmJNdA0HkfKA" name="A1_parisstreetindexcreationTstandardizerow_1"/>
+    <routinesParameter xmi:id="_7JbAs5WPEfCy3MPMAf-UTQ" id="_U2GysOJpEeCmJNdA0HkfKA" name="A2_normalizeaddressTstandardizerow_1"/>
+    <routinesParameter xmi:id="_7JbAtJWPEfCy3MPMAf-UTQ" id="_jFtsAOJpEeCmJNdA0HkfKA" name="A2_standardizeaddressTstandardizerow_1"/>
+    <routinesParameter xmi:id="_7JbAtZWPEfCy3MPMAf-UTQ" id="_wU5qIOJpEeCmJNdA0HkfKA" name="Products_parsingTstandardizerow_1"/>
+    <routinesParameter xmi:id="_7JbAtpWPEfCy3MPMAf-UTQ" id="_YcJWgEblEea-na-KC6eDKg" name="DataMasking"/>
+    <routinesParameter xmi:id="_7JbAt5WPEfCy3MPMAf-UTQ" id="_Yf51IEblEea-na-KC6eDKg" name="DataQualityDependencies"/>
+    <routinesParameter xmi:id="_7JbAuJWPEfCy3MPMAf-UTQ" id="_kHAEkPMAEeipxtU1n6Hp2w" name="TalendStringUtil"/>
+  </parameters>
+  <node xmi:id="_7JbAuZWPEfCy3MPMAf-UTQ" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="448" posY="256">
+    <elementParameter xmi:id="_7JbAupWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_1" show="false"/>
+    <elementParameter xmi:id="_7JbAu5WPEfCy3MPMAf-UTQ" field="CHECK" name="INPUT_ENDPOINT_NAME" value="false" show="false"/>
+    <elementParameter xmi:id="_7JbAvJWPEfCy3MPMAf-UTQ" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_7JbAvZWPEfCy3MPMAf-UTQ" field="TEXT" name="NAME" value="&quot;out1&quot;"/>
+    <elementParameter xmi:id="_7JbAvpWPEfCy3MPMAf-UTQ" field="TABLE" name="ADVARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_7JbAv5WPEfCy3MPMAf-UTQ" field="TEXT" name="LABEL" value="out1"/>
+    <elementParameter xmi:id="_7JbAwJWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7JbAwZWPEfCy3MPMAf-UTQ" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="448" posY="352">
+    <elementParameter xmi:id="_7JbAwpWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_2" show="false"/>
+    <elementParameter xmi:id="_7JbAw5WPEfCy3MPMAf-UTQ" field="CHECK" name="INPUT_ENDPOINT_NAME" value="false" show="false"/>
+    <elementParameter xmi:id="_7JbAxJWPEfCy3MPMAf-UTQ" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_7JbAxZWPEfCy3MPMAf-UTQ" field="TEXT" name="NAME" value="&quot;out2&quot;"/>
+    <elementParameter xmi:id="_7JbAxpWPEfCy3MPMAf-UTQ" field="TABLE" name="ADVARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_7JbAx5WPEfCy3MPMAf-UTQ" field="TEXT" name="LABEL" value="out2"/>
+    <elementParameter xmi:id="_7JbAyJWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7JbAyZWPEfCy3MPMAf-UTQ" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="64" posY="352">
+    <elementParameter xmi:id="_7JbAypWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_4" show="false"/>
+    <elementParameter xmi:id="_7JbAy5WPEfCy3MPMAf-UTQ" field="CHECK" name="INPUT_ENDPOINT_NAME" value="false" show="false"/>
+    <elementParameter xmi:id="_7JbAzJWPEfCy3MPMAf-UTQ" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_7JbAzZWPEfCy3MPMAf-UTQ" field="TEXT" name="NAME" value="&quot;in1&quot;"/>
+    <elementParameter xmi:id="_7JbAzpWPEfCy3MPMAf-UTQ" field="TABLE" name="ADVARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_7JbAz5WPEfCy3MPMAf-UTQ" field="TEXT" name="LABEL" value="in1"/>
+    <elementParameter xmi:id="_7JbA0JWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7JbA0ZWPEfCy3MPMAf-UTQ" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="448" posY="448">
+    <elementParameter xmi:id="_7JbA0pWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_6" show="false"/>
+    <elementParameter xmi:id="_7JbA05WPEfCy3MPMAf-UTQ" field="CHECK" name="INPUT_ENDPOINT_NAME" value="false" show="false"/>
+    <elementParameter xmi:id="_7JbA1JWPEfCy3MPMAf-UTQ" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_7JbA1ZWPEfCy3MPMAf-UTQ" field="TEXT" name="NAME" value="&quot;out3&quot;"/>
+    <elementParameter xmi:id="_7JbA1pWPEfCy3MPMAf-UTQ" field="TABLE" name="ADVARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_7JbA15WPEfCy3MPMAf-UTQ" field="TEXT" name="LABEL" value="out3"/>
+    <elementParameter xmi:id="_7JbA2JWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7JbA2ZWPEfCy3MPMAf-UTQ" componentName="cSetHeader" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="160">
+    <elementParameter xmi:id="_7JbA2pWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cSetHeader_1" show="false"/>
+    <elementParameter xmi:id="_7JbA25WPEfCy3MPMAf-UTQ" field="TABLE" name="VALUES">
+      <elementValue xmi:id="_7JbA3JWPEfCy3MPMAf-UTQ" elementRef="NAME" value="&quot;router.next&quot;"/>
+      <elementValue xmi:id="_7JbA3ZWPEfCy3MPMAf-UTQ" elementRef="LANGUAGE" value="simple"/>
+      <elementValue xmi:id="_7JbA3pWPEfCy3MPMAf-UTQ" elementRef="EXPRESSION" value="&quot;property.router.next&quot;"/>
+    </elementParameter>
+    <elementParameter xmi:id="_7JbA35WPEfCy3MPMAf-UTQ" field="CHECK" name="USE_NAMESPACES" value="false" show="false"/>
+    <elementParameter xmi:id="_7JbA4JWPEfCy3MPMAf-UTQ" field="TABLE" name="NAMESPACES" show="false"/>
+    <elementParameter xmi:id="_7JbA4ZWPEfCy3MPMAf-UTQ" field="LABEL" name="WARNING" value="*Note: For Bean Language, the Expression should be a qualified class name without quotes.&#xA;*Note: For None Language, the Value should be a full expression, instead of a plain text.&#xA;*Note: For XPath Language, the Namespaces will be used automatically if it's checked." show="false"/>
+    <elementParameter xmi:id="_7JbA4pWPEfCy3MPMAf-UTQ" field="TEXT" name="LABEL" value="setNext"/>
+    <elementParameter xmi:id="_7JbA45WPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7JbA5JWPEfCy3MPMAf-UTQ" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="352">
+    <elementParameter xmi:id="_7JbA5ZWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
+    <elementParameter xmi:id="_7JbA5pWPEfCy3MPMAf-UTQ" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_7JbA55WPEfCy3MPMAf-UTQ" field="MEMO_JAVA" name="CODE" value="/*&#xA;* Provide own codes to consume or translate the message exchanges.&#xA;* @param org.apache.camel.Exchange exchange&#xA;*/&#xA;System.out.println(&quot;*** in1 ***&quot;);"/>
+    <elementParameter xmi:id="_7JbA6JWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7JbA6ZWPEfCy3MPMAf-UTQ" componentName="cRoutingSlip" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="352">
+    <elementParameter xmi:id="_7JbA6pWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cRoutingSlip_1" show="false"/>
+    <elementParameter xmi:id="_7JbA65WPEfCy3MPMAf-UTQ" field="TEXT" name="HEADER" value="&quot;router.next&quot;"/>
+    <elementParameter xmi:id="_7JbA7JWPEfCy3MPMAf-UTQ" field="TEXT" name="DELIMITER" value="&quot;,&quot;"/>
+    <elementParameter xmi:id="_7JbA7ZWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7JbA7pWPEfCy3MPMAf-UTQ" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="256">
+    <elementParameter xmi:id="_7JbA75WPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cProcessor_4" show="false"/>
+    <elementParameter xmi:id="_7JbA8JWPEfCy3MPMAf-UTQ" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_7JbA8ZWPEfCy3MPMAf-UTQ" field="MEMO_JAVA" name="CODE" value="/*&#xA;* Provide own codes to consume or translate the message exchanges.&#xA;* @param org.apache.camel.Exchange exchange&#xA;*/&#xA;System.out.println(&quot;*** out1 ***&quot;);"/>
+    <elementParameter xmi:id="_7JbA8pWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7JbA85WPEfCy3MPMAf-UTQ" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="352">
+    <elementParameter xmi:id="_7JbA9JWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cProcessor_5" show="false"/>
+    <elementParameter xmi:id="_7JbA9ZWPEfCy3MPMAf-UTQ" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_7JbA9pWPEfCy3MPMAf-UTQ" field="MEMO_JAVA" name="CODE" value="/*&#xA;* Provide own codes to consume or translate the message exchanges.&#xA;* @param org.apache.camel.Exchange exchange&#xA;*/&#xA;System.out.println(&quot;*** out2 ***&quot;);"/>
+    <elementParameter xmi:id="_7JbA95WPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7JbA-JWPEfCy3MPMAf-UTQ" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="448">
+    <elementParameter xmi:id="_7JbA-ZWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cProcessor_6" show="false"/>
+    <elementParameter xmi:id="_7JbA-pWPEfCy3MPMAf-UTQ" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_7JbA-5WPEfCy3MPMAf-UTQ" field="MEMO_JAVA" name="CODE" value="/*&#xA;* Provide own codes to consume or translate the message exchanges.&#xA;* @param org.apache.camel.Exchange exchange&#xA;*/&#xA;System.out.println(&quot;*** out3 ***&quot;);"/>
+    <elementParameter xmi:id="_7JbA_JWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7JbA_ZWPEfCy3MPMAf-UTQ" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="416" posY="160">
+    <elementParameter xmi:id="_7JbA_pWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_7" show="false"/>
+    <elementParameter xmi:id="_7JbA_5WPEfCy3MPMAf-UTQ" field="CHECK" name="INPUT_ENDPOINT_NAME" value="false"/>
+    <elementParameter xmi:id="_7JbBAJWPEfCy3MPMAf-UTQ" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="cDirect_4"/>
+    <elementParameter xmi:id="_7JbBAZWPEfCy3MPMAf-UTQ" field="TEXT" name="NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_7JbBApWPEfCy3MPMAf-UTQ" field="TABLE" name="ADVARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_7JbBA5WPEfCy3MPMAf-UTQ" field="TEXT" name="LABEL" value="in1"/>
+    <elementParameter xmi:id="_7JbBBJWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7JbBBZWPEfCy3MPMAf-UTQ" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="160">
+    <elementParameter xmi:id="_7JbBBpWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cProcessor_7" show="false"/>
+    <elementParameter xmi:id="_7JbBB5WPEfCy3MPMAf-UTQ" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_7JbBCJWPEfCy3MPMAf-UTQ" field="MEMO_JAVA" name="CODE" value="/*&#xA;* Provide own codes to consume or translate the message exchanges.&#xA;* @param org.apache.camel.Exchange exchange&#xA;*/&#xA;exchange.setProperty(&quot;router&quot;, exchange.getContext().getRegistry().lookup(&quot;router&quot;));&#xA;"/>
+    <elementParameter xmi:id="_7JbBCZWPEfCy3MPMAf-UTQ" field="TEXT" name="LABEL" value="setRouter"/>
+    <elementParameter xmi:id="_7JbBCpWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7JbBC5WPEfCy3MPMAf-UTQ" componentName="cTimer" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="64">
+    <elementParameter xmi:id="_7JbBDJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cTimer_2" show="false"/>
+    <elementParameter xmi:id="_7JbBDZWPEfCy3MPMAf-UTQ" field="TEXT" name="PERIOD" value="1000"/>
+    <elementParameter xmi:id="_7JbBDpWPEfCy3MPMAf-UTQ" field="TEXT" name="REPEATCOUNT" value="1"/>
+    <elementParameter xmi:id="_7JbBD5WPEfCy3MPMAf-UTQ" field="TEXT" name="DELAY" value="1000"/>
+    <elementParameter xmi:id="_7JbBEJWPEfCy3MPMAf-UTQ" field="CHECK" name="FIXEDRATE" value="false"/>
+    <elementParameter xmi:id="_7JbBEZWPEfCy3MPMAf-UTQ" field="CHECK" name="DAEMON" value="true"/>
+    <elementParameter xmi:id="_7JbBEpWPEfCy3MPMAf-UTQ" field="CHECK" name="SET_TIME" value="false"/>
+    <elementParameter xmi:id="_7JbBE5WPEfCy3MPMAf-UTQ" field="TEXT" name="TIME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_7JbBFJWPEfCy3MPMAf-UTQ" field="LABEL" name="NOTE" value="(yyyy-MM-dd HH:mm:ss | yyyy-MM-dd'T'HH:mm:ss)" show="false"/>
+    <elementParameter xmi:id="_7JbBFZWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7JbBFpWPEfCy3MPMAf-UTQ" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="192" posY="64">
+    <elementParameter xmi:id="_7JbBF5WPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_8" show="false"/>
+    <elementParameter xmi:id="_7JbBGJWPEfCy3MPMAf-UTQ" field="CHECK" name="INPUT_ENDPOINT_NAME" value="false"/>
+    <elementParameter xmi:id="_7JbBGZWPEfCy3MPMAf-UTQ" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="cDirect_9"/>
+    <elementParameter xmi:id="_7JbBGpWPEfCy3MPMAf-UTQ" field="TEXT" name="NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_7JbBG5WPEfCy3MPMAf-UTQ" field="TABLE" name="ADVARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_7JbBHJWPEfCy3MPMAf-UTQ" field="TEXT" name="LABEL" value="logicalInput"/>
+    <elementParameter xmi:id="_7JbBHZWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7JbBHpWPEfCy3MPMAf-UTQ" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="64" posY="160">
+    <elementParameter xmi:id="_7JbBH5WPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_9" show="false"/>
+    <elementParameter xmi:id="_7JbBIJWPEfCy3MPMAf-UTQ" field="CHECK" name="INPUT_ENDPOINT_NAME" value="false" show="false"/>
+    <elementParameter xmi:id="_7JbBIZWPEfCy3MPMAf-UTQ" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_7JbBIpWPEfCy3MPMAf-UTQ" field="TEXT" name="NAME" value="&quot;logicalEndpoint&quot;"/>
+    <elementParameter xmi:id="_7JbBI5WPEfCy3MPMAf-UTQ" field="TABLE" name="ADVARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_7JbBJJWPEfCy3MPMAf-UTQ" field="TEXT" name="LABEL" value="logicalInput"/>
+    <elementParameter xmi:id="_7JbBJZWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <connection xmi:id="_7JbBJpWPEfCy3MPMAf-UTQ" connectorName="ROUTE" label="route8" lineStyle="14" metaname="cDirect_1" offsetLabelX="0" offsetLabelY="0" source="cDirect_1" target="cProcessor_4">
+    <elementParameter xmi:id="_7JbBJ5WPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="route8" show="false"/>
+    <elementParameter xmi:id="_7JbBKJWPEfCy3MPMAf-UTQ" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_7JbBKZWPEfCy3MPMAf-UTQ" connectorName="ROUTE" label="route9" lineStyle="14" metaname="cDirect_2" offsetLabelX="0" offsetLabelY="0" source="cDirect_2" target="cProcessor_5">
+    <elementParameter xmi:id="_7JbBKpWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="route9" show="false"/>
+    <elementParameter xmi:id="_7JbBK5WPEfCy3MPMAf-UTQ" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_7JbBLJWPEfCy3MPMAf-UTQ" connectorName="ROUTE" label="route2" lineStyle="14" metaname="cDirect_4" offsetLabelX="0" offsetLabelY="0" source="cDirect_4" target="cProcessor_1">
+    <elementParameter xmi:id="_7JbBLZWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="route2" show="false"/>
+    <elementParameter xmi:id="_7JbBLpWPEfCy3MPMAf-UTQ" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_7JbBL5WPEfCy3MPMAf-UTQ" connectorName="ROUTE" label="route10" lineStyle="14" metaname="cDirect_6" offsetLabelX="0" offsetLabelY="0" source="cDirect_6" target="cProcessor_6">
+    <elementParameter xmi:id="_7JbBMJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="route10" show="false"/>
+    <elementParameter xmi:id="_7JbBMZWPEfCy3MPMAf-UTQ" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_7JbBMpWPEfCy3MPMAf-UTQ" connectorName="ROUTE" label="route11" lineStyle="14" metaname="cSetHeader_1" offsetLabelX="0" offsetLabelY="0" source="cSetHeader_1" target="cDirect_7">
+    <elementParameter xmi:id="_7JbBM5WPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="route11" show="false"/>
+    <elementParameter xmi:id="_7JbBNJWPEfCy3MPMAf-UTQ" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_7JbBNZWPEfCy3MPMAf-UTQ" connectorName="ROUTE" label="route3" lineStyle="14" metaname="cProcessor_1" offsetLabelX="0" offsetLabelY="0" source="cProcessor_1" target="cRoutingSlip_1">
+    <elementParameter xmi:id="_7JbBNpWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="route3" show="false"/>
+    <elementParameter xmi:id="_7JbBN5WPEfCy3MPMAf-UTQ" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_7JbBOJWPEfCy3MPMAf-UTQ" connectorName="ROUTE" label="route12" lineStyle="14" metaname="cProcessor_7" offsetLabelX="0" offsetLabelY="0" source="cProcessor_7" target="cSetHeader_1">
+    <elementParameter xmi:id="_7JbBOZWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="route12" show="false"/>
+    <elementParameter xmi:id="_7JbBOpWPEfCy3MPMAf-UTQ" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_7JbBO5WPEfCy3MPMAf-UTQ" connectorName="ROUTE" label="route13" lineStyle="14" metaname="cTimer_2" offsetLabelX="0" offsetLabelY="0" source="cTimer_2" target="cDirect_8">
+    <elementParameter xmi:id="_7JbBPJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="route13" show="false"/>
+    <elementParameter xmi:id="_7JbBPZWPEfCy3MPMAf-UTQ" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_7JbBPpWPEfCy3MPMAf-UTQ" connectorName="ROUTE" label="route1" lineStyle="14" metaname="cDirect_9" offsetLabelX="0" offsetLabelY="0" source="cDirect_9" target="cProcessor_7">
+    <elementParameter xmi:id="_7JbBP5WPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
+    <elementParameter xmi:id="_7JbBQJWPEfCy3MPMAf-UTQ" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <note xmi:id="_7JbBQZWPEfCy3MPMAf-UTQ" opaque="true" posX="32" posY="128" sizeHeight="96" sizeWidth="513" text="Routing">
+    <elementParameter xmi:id="_7JbBQpWPEfCy3MPMAf-UTQ" field="RADIO" name="NOTETXT_LEFT" value="true"/>
+    <elementParameter xmi:id="_7JbBQ5WPEfCy3MPMAf-UTQ" field="RADIO" name="NOTETXT_CENTER" value="false"/>
+    <elementParameter xmi:id="_7JbBRJWPEfCy3MPMAf-UTQ" field="RADIO" name="NOTELABEL_CENTER" value="false"/>
+    <elementParameter xmi:id="_7JbBRZWPEfCy3MPMAf-UTQ" field="RADIO" name="NOTETXT_TOP" value="true"/>
+  </note>
+  <note xmi:id="_7JbBRpWPEfCy3MPMAf-UTQ" opaque="true" posX="32" posY="32" sizeHeight="97" sizeWidth="289" text="Test Fixture">
+    <elementParameter xmi:id="_7JbBR5WPEfCy3MPMAf-UTQ" field="COLOR" name="NOTE_COLOR" value="166;193;152"/>
+    <elementParameter xmi:id="_7JbBSJWPEfCy3MPMAf-UTQ" field="RADIO" name="NOTETXT_LEFT" value="true"/>
+    <elementParameter xmi:id="_7JbBSZWPEfCy3MPMAf-UTQ" field="RADIO" name="NOTETXT_CENTER" value="false"/>
+    <elementParameter xmi:id="_7JbBSpWPEfCy3MPMAf-UTQ" field="RADIO" name="NOTELABEL_CENTER" value="false"/>
+    <elementParameter xmi:id="_7JbBS5WPEfCy3MPMAf-UTQ" field="RADIO" name="NOTETXT_TOP" value="true"/>
+  </note>
+  <note xmi:id="_7JbBTJWPEfCy3MPMAf-UTQ" opaque="true" posX="640" posY="32" sizeHeight="97" sizeWidth="353" text="Routing Slip with Pluggable Router Bean">
+    <elementParameter xmi:id="_7JbBTZWPEfCy3MPMAf-UTQ" field="CHECK" name="FONT_BOLD" value="true"/>
+  </note>
+  <note xmi:id="_7JbBTpWPEfCy3MPMAf-UTQ" opaque="true" posX="640" posY="128" sizeHeight="97" sizeWidth="353" text="Exchange property router is pluggable"/>
+  <subjob xmi:id="_7JbBT5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7JbBUJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_1" show="false"/>
+    <elementParameter xmi:id="_7JbBUZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_7JbBUpWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7JbBU5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7JbBVJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_2" show="false"/>
+    <elementParameter xmi:id="_7JbBVZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_7JbBVpWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7JbBV5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7JbBWJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_4" show="false"/>
+    <elementParameter xmi:id="_7JbBWZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_7JbBWpWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7JbBW5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7JbBXJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_6" show="false"/>
+    <elementParameter xmi:id="_7JbBXZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_7JbBXpWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7JbBX5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7JbBYJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cSetHeader_1" show="false"/>
+    <elementParameter xmi:id="_7JbBYZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_7JbBYpWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7JbBY5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7JbBZJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
+    <elementParameter xmi:id="_7JbBZZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_7JbBZpWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7JbBZ5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7JbBaJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cRoutingSlip_1" show="false"/>
+    <elementParameter xmi:id="_7JbBaZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_7JbBapWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7JbBa5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7JbBbJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cProcessor_4" show="false"/>
+    <elementParameter xmi:id="_7JbBbZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_7JbBbpWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7JbBb5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7JbBcJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cProcessor_5" show="false"/>
+    <elementParameter xmi:id="_7JbBcZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_7JbBcpWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7JbBc5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7JbBdJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cProcessor_6" show="false"/>
+    <elementParameter xmi:id="_7JbBdZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_7JbBdpWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7JbBd5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7JbBeJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_7" show="false"/>
+    <elementParameter xmi:id="_7JbBeZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_7JbBepWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7JbBe5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7JbBfJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cProcessor_7" show="false"/>
+    <elementParameter xmi:id="_7JbBfZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_7JbBfpWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7JbBf5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7JbBgJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cTimer_2" show="false"/>
+    <elementParameter xmi:id="_7JbBgZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_7JbBgpWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7JbBg5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7JbBhJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_8" show="false"/>
+    <elementParameter xmi:id="_7JbBhZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_7JbBhpWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7JbBh5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7JbBiJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_9" show="false"/>
+    <elementParameter xmi:id="_7JbBiZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_7JbBipWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+</talendfile:ProcessType>

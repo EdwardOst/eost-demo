@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
+  <context confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter comment="" name="sample_data" prompt="sample_data?" promptNeeded="false" repositoryContextId="built-in" type="id_Resource" value="_52UJcLV9EeuFOO1SjiJm7w|Latest" internalId="_WEIfgLV9EeuFOO1SjiJm7w"/>
+    <contextParameter comment="" name="table_name" prompt="table_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="customers" internalId="_U2U9sLV_EeuFOO1SjiJm7w"/>
+    <contextParameter comment="" name="local_mysql_AdditionalParams" prompt="local_mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="noDatetimeStringSync=true" internalId="_U2adQLV_EeuFOO1SjiJm7w"/>
+    <contextParameter comment="" name="local_mysql_Database" prompt="local_mysql_Database?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_U2adQbV_EeuFOO1SjiJm7w"/>
+    <contextParameter comment="" name="local_mysql_Login" prompt="local_mysql_Login?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_U2adQrV_EeuFOO1SjiJm7w"/>
+    <contextParameter comment="" name="local_mysql_Password" prompt="local_mysql_Password?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_Password" value="enc:system.encryption.key.v4:UOkzdAPhpJ7Ru0mjwXz3Klm83qKVv7HPnZ31gzsGKnz2FE0=" internalId="_U2adQ7V_EeuFOO1SjiJm7w"/>
+    <contextParameter comment="" name="local_mysql_Port" prompt="local_mysql_Port?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="3306" internalId="_U2adRLV_EeuFOO1SjiJm7w"/>
+    <contextParameter comment="" name="local_mysql_Server" prompt="local_mysql_Server?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="localhost" internalId="_U2adRbV_EeuFOO1SjiJm7w"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="docker">
+    <contextParameter comment="" name="sample_data" prompt="sample_data?" promptNeeded="false" repositoryContextId="built-in" type="id_Resource" value="_52UJcLV9EeuFOO1SjiJm7w|Latest" internalId="_WEIfgLV9EeuFOO1SjiJm7w"/>
+    <contextParameter comment="" name="table_name" prompt="table_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="customers" internalId="_U2U9sLV_EeuFOO1SjiJm7w"/>
+    <contextParameter comment="" name="local_mysql_Password" prompt="local_mysql_Password?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_Password" value="enc:system.encryption.key.v4:lhVZ/oMkvuFFlVv/YhQMqF9z3evEHrFY+LTGCN7+0xEX0a4=" internalId="_DCR4YDCzEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="local_mysql_Login" prompt="local_mysql_Login?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_DCR4YTCzEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="local_mysql_Port" prompt="local_mysql_Port?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="3306" internalId="_DCR4YjCzEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="local_mysql_AdditionalParams" prompt="local_mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="noDatetimeStringSync=true" internalId="_DCR4YzCzEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="local_mysql_Server" prompt="local_mysql_Server?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="mysql_server" internalId="_DCR4ZDCzEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="local_mysql_Database" prompt="local_mysql_Database?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_DCR4ZTCzEe6M2t4ERruDkw"/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" value="false" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v2:6jwMq/VJ2+q00xAixYxz2EjxTn9gLGJWrHB79r9B" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="true" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/kmahadevappa/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="true" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tOracleOutput_sid" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;1521&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;orcl&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;kiran_amc&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:ko8OvFEIi1vd3snBJLsD5Jl4ZJySWqSy5SLNmswui9ETdvqHc8Pi" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;STATCATCHER&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;LOGCATCHER&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;FLOWMETERCATCHER&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="true" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+  </parameters>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1920" posY="880">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_3" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/kmahadevappa/Desktop/innersource_sql_tiff_1 - modified.txt&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/kmahadevappa/workspace&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn" id="0"/>
+      <elementValue elementRef="DECODE" value="false" id="1"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_HEADER_AS_IS" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileInputDelimited_3">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1200" posY="600">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xD;&#xA;output_row.newColumn = input_row.newColumn;&#xA;&#xA;&#xA;&#xA;&#xA;Dynamic columns = input_row.newColumn;&#xA;String testresult=&quot;&quot;;&#xA;for (int i = 0; i &lt; columns.getColumnCount(); i++) {  &#xA;    DynamicMetadata columnMetadata = columns.getColumnMetadata(i);  &#xA;&#xA;  String TestString=&quot;&quot;; &#xA;   if (columnMetadata.getName().toString().trim().matches(&quot;LOC_NBR&quot;) || columnMetadata.getName().toString().trim().matches(&quot;SUBM_ID&quot;) || columnMetadata.getName().toString().trim().matches(&quot;TRAN_QT_VR_NBR&quot;) )&#xA;   {&#xA;    &#xA;  &#x9;if (columns.getColumnValue(i).toString().trim().length() == 0)&#xA;  &#x9;{&#xA;  &#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), null);&#xA;  &#x9;}&#xA;   }&#xA;   &#xA;  if (columnMetadata.getName().toString().trim().matches(&quot;STG_TS&quot;) || columnMetadata.getName().toString().trim().matches(&quot;SCRPTN_STRT_TS&quot;) || columnMetadata.getName().toString().trim().matches(&quot;SCRPTN_END_TS&quot;))&#xA;  {&#xA; &#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Datetime column and data type is   &quot; +columnMetadata.getDbType() );&#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Datetime column and metadata type is   &quot; +columnMetadata.getType() );&#xA;  &#x9;&#x9;//columnMetadata.setDbType(&quot;id_Datetime&quot;);&#xA;  &#x9;&#x9;//columnMetadata.setType(columnMetadata.getDbType());&#xA;  &#x9;&#x9;String date_value = columns.getColumnValue(i).toString();&#xA;  &#x9;&#x9;&#xA;    &#x9;//String strDate= formatter.format(date_value);  &#xA;    &#x9;//System.out.println(&quot; Value is &quot; + date_value);&#xA;    &#x9;//final SimpleDateFormat sdf =  new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;);&#xA;    &#x9;if (date_value.trim().length() != 0)&#xA;    &#x9;{&#xA;    &#x9;try{&#xA;    &#x9;//Date date = sdf.parse(date_value);&#xA;    &#x9;//System.out.println(sdf.format(date));&#xA;    &#x9;Date date = new SimpleDateFormat(&quot;dd-MM-yyyy HH:mm:ss&quot;).parse(date_value);&#xA;       //String newstr = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date);&#xA;       columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date));&#xA;      // System.out.println(newstr);&#xA;    &#x9; } catch (ParseException e) {&#xA;            e.printStackTrace();&#xA;        }&#xA;        }&#xA;    &#x9;&#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Datetime column and data type is   &quot; +columnMetadata.getDbType() );&#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Datetime column and metadata type is   &quot; +columnMetadata.getType() );&#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Datetime value   &quot; +columns.getColumnValue(i) );&#xA;  }&#xA;  &#xA;   if (columnMetadata.getName().toString().trim().matches(&quot;POL_EFF_DT&quot;)  || columnMetadata.getName().toString().trim().matches(&quot;TRAN_EFF_DT&quot;))&#xA;  {&#xA; &#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Date column and data type is   &quot; +columnMetadata.getDbType() );&#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Datetime column and metadata type is   &quot; +columnMetadata.getType() );&#xA;  &#x9;&#x9;//columnMetadata.setDbType(&quot;id_Date&quot;);&#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Date column and data type is   &quot; +columnMetadata.getDbType() );&#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Date value   &quot; +columns.getColumnValue(i) );&#xA;  &#x9;&#x9;//String date_value = columns.getColumnValue(i).toString();&#xA;  &#x9;&#x9;if (columns.getColumnValue(i).toString().trim().length() == 0)&#xA;  &#x9;{&#xA;  &#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), null);&#xA;  &#x9;}&#xA;  &#x9;&#x9;&#xA;    &#x9;&#xA;  }&#xA; &#xA;} &#xA;output_row.newColumn = input_row.newColumn;&#xA;&#xA;&#xA;&#xA;&#xD;&#xA;"/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;import java.text.ParseException;&#xA;import java.text.SimpleDateFormat;&#xA;import java.util.Date;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaRow_2">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1480" posY="600">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_3" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:5vvcqF8MAJHX7rFCW/+UJunPYBUD+eQM6BFVyXVB" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;loc_stg&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="LABEL" name="NOTE" value="(Not compatible with reject links)" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="100"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000" show="false"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn" id="0"/>
+      <elementValue elementRef="UPDATE_KEY" value="false" id="1"/>
+      <elementValue elementRef="DELETE_KEY" value="false" id="2"/>
+      <elementValue elementRef="UPDATABLE" value="true" id="3"/>
+      <elementValue elementRef="INSERTABLE" value="true" id="4"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="ON_DUPLICATE_KEY_UPDATE" value="false"/>
+    <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBOutput_3">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="VARCHAR" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="VARCHAR" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="200" posY="600">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:vY7NWU2OofLQGzIGN8rCAR1lVvIwLAc1lFq7Zub5" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;loc_stg&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  *&#xA;FROM `loc_stg` limit 1&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="tgt_metadata" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_2">
+      <column comment="" key="false" length="-1" name="tgt_metadata" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="VARCHAR" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="600">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value=""/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2">
+      <column comment="" key="false" length="-1" name="tgt_metadata" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="VARCHAR" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="600">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFlowToIterate_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="DEFAULT_MAP" value="true"/>
+    <elementParameter field="TABLE" name="MAP" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFlowToIterate_1"/>
+  </node>
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1880" posY="80">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:MPwTYe+vMuZOUqZ8A08v5WqWMfs8yb90Od+lzSZ9" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;loc_stg&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  *&#xA;FROM `loc_stg` limit 1&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="tgt_metadata" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_1">
+      <column comment="" key="false" length="-1" name="tgt_metadata" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="VARCHAR" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="840" posY="80">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value=""/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1">
+      <column comment="" key="false" length="-1" name="tgt_metadata" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="VARCHAR" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1000" posY="80">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFlowToIterate_2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="DEFAULT_MAP" value="true"/>
+    <elementParameter field="TABLE" name="MAP" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFlowToIterate_2"/>
+  </node>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1200" posY="80">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/kmahadevappa/Desktop/innersource_sql_tiff_1 - modified.txt&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value="2"/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/kmahadevappa/workspace&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn" id="0"/>
+      <elementValue elementRef="DECODE" value="false" id="1"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_HEADER_AS_IS" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileInputDelimited_2">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="1360" posY="80">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_UVU8IEmUEeuPBdPRtt-gEw-tMap_2-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
+    <elementParameter field="TEXT" name="JACCARD" value="0" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="copyOfout1">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="tgt_metadata" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="copyOfout1">
+        <mapperTableEntries name="newColumn" expression="row9.newColumn " type="id_Dynamic" nullable="true"/>
+        <mapperTableEntries name="tgt_metadata" expression="row3.tgt_metadata" type="id_Dynamic" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row9" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="newColumn" type="id_Dynamic" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1560" posY="80">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_3" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xD;&#xA;output_row.newColumn = input_row.newColumn;&#xD;&#xA;//output_row.tgt_metadata = input_row.tgt_metadata;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;//Code generated according to input schema and output schema&#xA;&#xA;&#xA;Dynamic columns_tgt = input_row.tgt_metadata;&#xA;Dynamic columns = input_row.newColumn;&#xA;&#xA;for (int i = 0; i &lt; columns.getColumnCount(); i++) &#xA;{&#xA;DynamicMetadata columnMetadata1 = columns_tgt.getColumnMetadata(i);&#xA;for (int t = 0; t &lt; columns_tgt.getColumnCount(); t++) &#xA;&#x9;{  &#xA;&#x9;&#xA;    &#x9;DynamicMetadata columnMetadata = columns_tgt.getColumnMetadata(t); &#xA;    &#x9;//System.out.println(&quot;Displaying Datetime column and data type is   &quot; +columnMetadata.getDbType() );&#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Datetime column and metadata type is   &quot; +columnMetadata.getType() );&#xA;  &#x9;&#x9;int format1=0, format2=0, format3 = 0;&#xA;  &#x9;&#x9;&#xA;  &#x9;&#x9;if ((columnMetadata.getDbType() == &quot;DATETIME&quot; ) &amp;&amp; (columnMetadata.getName().toString().trim().matches(columnMetadata1.getName().toString().trim())))&#xA;  &#x9;&#x9;&#xA;  &#x9;&#x9;{ &#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;String date_value = columns.getColumnValue(i).toString();&#xA;  &#x9;&#x9;&#x9;&#x9;Date date = new SimpleDateFormat(&quot;dd-MM-yyyy HH:mm:ss&quot;).parse(date_value);&#xA;  &#x9;&#x9;&#x9;&#x9;String newstr = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date);&#xA;  &#x9;&#x9;&#x9;&#x9;//System.out.println(&quot;Output  &quot;+ newstr);&#xA;  &#x9;&#x9;&#x9;&#x9;System.out.println(&quot;Output  &quot;+ newstr + &quot; input  &quot; + columns.getColumnValue(i).toString());&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;System.out.println(&quot;Output2  &quot;+ (new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).parse(newstr.toString())) + &quot; input  &quot; + columns.getColumnValue(i).toString());&#xA;  &#x9;&#x9;&#x9;&#x9;/*if (columns.getColumnValue(i).toString().equals(new SimpleDateFormat(&quot;dd-MM-yyyy HH:mm:ss&quot;).parse(newstr.toString()))&#xA;  &#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;System.out.println(&quot;matching&quot;);&#xA;  &#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#x9;else&#xA;  &#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;System.out.println(&quot;Not matching&quot;);&#xA;  &#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;/*  &#x9;&#x9;&#x9;&#x9;&#xA;String date_value = columns.getColumnValue(i).toString();&#xA;Date date = new SimpleDateFormat(&quot;dd-MM-yyyy HH:mm:ss&quot;).parse(date_value);&#xA;String newstr = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date);&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;/*Date date_checkformat1=null;&#xA;  &#x9;&#x9;&#x9;&#x9;Date date_checkformat2=null;&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;try {&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String date_value = columns.getColumnValue(i).toString();&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Date date = new SimpleDateFormat(&quot;dd-MM-yyyy HH:mm:ss&quot;).parse(date_value);&#xA;       &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;//String newstr = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date);&#xA;       &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;//columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date));&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;SimpleDateFormat sdf1 = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;);&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; date_checkformat1 = sdf1.parse(columns.getColumnValue(i).toString());&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;System.out.println(&quot;failing 1 &quot; +  date_checkformat1);&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; //Date date = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).parse(columns.getColumnValue(i).toString());&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (!(columns.getColumnValue(i).equals(sdf1.format(date))) &amp;&amp; columns.getColumnValue(i).toString().trim().length() != 0)&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;//columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date));&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).parse(date_value));&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;format1 = 1;&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;//System.out.println(&quot;Processing 1 &quot; + columns.getColumnValue(i).toString() );&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} catch (ParseException ex) &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ex.printStackTrace();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;/*try {&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String date_value = columns.getColumnValue(i).toString();&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;SimpleDateFormat sdf2 = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;);&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; date_checkformat2 = sdf2.parse(columns.getColumnValue(i).toString());&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; System.out.println(&quot;failing 2 &quot; + date_checkformat2);&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if ((columns.getColumnValue(i).equals(sdf2.format(date_checkformat2))) &amp;&amp; columns.getColumnValue(i).toString().trim().length() != 0)&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;).format(columns.getColumnValue(i).toString()));&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;format2 = 1;&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;System.out.println(&quot;Processing 2 &quot; + columns.getColumnValue(i).toString());&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} catch (ParseException ex) &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ex.printStackTrace();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#xA;  &#x9;&#x9;/*&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;if(format1 == 1) &#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;date_checkformat1 = new SimpleDateFormat(&quot;dd-MM-yyyy HH:mm:ss&quot;).parse(columns.getColumnValue(i).toString());&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date_checkformat1));&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;if(format2 == 1) &#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;).format(date_checkformat2));&#xA;*/&#xA;  &#x9;&#x9;&#xA;  &#x9;&#x9;/*(columnMetadata.getName().toString().trim().matches(columnMetadata1.getName().toString().trim()))&#xA;  &#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;String date_value = columns.getColumnValue(i).toString();&#xA;  &#x9;&#x9;&#x9;&#x9;// Format change required or not&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Date date_checkformat = null;&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;try {&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;);&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; date_checkformat = sdf.parse(date_value);&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if ((columns.getColumnValue(i).equals(sdf.format(date_checkformat))) &amp;&amp; date_value.trim().length() != 0)&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date_checkformat));&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;System.out.println(&quot;Processing 1&quot;);&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} catch (ParseException ex) &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ex.printStackTrace();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;try {&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;);&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; date_checkformat = sdf.parse(date_value);&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if ((columns.getColumnValue(i).equals(sdf.format(date_checkformat))) &amp;&amp; date_value.trim().length() != 0)&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;).format(date_checkformat));&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;System.out.println(&quot;Processing 2&quot;);&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} catch (ParseException ex) &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ex.printStackTrace();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;if (date_value.trim().length() != 0)&#xA;    &#x9;&#x9;&#x9;&#x9;{&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;try{&#xA;    &#x9;&#x9;&#x9;&#x9;    &#x9;Date date = new SimpleDateFormat(&quot;dd-MM-yyyy HH:mm:ss&quot;).parse(date_value);&#xA;       &#x9;&#x9;&#x9;&#x9;        columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date));&#xA;       &#x9;&#x9;&#x9;&#x9;        System.out.println(&quot;Processing 3&quot;);&#xA;     &#xA;    &#x9; &#x9;&#x9;&#x9;&#x9;&#x9;} catch (ParseException e) {&#xA;            &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;e.printStackTrace();&#xA;       &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;        &#x9;&#x9;&#x9;}*/&#xA;  &#x9;&#x9;&#x9;&#x9;format1 = 0;&#xA;  &#x9;&#x9;&#x9;&#x9;format2 = 0;&#xA;  &#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;if ((columnMetadata.getDbType() == &quot;DATE&quot;) &amp;&amp; (columnMetadata.getName().toString().trim().matches(columnMetadata1.getName().toString().trim())))&#xA;  &#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;String date_value = columns.getColumnValue(i).toString();&#xA;  &#x9;&#x9;&#x9;&#x9;if (date_value.trim().length() != 0)&#xA;    &#x9;&#x9;&#x9;&#x9;{&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;/*try{&#xA;    &#x9;&#x9;&#x9;&#x9;    &#x9;//Date date = new SimpleDateFormat(&quot;dd-MM-yyyy&quot;).parse(date_value);&#xA;       &#x9;&#x9;&#x9;&#x9;        //columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd&quot;).format(date));&#xA;       &#x9;&#x9;&#x9;&#x9;        columns.setColumnValue(columns.getIndex(columnMetadata.getName()), columns.getColumnValue(i));&#xA;     &#xA;    &#x9; &#x9;&#x9;&#x9;&#x9;&#x9;} catch (ParseException e) {&#xA;            &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;e.printStackTrace();&#xA;       &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}*/&#xA;       &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), columns.getColumnValue(i));&#xA;        &#x9;&#x9;&#x9;}&#xA;  &#x9;&#xA;  &#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;if ((columnMetadata.getDbType() == &quot;INT&quot;) &amp;&amp; (columnMetadata.getName().toString().trim().matches(columnMetadata1.getName().toString().trim())))&#xA;  &#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;if (columns.getColumnValue(i).toString().trim().length() == 0)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), null);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;if ((columnMetadata.getDbType() == &quot;SMALLINT&quot;) &amp;&amp; (columnMetadata.getName().toString().trim().matches(columnMetadata1.getName().toString().trim())))&#xA;  &#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;if (columns.getColumnValue(i).toString().trim().length() == 0)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), null);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;if ((columnMetadata.getDbType() == &quot;DECIMAL&quot;) &amp;&amp; (columnMetadata.getName().toString().trim().matches(columnMetadata1.getName().toString().trim())))&#xA;  &#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;if (columns.getColumnValue(i).toString().trim().length() == 0)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), null);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#x9;if ((columnMetadata.getDbType() == &quot;BIGINT&quot;) &amp;&amp; (columnMetadata.getName().toString().trim().matches(columnMetadata1.getName().toString().trim())))&#xA;  &#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;if (columns.getColumnValue(i).toString().trim().length() == 0)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), null);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#xA;    }&#xA;    &#xA; }&#xA; output_row.newColumn = columns;&#xA;&#xA;/*&#xA;&#xA;Dynamic columns = input_row.newColumn;&#xA;String testresult=&quot;&quot;;&#xA;for (int i = 0; i &lt; columns.getColumnCount(); i++) {  &#xA;    DynamicMetadata columnMetadata = columns.getColumnMetadata(i);  &#xA;&#xA;  String TestString=&quot;&quot;; &#xA;   if (columnMetadata.getName().toString().trim().matches(&quot;LOC_NBR&quot;) || columnMetadata.getName().toString().trim().matches(&quot;SUBM_ID&quot;) || columnMetadata.getName().toString().trim().matches(&quot;TRAN_QT_VR_NBR&quot;) )&#xA;   {&#xA;    &#xA;  &#x9;if (columns.getColumnValue(i).toString().trim().length() == 0)&#xA;  &#x9;{&#xA;  &#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), null);&#xA;  &#x9;}&#xA;   }&#xA;   &#xA;  if (columnMetadata.getName().toString().trim().matches(&quot;STG_TS&quot;) || columnMetadata.getName().toString().trim().matches(&quot;SCRPTN_STRT_TS&quot;) || columnMetadata.getName().toString().trim().matches(&quot;SCRPTN_END_TS&quot;))&#xA;  {&#xA; &#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Datetime column and data type is   &quot; +columnMetadata.getDbType() );&#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Datetime column and metadata type is   &quot; +columnMetadata.getType() );&#xA;  &#x9;&#x9;//columnMetadata.setDbType(&quot;id_Datetime&quot;);&#xA;  &#x9;&#x9;//columnMetadata.setType(columnMetadata.getDbType());&#xA;  &#x9;&#x9;String date_value = columns.getColumnValue(i).toString();&#xA;&#xA;&#xA;  &#x9;&#x9;&#xA;    &#x9;//String strDate= formatter.format(date_value);  &#xA;    &#x9;//System.out.println(&quot; Value is &quot; + date_value);&#xA;    &#x9;//final SimpleDateFormat sdf =  new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;);&#xA;    &#x9;if (date_value.trim().length() != 0)&#xA;    &#x9;{&#xA;    &#x9;try{&#xA;    &#x9;//Date date = sdf.parse(date_value);&#xA;    &#x9;//System.out.println(sdf.format(date));&#xA;    &#x9;Date date = new SimpleDateFormat(&quot;dd-MM-yyyy HH:mm:ss&quot;).parse(date_value);&#xA;       //String newstr = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date);&#xA;       columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date));&#xA;      // System.out.println(newstr);&#xA;    &#x9; } catch (ParseException e) {&#xA;            e.printStackTrace();&#xA;        }&#xA;        }&#xA;    &#x9;&#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Datetime column and data type is   &quot; +columnMetadata.getDbType() );&#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Datetime column and metadata type is   &quot; +columnMetadata.getType() );&#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Datetime value   &quot; +columns.getColumnValue(i) );&#xA;  }&#xA;  &#xA;   if (columnMetadata.getName().toString().trim().matches(&quot;POL_EFF_DT&quot;)  || columnMetadata.getName().toString().trim().matches(&quot;TRAN_EFF_DT&quot;))&#xA;  {&#xA; &#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Date column and data type is   &quot; +columnMetadata.getDbType() );&#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Datetime column and metadata type is   &quot; +columnMetadata.getType() );&#xA;  &#x9;&#x9;//columnMetadata.setDbType(&quot;id_Date&quot;);&#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Date column and data type is   &quot; +columnMetadata.getDbType() );&#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Date value   &quot; +columns.getColumnValue(i) );&#xA;  &#x9;&#x9;//String date_value = columns.getColumnValue(i).toString();&#xA;  &#x9;&#x9;if (columns.getColumnValue(i).toString().trim().length() == 0)&#xA;  &#x9;{&#xA;  &#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), null);&#xA;  &#x9;}&#xA;  &#x9;&#x9;&#xA;    &#x9;&#xA;  }&#xA; &#xA;} &#xA;output_row.newColumn = input_row.newColumn;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xD;&#xA;"/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;import java.text.ParseException;&#xA;import java.text.SimpleDateFormat;&#xA;import java.util.Date;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaRow_3">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1560" posY="280">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn" id="0"/>
+      <elementValue elementRef="LENGTH" value="10" id="1"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_2">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1880" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="String test = &quot;12.12&quot;;&#xA;System.out.println(&quot;DIsplay number &quot; + test.matches(&quot;^[0-9]+$&quot;));"/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_3"/>
+  </node>
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1840" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_4" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:HNrmKe4PFgptEzSTcNZ9SCoygNUxdgV9iS/atE1m" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;loc_stg&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  *&#xA;FROM `loc_stg` limit 1&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="tgt_metadata" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_4">
+      <column comment="" key="false" length="-1" name="tgt_metadata" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="VARCHAR" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1960" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_4" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value=""/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_4">
+      <column comment="" key="false" length="-1" name="tgt_metadata" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="VARCHAR" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="2120" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFlowToIterate_3" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="DEFAULT_MAP" value="true"/>
+    <elementParameter field="TABLE" name="MAP" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFlowToIterate_3"/>
+  </node>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="2320" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_4" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/kmahadevappa/Desktop/innersource_sql_tiff_1 - modified.txt&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/kmahadevappa/workspace&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn" id="0"/>
+      <elementValue elementRef="DECODE" value="false" id="1"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_HEADER_AS_IS" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileInputDelimited_4">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="2480" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_4" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_UVU8IEmUEeuPBdPRtt-gEw-tMap_4-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
+    <elementParameter field="TEXT" name="JACCARD" value="0" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="copyOfout1_0">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="tgt_metadata" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="copyOfout1_0">
+        <mapperTableEntries name="newColumn" expression="row15.newColumn " type="id_Dynamic" nullable="true"/>
+        <mapperTableEntries name="tgt_metadata" expression="row13.tgt_metadata" type="id_Dynamic" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row15" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="newColumn" type="id_Dynamic" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="2680" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_5" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xA;&#xA;&#xA;Dynamic columns_tgt = input_row.tgt_metadata;&#xA;Dynamic columns = input_row.newColumn;&#xA;&#xA;&#xA;&#xA;for (int i = 0; i &lt; columns.getColumnCount(); i++) &#xA;{&#xA;DynamicMetadata columnMetadata1 = columns_tgt.getColumnMetadata(i);&#xA;for (int t = 0; t &lt; columns_tgt.getColumnCount(); t++) &#xA;&#x9;{  &#xA;&#x9;&#xA;    &#x9;DynamicMetadata columnMetadata = columns_tgt.getColumnMetadata(t); &#xA;    &#x9;&#xA;  &#x9;&#x9;if ((columnMetadata.getDbType() == &quot;DATETIME&quot; ) &amp;&amp; (columnMetadata.getName().toString().trim().matches(columnMetadata1.getName().toString().trim())))&#xA;  &#x9;&#x9;&#xA;  &#x9;&#x9;{ &#xA;  &#x9;&#x9;&#x9;int valid = 0;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;try {&#xA;        &#x9;&#x9;&#x9;new SimpleDateFormat(&quot;dd-MM-yyyy HH:mm:ss.SSSSSS&quot;).parse(columns.getColumnValue(i).toString());&#xA;        &#x9;&#x9;&#x9;System.out.println(&quot;Correct date&quot;);&#xA;        &#x9;&#x9;&#x9;valid =1;&#xA;        &#x9;&#x9;&#x9;} catch (ParseException e) {&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;System.out.println(&quot;Incorrect date&quot; + columns.getColumnValue(i) );&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} &#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;if (valid == 0)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;try{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String date_value = columns.getColumnValue(i).toString();&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Date date = new SimpleDateFormat(&quot;dd-MM-yyyy HH:mm:ss&quot;).parse(date_value);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String newstr = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), newstr);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;catch (ParseException ex)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ex.printStackTrace();&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} &#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;else&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), columns.getColumnValue(i).toString());&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#x9;/*if (columns.getColumnValue(i).toString().equals(new SimpleDateFormat(&quot;dd-MM-yyyy HH:mm:ss&quot;).parse(newstr.toString()))&#xA;  &#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;System.out.println(&quot;matching&quot;);&#xA;  &#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#x9;else&#xA;  &#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;System.out.println(&quot;Not matching&quot;);&#xA;  &#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;/*  &#x9;&#x9;&#x9;&#x9;&#xA;String date_value = columns.getColumnValue(i).toString();&#xA;Date date = new SimpleDateFormat(&quot;dd-MM-yyyy HH:mm:ss&quot;).parse(date_value);&#xA;String newstr = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date);&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;/*Date date_checkformat1=null;&#xA;  &#x9;&#x9;&#x9;&#x9;Date date_checkformat2=null;&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;try {&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String date_value = columns.getColumnValue(i).toString();&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Date date = new SimpleDateFormat(&quot;dd-MM-yyyy HH:mm:ss&quot;).parse(date_value);&#xA;       &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;//String newstr = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date);&#xA;       &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;//columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date));&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;SimpleDateFormat sdf1 = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;);&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; date_checkformat1 = sdf1.parse(columns.getColumnValue(i).toString());&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;System.out.println(&quot;failing 1 &quot; +  date_checkformat1);&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; //Date date = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).parse(columns.getColumnValue(i).toString());&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (!(columns.getColumnValue(i).equals(sdf1.format(date))) &amp;&amp; columns.getColumnValue(i).toString().trim().length() != 0)&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;//columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date));&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).parse(date_value));&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;format1 = 1;&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;//System.out.println(&quot;Processing 1 &quot; + columns.getColumnValue(i).toString() );&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} catch (ParseException ex) &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ex.printStackTrace();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;/*try {&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String date_value = columns.getColumnValue(i).toString();&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;SimpleDateFormat sdf2 = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;);&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; date_checkformat2 = sdf2.parse(columns.getColumnValue(i).toString());&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; System.out.println(&quot;failing 2 &quot; + date_checkformat2);&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if ((columns.getColumnValue(i).equals(sdf2.format(date_checkformat2))) &amp;&amp; columns.getColumnValue(i).toString().trim().length() != 0)&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;).format(columns.getColumnValue(i).toString()));&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;format2 = 1;&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;System.out.println(&quot;Processing 2 &quot; + columns.getColumnValue(i).toString());&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} catch (ParseException ex) &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ex.printStackTrace();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#xA;  &#x9;&#x9;/*&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;if(format1 == 1) &#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;date_checkformat1 = new SimpleDateFormat(&quot;dd-MM-yyyy HH:mm:ss&quot;).parse(columns.getColumnValue(i).toString());&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date_checkformat1));&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;if(format2 == 1) &#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;).format(date_checkformat2));&#xA;*/&#xA;  &#x9;&#x9;&#xA;  &#x9;&#x9;/*(columnMetadata.getName().toString().trim().matches(columnMetadata1.getName().toString().trim()))&#xA;  &#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;String date_value = columns.getColumnValue(i).toString();&#xA;  &#x9;&#x9;&#x9;&#x9;// Format change required or not&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Date date_checkformat = null;&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;try {&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;);&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; date_checkformat = sdf.parse(date_value);&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if ((columns.getColumnValue(i).equals(sdf.format(date_checkformat))) &amp;&amp; date_value.trim().length() != 0)&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date_checkformat));&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;System.out.println(&quot;Processing 1&quot;);&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} catch (ParseException ex) &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ex.printStackTrace();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;try {&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;);&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; date_checkformat = sdf.parse(date_value);&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if ((columns.getColumnValue(i).equals(sdf.format(date_checkformat))) &amp;&amp; date_value.trim().length() != 0)&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;).format(date_checkformat));&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;System.out.println(&quot;Processing 2&quot;);&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} catch (ParseException ex) &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ex.printStackTrace();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;if (date_value.trim().length() != 0)&#xA;    &#x9;&#x9;&#x9;&#x9;{&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;try{&#xA;    &#x9;&#x9;&#x9;&#x9;    &#x9;Date date = new SimpleDateFormat(&quot;dd-MM-yyyy HH:mm:ss&quot;).parse(date_value);&#xA;       &#x9;&#x9;&#x9;&#x9;        columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date));&#xA;       &#x9;&#x9;&#x9;&#x9;        System.out.println(&quot;Processing 3&quot;);&#xA;     &#xA;    &#x9; &#x9;&#x9;&#x9;&#x9;&#x9;} catch (ParseException e) {&#xA;            &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;e.printStackTrace();&#xA;       &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;        &#x9;&#x9;&#x9;}*/&#xA;  &#x9;&#x9;&#x9;&#x9;format1 = 0;&#xA;  &#x9;&#x9;&#x9;&#x9;format2 = 0;&#xA;  &#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;if ((columnMetadata.getDbType() == &quot;DATE&quot;) &amp;&amp; (columnMetadata.getName().toString().trim().matches(columnMetadata1.getName().toString().trim())))&#xA;  &#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;String date_value = columns.getColumnValue(i).toString();&#xA;  &#x9;&#x9;&#x9;&#x9;if (date_value.trim().length() != 0)&#xA;    &#x9;&#x9;&#x9;&#x9;{&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;/*try{&#xA;    &#x9;&#x9;&#x9;&#x9;    &#x9;//Date date = new SimpleDateFormat(&quot;dd-MM-yyyy&quot;).parse(date_value);&#xA;       &#x9;&#x9;&#x9;&#x9;        //columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd&quot;).format(date));&#xA;       &#x9;&#x9;&#x9;&#x9;        columns.setColumnValue(columns.getIndex(columnMetadata.getName()), columns.getColumnValue(i));&#xA;     &#xA;    &#x9; &#x9;&#x9;&#x9;&#x9;&#x9;} catch (ParseException e) {&#xA;            &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;e.printStackTrace();&#xA;       &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}*/&#xA;       &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), columns.getColumnValue(i));&#xA;        &#x9;&#x9;&#x9;}&#xA;  &#x9;&#xA;  &#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;if ((columnMetadata.getDbType() == &quot;INT&quot;) &amp;&amp; (columnMetadata.getName().toString().trim().matches(columnMetadata1.getName().toString().trim())))&#xA;  &#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;if (columns.getColumnValue(i).toString().trim().length() == 0)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), null);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;if ((columnMetadata.getDbType() == &quot;SMALLINT&quot;) &amp;&amp; (columnMetadata.getName().toString().trim().matches(columnMetadata1.getName().toString().trim())))&#xA;  &#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;if (columns.getColumnValue(i).toString().trim().length() == 0)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), null);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;if ((columnMetadata.getDbType() == &quot;DECIMAL&quot;) &amp;&amp; (columnMetadata.getName().toString().trim().matches(columnMetadata1.getName().toString().trim())))&#xA;  &#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;if (columns.getColumnValue(i).toString().trim().length() == 0)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), null);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#x9;if ((columnMetadata.getDbType() == &quot;BIGINT&quot;) &amp;&amp; (columnMetadata.getName().toString().trim().matches(columnMetadata1.getName().toString().trim())))&#xA;  &#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;if (columns.getColumnValue(i).toString().trim().length() == 0)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), null);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#xA;    }&#xA;    &#xA; }&#xA; output_row.newColumn = columns;&#xA;&#xA;/*&#xA;&#xA;Dynamic columns = input_row.newColumn;&#xA;String testresult=&quot;&quot;;&#xA;for (int i = 0; i &lt; columns.getColumnCount(); i++) {  &#xA;    DynamicMetadata columnMetadata = columns.getColumnMetadata(i);  &#xA;&#xA;  String TestString=&quot;&quot;; &#xA;   if (columnMetadata.getName().toString().trim().matches(&quot;LOC_NBR&quot;) || columnMetadata.getName().toString().trim().matches(&quot;SUBM_ID&quot;) || columnMetadata.getName().toString().trim().matches(&quot;TRAN_QT_VR_NBR&quot;) )&#xA;   {&#xA;    &#xA;  &#x9;if (columns.getColumnValue(i).toString().trim().length() == 0)&#xA;  &#x9;{&#xA;  &#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), null);&#xA;  &#x9;}&#xA;   }&#xA;   &#xA;  if (columnMetadata.getName().toString().trim().matches(&quot;STG_TS&quot;) || columnMetadata.getName().toString().trim().matches(&quot;SCRPTN_STRT_TS&quot;) || columnMetadata.getName().toString().trim().matches(&quot;SCRPTN_END_TS&quot;))&#xA;  {&#xA; &#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Datetime column and data type is   &quot; +columnMetadata.getDbType() );&#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Datetime column and metadata type is   &quot; +columnMetadata.getType() );&#xA;  &#x9;&#x9;//columnMetadata.setDbType(&quot;id_Datetime&quot;);&#xA;  &#x9;&#x9;//columnMetadata.setType(columnMetadata.getDbType());&#xA;  &#x9;&#x9;String date_value = columns.getColumnValue(i).toString();&#xA;&#xA;&#xA;  &#x9;&#x9;&#xA;    &#x9;//String strDate= formatter.format(date_value);  &#xA;    &#x9;//System.out.println(&quot; Value is &quot; + date_value);&#xA;    &#x9;//final SimpleDateFormat sdf =  new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;);&#xA;    &#x9;if (date_value.trim().length() != 0)&#xA;    &#x9;{&#xA;    &#x9;try{&#xA;    &#x9;//Date date = sdf.parse(date_value);&#xA;    &#x9;//System.out.println(sdf.format(date));&#xA;    &#x9;Date date = new SimpleDateFormat(&quot;dd-MM-yyyy HH:mm:ss&quot;).parse(date_value);&#xA;       //String newstr = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date);&#xA;       columns.setColumnValue(columns.getIndex(columnMetadata.getName()), new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date));&#xA;      // System.out.println(newstr);&#xA;    &#x9; } catch (ParseException e) {&#xA;            e.printStackTrace();&#xA;        }&#xA;        }&#xA;    &#x9;&#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Datetime column and data type is   &quot; +columnMetadata.getDbType() );&#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Datetime column and metadata type is   &quot; +columnMetadata.getType() );&#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Datetime value   &quot; +columns.getColumnValue(i) );&#xA;  }&#xA;  &#xA;   if (columnMetadata.getName().toString().trim().matches(&quot;POL_EFF_DT&quot;)  || columnMetadata.getName().toString().trim().matches(&quot;TRAN_EFF_DT&quot;))&#xA;  {&#xA; &#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Date column and data type is   &quot; +columnMetadata.getDbType() );&#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Datetime column and metadata type is   &quot; +columnMetadata.getType() );&#xA;  &#x9;&#x9;//columnMetadata.setDbType(&quot;id_Date&quot;);&#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Date column and data type is   &quot; +columnMetadata.getDbType() );&#xA;  &#x9;&#x9;//System.out.println(&quot;Displaying Date value   &quot; +columns.getColumnValue(i) );&#xA;  &#x9;&#x9;//String date_value = columns.getColumnValue(i).toString();&#xA;  &#x9;&#x9;if (columns.getColumnValue(i).toString().trim().length() == 0)&#xA;  &#x9;{&#xA;  &#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), null);&#xA;  &#x9;}&#xA;  &#x9;&#x9;&#xA;    &#x9;&#xA;  }&#xA; &#xA;} &#xA;output_row.newColumn = input_row.newColumn;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xD;&#xA;"/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;import java.text.ParseException;&#xA;import java.text.SimpleDateFormat;&#xA;import java.util.Date;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaRow_5">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="2880" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:l3Ysow4EVEXiS+uKabnroj90dny5T1fa30ejMpnN" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;loc_stg&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="LABEL" name="NOTE" value="(Not compatible with reject links)" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="100"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000" show="false"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn" id="0"/>
+      <elementValue elementRef="UPDATE_KEY" value="false" id="1"/>
+      <elementValue elementRef="DELETE_KEY" value="false" id="2"/>
+      <elementValue elementRef="UPDATABLE" value="true" id="3"/>
+      <elementValue elementRef="INSERTABLE" value="true" id="4"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="ON_DUPLICATE_KEY_UPDATE" value="false"/>
+    <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBOutput_1">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="VARCHAR" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="VARCHAR" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="200" posY="200">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_5" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:HOsREjpH+fKJQdgEsOrtfni0k8eFSLwZ8rOJm4/m" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;talend_schema&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  `talend_schema`.`table_name`, &#xA;  `talend_schema`.`label`, &#xA;  `talend_schema`.`is_key`, &#xA;  `talend_schema`.`length`, &#xA;  `talend_schema`.`nullable`, &#xA;  `talend_schema`.`originalDbColumnName`, &#xA;  `talend_schema`.`pattern`, &#xA;  `talend_schema`.`precision`, &#xA;  `talend_schema`.`talendType`, &#xA;  `talend_schema`.`dbType`&#xA;FROM `talend_schema`&#xD;&#xA;WHERE `talend_schema`.`table_name` = '&quot; + context.table_name + &quot;'&#xD;&#xA;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="table_name" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="label" id="2"/>
+      <elementValue elementRef="TRIM" value="false" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="is_key" id="4"/>
+      <elementValue elementRef="TRIM" value="false" id="5"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="length" id="6"/>
+      <elementValue elementRef="TRIM" value="false" id="7"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="nullable" id="8"/>
+      <elementValue elementRef="TRIM" value="false" id="9"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="originalDbColumnName" id="10"/>
+      <elementValue elementRef="TRIM" value="false" id="11"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="pattern" id="12"/>
+      <elementValue elementRef="TRIM" value="false" id="13"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="precision" id="14"/>
+      <elementValue elementRef="TRIM" value="false" id="15"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="talendType" id="16"/>
+      <elementValue elementRef="TRIM" value="false" id="17"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="dbType" id="18"/>
+      <elementValue elementRef="TRIM" value="false" id="19"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="talend_schema" name="tDBInput_5">
+      <column comment="" key="true" length="45" name="table_name" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="45" name="label" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="'0'" key="false" length="3" name="is_key" nullable="false" pattern="" precision="0" sourceType="TINYINT" type="id_Byte" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="length" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="'1'" key="false" length="3" name="nullable" nullable="false" pattern="" precision="0" sourceType="TINYINT" type="id_Byte" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="45" name="originalDbColumnName" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="45" name="pattern" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="0" key="false" length="10" name="precision" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="45" name="talendType" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="45" name="dbType" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <additionalProperties key="Comment" value=""/>
+    </metadata>
+  </node>
+  <node componentName="tJavaFlex" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="560" posY="200">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaFlex_1" show="false"/>
+    <elementParameter field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE_START" value="Dynamic dynamic_row = new Dynamic();&#xA;globalMap.put(&quot;dynamic&quot;, dynamic_row);&#xA;int columnPosition = 0;"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE_MAIN" value="&#x9;&#x9;DynamicMetadata dynamicMetadata = new routines.system.DynamicMetadata();&#xA;&#x9;&#x9;String dynamicFieldName = metadata_row.label.replaceAll(&quot;[ .-]+&quot;, &quot;_&quot;);&#xA;&#x9;&#x9;dynamicMetadata.setName(dynamicFieldName);&#xA;&#x9;&#x9;dynamicMetadata.setDbName(dynamicFieldName);&#xA;&#x9;&#x9;dynamicMetadata.setType(metadata_row.talendType);&#xA;&#x9;&#x9;dynamicMetadata.setDbType(metadata_row.dbType);&#xA;&#x9;&#x9;dynamicMetadata.setLength(metadata_row.length);&#xA;&#x9;&#x9;dynamicMetadata.setPrecision(metadata_row.precision);&#xA;&#x9;&#x9;dynamicMetadata.setNullable(metadata_row.nullable != 0);&#xA;&#x9;&#x9;dynamicMetadata.setKey(metadata_row.is_key != 0);&#xA;&#x9;&#x9;dynamicMetadata.setSourceType(routines.system.DynamicMetadata.sourceTypes.demilitedFile);&#xA;&#x9;&#x9;dynamicMetadata.setColumnPosition(columnPosition);&#xA;&#x9;&#x9;columnPosition += 1;&#xA;&#x9;&#x9;dynamic_row.metadatas.add(dynamicMetadata);&#xA;"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE_END" value="&#xA;"/>
+    <elementParameter field="CHECK" name="Version_V2_0" value="false" show="false"/>
+    <elementParameter field="CHECK" name="Version_V3_2" value="false" show="false"/>
+    <elementParameter field="CHECK" name="Version_V4.0" value="true" show="false"/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="Storing metadata_row in Maps"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaFlex_1"/>
+  </node>
+  <node componentName="tMysqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="200" posY="40">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_2" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_31KqUD_7Eeu7ENGEOMkRSw" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
+    <elementParameter field="TEXT" name="HOST" value="context.local_mysql_Server"/>
+    <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.local_mysql_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.local_mysql_Database"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.local_mysql_AdditionalParams"/>
+    <elementParameter field="TEXT" name="USER" value="context.local_mysql_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v4:h6Lx2CoY1rdYaPFYT3ZFekoK5Sy+t67xXBpa8XZtbB4KLUZtaKQYdl49TuGVbpLOYG6WJGX6SEg="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="mysql"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1880" posY="680">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_6" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:2lig7Qw/ltcjZTAbdlN4GJaF4vcWnmyN2dwgbx1c" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;loc_stg&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  *&#xA;FROM `loc_stg` limit 1&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="tgt_metadata" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_6">
+      <column comment="" key="false" length="-1" name="tgt_metadata" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="VARCHAR" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="2000" posY="680">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_5" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value=""/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_5">
+      <column comment="" key="false" length="-1" name="tgt_metadata" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="VARCHAR" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="2160" posY="680">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFlowToIterate_4" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="DEFAULT_MAP" value="true"/>
+    <elementParameter field="TABLE" name="MAP" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFlowToIterate_4"/>
+  </node>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="2360" posY="680">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_5" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/kmahadevappa/Desktop/innersource_sql_tiff_1 - modified.txt&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/kmahadevappa/workspace&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn" id="0"/>
+      <elementValue elementRef="DECODE" value="false" id="1"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_HEADER_AS_IS" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileInputDelimited_5">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="2520" posY="680">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_5" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_UVU8IEmUEeuPBdPRtt-gEw-tMap_5-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
+    <elementParameter field="TEXT" name="JACCARD" value="0" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="copyOfout1_1">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="tgt_metadata" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="copyOfout1_1">
+        <mapperTableEntries name="newColumn" expression="row19.newColumn " type="id_Dynamic" nullable="true"/>
+        <mapperTableEntries name="tgt_metadata" expression="row17.tgt_metadata" type="id_Dynamic" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row19" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="newColumn" type="id_Dynamic" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="2720" posY="680">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_6" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xA;&#xA;&#xA;Dynamic columns_tgt = input_row.tgt_metadata;&#xA;Dynamic columns = input_row.newColumn;&#xA;&#xA;&#xA;&#xA;for (int i = 0; i &lt; columns.getColumnCount(); i++) &#xA;{&#xA;DynamicMetadata columnMetadata1 = columns_tgt.getColumnMetadata(i);&#xA;for (int t = 0; t &lt; columns_tgt.getColumnCount(); t++) &#xA;&#x9;{  &#xA;&#x9;&#xA;    &#x9;DynamicMetadata columnMetadata = columns_tgt.getColumnMetadata(t); &#xA;    &#x9;&#xA;  &#x9;&#x9;if ((columnMetadata.getDbType() == &quot;DATETIME&quot; ) &amp;&amp; (columnMetadata.getName().toString().trim().matches(columnMetadata1.getName().toString().trim())))&#xA;  &#x9;&#x9;&#xA;  &#x9;&#x9;{ &#xA;  &#x9;&#x9;&#x9;int valid = 0;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;try {&#xA;        &#x9;&#x9;&#x9;new SimpleDateFormat(&quot;dd-MM-yyyy HH:mm:ss.SSSSSS&quot;).parse(columns.getColumnValue(i).toString());&#xA;        &#x9;&#x9;&#x9;&#xA;        &#x9;&#x9;&#x9;valid =1;&#xA;        &#x9;&#x9;&#x9;} catch (ParseException e) {&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;valid = 0;&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;//e.printStackTrace();&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} &#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;if (valid == 0)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;try{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String date_value = columns.getColumnValue(i).toString();&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Date date = new SimpleDateFormat(&quot;dd-MM-yyyy HH:mm:ss&quot;).parse(date_value);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String newstr = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;).format(date);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), newstr);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;//System.out.println(&quot; Value with conversion &quot; +newstr + &quot; Orig Value &quot; + columns.getColumnValue(i).toString() );&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;catch (ParseException ex)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ex.printStackTrace();&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} &#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;else&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), columns.getColumnValue(i).toString());&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;if ((columnMetadata.getDbType() == &quot;DATE&quot;) &amp;&amp; (columnMetadata.getName().toString().trim().matches(columnMetadata1.getName().toString().trim())))&#xA;  &#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;String date_value = columns.getColumnValue(i).toString();&#xA;  &#x9;&#x9;&#x9;&#x9;if (date_value.trim().length() != 0)&#xA;    &#x9;&#x9;&#x9;&#x9;{&#xA; &#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), columns.getColumnValue(i));&#xA;        &#x9;&#x9;&#x9;}&#xA;  &#x9;&#xA;  &#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;if ((columnMetadata.getDbType() == &quot;INT&quot;) &amp;&amp; (columnMetadata.getName().toString().trim().matches(columnMetadata1.getName().toString().trim())))&#xA;  &#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;if (columns.getColumnValue(i).toString().trim().length() == 0)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), null);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;if ((columnMetadata.getDbType() == &quot;SMALLINT&quot;) &amp;&amp; (columnMetadata.getName().toString().trim().matches(columnMetadata1.getName().toString().trim())))&#xA;  &#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;if (columns.getColumnValue(i).toString().trim().length() == 0)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), null);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;if ((columnMetadata.getDbType() == &quot;DECIMAL&quot;) &amp;&amp; (columnMetadata.getName().toString().trim().matches(columnMetadata1.getName().toString().trim())))&#xA;  &#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;if (columns.getColumnValue(i).toString().trim().length() == 0)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), null);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;if ((columnMetadata.getDbType() == &quot;BIGINT&quot;) &amp;&amp; (columnMetadata.getName().toString().trim().matches(columnMetadata1.getName().toString().trim())))&#xA;  &#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;if (columns.getColumnValue(i).toString().trim().length() == 0)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), null);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#xA;    }&#xA;    &#xA; }&#xA; output_row.newColumn = columns;"/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;import java.text.ParseException;&#xA;import java.text.SimpleDateFormat;&#xA;import java.util.Date;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaRow_6">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="2960" posY="680">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_4" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:LTVCic+X3vUK3ZuRzOgrlXd99q5ZDP9eyAY0+uX0" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;loc_stg&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="LABEL" name="NOTE" value="(Not compatible with reject links)" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="100"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000" show="false"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn" id="0"/>
+      <elementValue elementRef="UPDATE_KEY" value="false" id="1"/>
+      <elementValue elementRef="DELETE_KEY" value="false" id="2"/>
+      <elementValue elementRef="UPDATABLE" value="true" id="3"/>
+      <elementValue elementRef="INSERTABLE" value="true" id="4"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="ON_DUPLICATE_KEY_UPDATE" value="false"/>
+    <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBOutput_4">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="VARCHAR" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="VARCHAR" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="200" posY="400">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.sample_data"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/kmahadevappa/workspace&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn" id="0"/>
+      <elementValue elementRef="DECODE" value="false" id="1"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_HEADER_AS_IS" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileInputDelimited_1">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="440" posY="400">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn" id="0"/>
+      <elementValue elementRef="LENGTH" value="10" id="1"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_1">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="680" posY="400">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xA;&#xA;&#xA;//Dynamic columns_tgt = input_row.tgt_metadata;&#xA;Dynamic columns = input_row.newColumn;&#xA;&#xA;&#xA;&#xA;&#xA;java.util.Map&lt;String,String> columnNames = ((java.util.HashMap&lt;String,String>)globalMap.get(&quot;columnNames&quot;));&#xA;java.util.Map&lt;String,String> columnDatatype = ((java.util.HashMap&lt;String,String>)globalMap.get(&quot;columnDatatype&quot;));&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;for (int i = 0; i &lt; columns.getColumnCount(); i++) &#xA;{&#xA;&#x9;DynamicMetadata columnMetadata = columns.getColumnMetadata(i);&#xA;&#x9;&#x9;&#xA;&#x9;for(int t=1; t &lt;=columnNames.size(); t++)&#xA;&#x9;{  &#xA;&#x9;&#xA;&#x9; &#xA;&#x9;if((columnDatatype.get(t) == &quot;DATETIME&quot;) &amp;&amp; columnNames.get(t).toString().trim().matches(columnMetadata.getName().toString().trim()))&#xA;&#x9;&#x9;{&#xA;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;int valid = 0;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;try {&#xA;        &#x9;&#x9;&#x9;new SimpleDateFormat(&quot;dd-MM-yyyy HH:mm:ss.SSSSSS&quot;).parse(columns.getColumnValue(i).toString());&#xA;        &#x9;&#x9;&#x9;&#xA;        &#x9;&#x9;&#x9;valid =1;&#xA;        &#x9;&#x9;&#x9;} catch (ParseException e) {&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;valid = 0;&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;//e.printStackTrace();&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} &#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;if (valid == 0)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;try{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String date_value = columns.getColumnValue(i).toString();&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Date date = new SimpleDateFormat(&quot;dd-MM-yyyy HH:mm:ss&quot;).parse(date_value);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String newstr = new SimpleDateFormat(&quot;dd-MMM-yyyy HH:mm:ss&quot;).format(date);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), newstr);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;catch (ParseException ex)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ex.printStackTrace();&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} &#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;else&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), columns.getColumnValue(i).toString());&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;}&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;if((columnDatatype.get(t).equals(&quot;TIMESTAMP(6)&quot;) || columnDatatype.get(t).equals(&quot;DATETIME&quot;)) &amp;&amp; columnNames.get(t).toString().trim().matches(columnMetadata.getName().toString().trim()))&#xA;&#x9;&#x9;{&#xA;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;int valid = 0;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;try {&#xA;        &#x9;&#x9;&#x9;new SimpleDateFormat(&quot;dd-MM-yyyy HH:mm:ss.SSSSSS&quot;).parse(columns.getColumnValue(i).toString());&#xA;        &#x9;&#x9;&#x9;valid =1;&#xA;        &#x9;&#x9;&#x9;} catch (ParseException e) {&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;valid = 0;&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;//e.printStackTrace();&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} &#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;if (valid == 0)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;try{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String date_value = columns.getColumnValue(i).toString();&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Date date = new SimpleDateFormat(&quot;dd-MM-yyyy HH:mm:ss&quot;).parse(date_value);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String newstr = new SimpleDateFormat(&quot;dd-MMM-yyyy HH:mm:ss&quot;).format(date);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), newstr);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;System.out.println(&quot; Value with conversion &quot; +newstr + &quot; Orig Value &quot; + columns.getColumnValue(i).toString() );&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;catch (ParseException ex)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ex.printStackTrace();&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} &#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;else&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), columns.getColumnValue(i).toString());&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;}&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;if ((columnDatatype.get(t).compareTo(&quot;DATE&quot;) == 0) &amp;&amp; (columnNames.get(t).toString().trim().matches(columnMetadata.getName().toString().trim())))&#xA;  &#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;String date_value = columns.getColumnValue(i).toString();&#xA;  &#x9;&#x9;&#x9;&#x9;if (date_value.trim().length() != 0)&#xA;    &#x9;&#x9;&#x9;&#x9;{&#xA; &#x9;&#x9;&#x9;&#x9;&#x9;//columns.setColumnValue(columns.getIndex(columnMetadata.getName()), columns.getColumnValue(i));&#xA; &#x9;&#x9;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;int valid = 0;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;try {&#xA;        &#x9;&#x9;&#x9;new SimpleDateFormat(&quot;dd-MM-yyyy&quot;).parse(columns.getColumnValue(i).toString());&#xA;        &#x9;&#x9;&#x9;&#xA;        &#x9;&#x9;&#x9;valid =1;&#xA;        &#x9;&#x9;&#x9;} catch (ParseException e) {&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;valid = 0;&#xA;        &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;//e.printStackTrace();&#xA;   &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} &#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;if (valid == 0)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;try{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String only_date_value = columns.getColumnValue(i).toString();&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Date only_date = new SimpleDateFormat(&quot;dd-MM-yyyy&quot;).parse(only_date_value);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String only_date_newstr = new SimpleDateFormat(&quot;dd-MMM-yyyy&quot;).format(only_date);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), only_date_newstr.toString());&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;catch (ParseException ex)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ex.printStackTrace();&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} &#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;else&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;//columns.setColumnValue(columns.getIndex(columnMetadata.getName()), columns.getColumnValue(i).toString());&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;try{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String only_date_value = columns.getColumnValue(i).toString();&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Date only_date = new SimpleDateFormat(&quot;dd-MM-yyyy&quot;).parse(only_date_value);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String only_date_newstr = new SimpleDateFormat(&quot;dd-MMM-yyyy&quot;).format(only_date);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), only_date_newstr.toString());&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;catch (ParseException ex)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ex.printStackTrace();&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} &#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;        &#x9;&#x9;&#x9;}&#xA;  &#x9;&#xA;  &#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;if ((columnDatatype.get(t).compareTo(&quot;NUMBER&quot;)==0) &amp;&amp; (columnNames.get(t).toString().trim().matches(columnMetadata.getName().toString().trim())))&#xA;  &#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;if (columns.getColumnValue(i).toString().trim().length() == 0)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), null);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}else&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), columns.getColumnValue(i).toString());&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;&#xA;  &#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;if ((columnDatatype.get(t) == &quot;SMALLINT&quot;) &amp;&amp; (columnNames.get(t).toString().trim().matches(columnMetadata.getName().toString().trim())))&#xA;  &#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;if (columns.getColumnValue(i).toString().trim().length() == 0)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), null);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}else&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), columns.getColumnValue(i).toString());&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;if ((columnDatatype.get(t) == &quot;DECIMAL&quot;) &amp;&amp; (columnNames.get(t).toString().trim().matches(columnMetadata.getName().toString().trim())))&#xA;  &#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;if (columns.getColumnValue(i).toString().trim().length() == 0)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), null);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}else&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), columns.getColumnValue(i).toString());&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;if ((columnDatatype.get(t) == &quot;BIGINT&quot;) &amp;&amp; (columnNames.get(t).toString().trim().matches(columnMetadata.getName().toString().trim())))&#xA;  &#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;if (columns.getColumnValue(i).toString().trim().length() == 0)&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), null);&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}else&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;{&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;columns.setColumnValue(columns.getIndex(columnMetadata.getName()), columns.getColumnValue(i).toString());&#xA;  &#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;  &#x9;&#x9;&#x9;}&#xA;&#x9;&#xA;&#x9;}&#xA;&#xA;}&#xA; output_row.newColumn = columns;"/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;import java.text.ParseException;&#xA;import java.text.SimpleDateFormat;&#xA;import java.util.Date;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaRow_1">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tOracleOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="920" posY="400">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SID" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18" show="false"/>
+    <elementParameter field="TEXT" name="RAC_URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;1521&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="Oracle" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TABLESCHEMA" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:zWRJqklZGUuZE5X5fSxH812sKaEqq5kUpy87Zg1D" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;ORACLE_TEST&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
+    <elementParameter field="LABEL" name="NOTE" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id" show="false"/>
+    <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:oracle:oci:/@talend&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false"/>
+    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000" show="false"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn" id="0"/>
+      <elementValue elementRef="UPDATE_KEY" value="false" id="1"/>
+      <elementValue elementRef="DELETE_KEY" value="false" id="2"/>
+      <elementValue elementRef="UPDATABLE" value="true" id="3"/>
+      <elementValue elementRef="INSERTABLE" value="true" id="4"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
+    <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_UPPERCASE" value="false"/>
+    <elementParameter field="CHECK" name="CONTAIN_BLOB_FROM_OTHER_DB" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_AND_USE_CONN" value="false"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000" show="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
+    <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBOutput_2">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="VARCHAR2" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSSSSS&quot;" precision="-1" sourceType="VARCHAR2" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tFileInputDelimited_3" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_3" target="tJavaRow_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tJavaRow_2" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_2" target="tDBOutput_3">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="tgt_metadata" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row5" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row7" lineStyle="0" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tJava_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row7" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row8" lineStyle="0" metaname="tJava_2" offsetLabelX="0" offsetLabelY="0" source="tJava_2" target="tFlowToIterate_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row8" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tJava_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row6" lineStyle="0" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tFlowToIterate_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row6" show="false"/>
+  </connection>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFlowToIterate_2" offsetLabelX="0" offsetLabelY="0" source="tFlowToIterate_2" target="tFileInputDelimited_2">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" value="2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="iterate2" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row9" lineStyle="0" metaname="tFileInputDelimited_2" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_2" target="tMap_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row9" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="copyOfout1" lineStyle="0" metaname="copyOfout1" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tJavaRow_3">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="tgt_metadata" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
+      <elementValue elementRef="TRACE_COLUMN" value="tgt_metadata" id="3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="4"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="5"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="copyOfout1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row10" lineStyle="0" metaname="tJavaRow_3" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_3" target="tLogRow_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row10" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row13" lineStyle="0" metaname="tDBInput_4" offsetLabelX="0" offsetLabelY="0" source="tDBInput_4" target="tJava_4">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row13" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row14" lineStyle="0" metaname="tJava_4" offsetLabelX="0" offsetLabelY="0" source="tJava_4" target="tFlowToIterate_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row14" show="false"/>
+  </connection>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFlowToIterate_3" offsetLabelX="0" offsetLabelY="0" source="tFlowToIterate_3" target="tFileInputDelimited_4">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" value="2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="iterate3" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row15" lineStyle="0" metaname="tFileInputDelimited_4" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_4" target="tMap_4">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row15" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="copyOfout1_0" lineStyle="0" metaname="copyOfout1_0" offsetLabelX="0" offsetLabelY="0" source="tMap_4" target="tJavaRow_5">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="tgt_metadata" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
+      <elementValue elementRef="TRACE_COLUMN" value="tgt_metadata" id="3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="4"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="5"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="copyOfout1_0" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row16" lineStyle="0" metaname="tJavaRow_5" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_5" target="tDBOutput_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row16" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="metadata_row" lineStyle="0" metaname="tDBInput_5" offsetLabelX="0" offsetLabelY="0" source="tDBInput_5" target="tJavaFlex_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="metadata_row" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBInput_5" offsetLabelX="0" offsetLabelY="0" source="tDBInput_5" target="tFileInputDelimited_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk4" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBConnection_2" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_2" target="tDBInput_5">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row17" lineStyle="0" metaname="tDBInput_6" offsetLabelX="0" offsetLabelY="0" source="tDBInput_6" target="tJava_5">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row17" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row18" lineStyle="0" metaname="tJava_5" offsetLabelX="0" offsetLabelY="0" source="tJava_5" target="tFlowToIterate_4">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row18" show="false"/>
+  </connection>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFlowToIterate_4" offsetLabelX="0" offsetLabelY="0" source="tFlowToIterate_4" target="tFileInputDelimited_5">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" value="2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="iterate4" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row19" lineStyle="0" metaname="tFileInputDelimited_5" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_5" target="tMap_5">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row19" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="copyOfout1_1" lineStyle="0" metaname="copyOfout1_1" offsetLabelX="0" offsetLabelY="0" source="tMap_5" target="tJavaRow_6">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="tgt_metadata" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
+      <elementValue elementRef="TRACE_COLUMN" value="tgt_metadata" id="3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="4"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="5"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="copyOfout1_1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row20" lineStyle="0" metaname="tJavaRow_6" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_6" target="tDBOutput_4">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row20" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tLogRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tJavaRow_1" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_1" target="tDBOutput_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="CHECK" name="COLLAPSED" value="true" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_3" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="COLLAPSED" value="true" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="COLLAPSED" value="true" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_4" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_5" show="false"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Load Schema Metadata"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="128;255;255"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_2" show="false"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Connect"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="128;255;255"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="COLLAPSED" value="true" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_6" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Read file using loaded schema"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="128;255;255"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+</talendfile:ProcessType>

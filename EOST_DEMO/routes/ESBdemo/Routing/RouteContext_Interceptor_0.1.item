@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_7GtDwJWPEfCy3MPMAf-UTQ" defaultContext="Default">
+  <context xmi:id="_7GtDwZWPEfCy3MPMAf-UTQ" confirmationNeeded="false" name="Default"/>
+  <parameters xmi:id="_7GtDwpWPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7GtDw5WPEfCy3MPMAf-UTQ" field="TEXT" name="SCREEN_OFFSET_X" value="0"/>
+    <elementParameter xmi:id="_7GtDxJWPEfCy3MPMAf-UTQ" field="TEXT" name="SCREEN_OFFSET_Y" value="0"/>
+    <elementParameter xmi:id="_7GtDxZWPEfCy3MPMAf-UTQ" field="TEXT" name="REPOSITORY_CONNECTION_ID" value=""/>
+    <routinesParameter xmi:id="_7GtDxpWPEfCy3MPMAf-UTQ" id="_Bd0wgIA5EeOwya0-9JCcIg" name="DQTechnical"/>
+    <routinesParameter xmi:id="_7GtDx5WPEfCy3MPMAf-UTQ" id="_BebNcIA5EeOwya0-9JCcIg" name="DataOperation"/>
+    <routinesParameter xmi:id="_7GtDyJWPEfCy3MPMAf-UTQ" id="_BYEGwIA5EeOwya0-9JCcIg" name="DataQuality"/>
+    <routinesParameter xmi:id="_7GtDyZWPEfCy3MPMAf-UTQ" id="_BdLQQIA5EeOwya0-9JCcIg" name="DqStringHandling"/>
+    <routinesParameter xmi:id="_7GtDypWPEfCy3MPMAf-UTQ" id="_BfBqYIA5EeOwya0-9JCcIg" name="Mathematical"/>
+    <routinesParameter xmi:id="_7GtDy5WPEfCy3MPMAf-UTQ" id="_BfrKoIA5EeOwya0-9JCcIg" name="Numeric"/>
+    <routinesParameter xmi:id="_7GtDzJWPEfCy3MPMAf-UTQ" id="_BgVR8IA5EeOwya0-9JCcIg" name="Relational"/>
+    <routinesParameter xmi:id="_7GtDzZWPEfCy3MPMAf-UTQ" id="_BjJ8cIA5EeOwya0-9JCcIg" name="SQLike"/>
+    <routinesParameter xmi:id="_7GtDzpWPEfCy3MPMAf-UTQ" id="_Bg55sIA5EeOwya0-9JCcIg" name="StringHandling"/>
+    <routinesParameter xmi:id="_7GtDz5WPEfCy3MPMAf-UTQ" id="_Bhd6YIA5EeOwya0-9JCcIg" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_7GtD0JWPEfCy3MPMAf-UTQ" id="_BiAs8IA5EeOwya0-9JCcIg" name="TalendDate"/>
+    <routinesParameter xmi:id="_7GtD0ZWPEfCy3MPMAf-UTQ" id="_BiktoIA5EeOwya0-9JCcIg" name="TalendString"/>
+    <routinesParameter xmi:id="_7GtD0pWPEfCy3MPMAf-UTQ" id="_N653ICoUEeOXW_CsPlpHtA" name="DEMO_BIGDATA"/>
+    <routinesParameter xmi:id="_7GtD05WPEfCy3MPMAf-UTQ" id="_8qwkYFjNEdyj6eiqDt60Og" name="DemoRoutines"/>
+    <routinesParameter xmi:id="_7GtD1JWPEfCy3MPMAf-UTQ" id="_HKXfQGIZEd26GZmhFZLTPA" name="GetRandomPhoneNum"/>
+    <routinesParameter xmi:id="_7GtD1ZWPEfCy3MPMAf-UTQ" id="_Caw4ILqhEeSTKafzYDQC9w" name="GzipUtil"/>
+    <routinesParameter xmi:id="_7GtD1pWPEfCy3MPMAf-UTQ" id="_G417gAc-EeKqOMQjhZ_0wQ" name="KeyManagementForSqoop"/>
+    <routinesParameter xmi:id="_7GtD15WPEfCy3MPMAf-UTQ" id="_WLn1cHFfEeKIGbRRUtiRHQ" name="Fibonacci"/>
+    <routinesParameter xmi:id="_7GtD2JWPEfCy3MPMAf-UTQ" id="_F8etkNdKEeKNU7zMGbHlQA" name="Thumbnail"/>
+    <routinesParameter xmi:id="_7GtD2ZWPEfCy3MPMAf-UTQ" id="_TVdvcGcqEeOjappPcW-THA" name="Tweets_Generator"/>
+    <routinesParameter xmi:id="_7GtD2pWPEfCy3MPMAf-UTQ" id="_cUWzAOyNEd2AippjGM9H-A" name="Convert"/>
+    <routinesParameter xmi:id="_7GtD25WPEfCy3MPMAf-UTQ" id="_HX3E4OJpEeCmJNdA0HkfKA" name="A1_parisstreetindexcreationTstandardizerow_1"/>
+    <routinesParameter xmi:id="_7GtD3JWPEfCy3MPMAf-UTQ" id="_U2GysOJpEeCmJNdA0HkfKA" name="A2_normalizeaddressTstandardizerow_1"/>
+    <routinesParameter xmi:id="_7GtD3ZWPEfCy3MPMAf-UTQ" id="_jFtsAOJpEeCmJNdA0HkfKA" name="A2_standardizeaddressTstandardizerow_1"/>
+    <routinesParameter xmi:id="_7GtD3pWPEfCy3MPMAf-UTQ" id="_13-xUKoSEeOUTvl9amgImQ" name="getNotNullFromString"/>
+    <routinesParameter xmi:id="_7GtD35WPEfCy3MPMAf-UTQ" id="_GSpGYGf7EeONMtYsYm-UXw" name="ImporttweetsTstandardizerow_1"/>
+    <routinesParameter xmi:id="_7GtD4JWPEfCy3MPMAf-UTQ" id="_VCnh0Gf7EeONMtYsYm-UXw" name="ImporttweetsTstandardizerow_2"/>
+    <routinesParameter xmi:id="_7GtD4ZWPEfCy3MPMAf-UTQ" id="_wU5qIOJpEeCmJNdA0HkfKA" name="Products_parsingTstandardizerow_1"/>
+    <routinesParameter xmi:id="_7GtD4pWPEfCy3MPMAf-UTQ" id="_2RIxoGf6EeONMtYsYm-UXw" name="Standardize_and_word_analysisTstandardizerow_1"/>
+    <routinesParameter xmi:id="_7GtD45WPEfCy3MPMAf-UTQ" id="_uYJtMPtoEeOFQcYXQEAg2g" name="Step1_import_tweetsTstandardizerow_2"/>
+    <routinesParameter xmi:id="_7GtD5JWPEfCy3MPMAf-UTQ" id="_WxkbQLdWEeSdgaQjwHXdqA" name="Step1_import_tweets_localTstandardizerow_2"/>
+    <routinesParameter xmi:id="_7GtD5ZWPEfCy3MPMAf-UTQ" id="_Ant3ULoLEeScYPkz2Y-jEw" name="Step1_import_tweets_working_hdfsTstandardizerow_2"/>
+  </parameters>
+  <node xmi:id="_7GtD5pWPEfCy3MPMAf-UTQ" componentName="cMQConnectionFactory" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="64">
+    <elementParameter xmi:id="_7GtD55WPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cMQConnectionFactory_1"/>
+    <elementParameter xmi:id="_7GtD6JWPEfCy3MPMAf-UTQ" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_7GtD6ZWPEfCy3MPMAf-UTQ" field="CLOSED_LIST" name="MQ_TYPE" value="ActiveMQ"/>
+    <elementParameter xmi:id="_7GtD6pWPEfCy3MPMAf-UTQ" field="CHECK" name="USE_TRANSACTION" value="false"/>
+    <elementParameter xmi:id="_7GtD65WPEfCy3MPMAf-UTQ" field="TEXT" name="AMQ_BROKER_URI" value="&quot;tcp://localhost:61616&quot;"/>
+    <elementParameter xmi:id="_7GtD7JWPEfCy3MPMAf-UTQ" field="CHECK" name="IS_AMQ_HTTP_BROKER" value="false"/>
+    <elementParameter xmi:id="_7GtD7ZWPEfCy3MPMAf-UTQ" field="CHECK" name="AMQ_POOL" value="false"/>
+    <elementParameter xmi:id="_7GtD7pWPEfCy3MPMAf-UTQ" field="TEXT" name="AMQ_POOL_MAX_CONNECTIONS" value="1"/>
+    <elementParameter xmi:id="_7GtD75WPEfCy3MPMAf-UTQ" field="TEXT" name="AMQ_POOL_MAX_ACTIVE" value="500"/>
+    <elementParameter xmi:id="_7GtD8JWPEfCy3MPMAf-UTQ" field="TEXT" name="AMQ_POOL_IDLE_TIMEOUT" value="30000"/>
+    <elementParameter xmi:id="_7GtD8ZWPEfCy3MPMAf-UTQ" field="TEXT" name="AMQ_POOL_EXPIRY_TIMEOUT" value="60000"/>
+    <elementParameter xmi:id="_7GtD8pWPEfCy3MPMAf-UTQ" field="CHECK" name="AMQ_AUTH" value="false"/>
+    <elementParameter xmi:id="_7GtD85WPEfCy3MPMAf-UTQ" field="TEXT" name="AMQ_USERNAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_7GtD9JWPEfCy3MPMAf-UTQ" field="PASSWORD" name="AMQ_PASSWORD" value="enc:system.encryption.key.v1:XU2AA0poFbMDVECBFqzxOcbGU8fK6x1cmqAHFBgD"/>
+    <elementParameter xmi:id="_7GtD9ZWPEfCy3MPMAf-UTQ" field="TEXT" name="WQM_SEVER" value="&quot;localhost&quot;"/>
+    <elementParameter xmi:id="_7GtD9pWPEfCy3MPMAf-UTQ" field="TEXT" name="WMQ_PORT" value="1414"/>
+    <elementParameter xmi:id="_7GtD95WPEfCy3MPMAf-UTQ" field="CLOSED_LIST" name="WMQ_TRANSPORT_TYPE" value="1"/>
+    <elementParameter xmi:id="_7GtD-JWPEfCy3MPMAf-UTQ" field="TEXT" name="WMQ_QUEUE_MANAGER" value="&quot;mq.queue.manager&quot;"/>
+    <elementParameter xmi:id="_7GtD-ZWPEfCy3MPMAf-UTQ" field="CHECK" name="WMQ_AUTH" value="false"/>
+    <elementParameter xmi:id="_7GtD-pWPEfCy3MPMAf-UTQ" field="TEXT" name="WMQ_USERNAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_7GtD-5WPEfCy3MPMAf-UTQ" field="PASSWORD" name="WMQ_PASSWORD" value="enc:system.encryption.key.v1:FuuQr08Lb8k5pZsjiezLosFtFsvU+rjifyEDnHSG"/>
+    <elementParameter xmi:id="_7GtD_JWPEfCy3MPMAf-UTQ" field="LABEL" name="WMA_JAR_LABEL" value="(Note:Need add com.ibm.mq.jar, com.ibm.mq.jmqi.jar,com.ibm.mqjms.jar, dhbcore.jar)"/>
+    <elementParameter xmi:id="_7GtD_ZWPEfCy3MPMAf-UTQ" field="TABLE" name="WMQ_DRIVER_JAR"/>
+    <elementParameter xmi:id="_7GtD_pWPEfCy3MPMAf-UTQ" field="TEXT" name="AMQP_BROKER_URI" value="&quot;localhost&quot;"/>
+    <elementParameter xmi:id="_7GtD_5WPEfCy3MPMAf-UTQ" field="TEXT" name="AMQP_PORT" value="&quot;5672&quot;"/>
+    <elementParameter xmi:id="_7GtEAJWPEfCy3MPMAf-UTQ" field="CHECK" name="AMQP_SSL" value="false"/>
+    <elementParameter xmi:id="_7GtEAZWPEfCy3MPMAf-UTQ" field="FILE" name="MQTT_SSL_TRUST_STORE" value=""/>
+    <elementParameter xmi:id="_7GtEApWPEfCy3MPMAf-UTQ" field="PASSWORD" name="MQTT_SSL_TRUST_STORE_PASSWORD" value=""/>
+    <elementParameter xmi:id="_7GtEA5WPEfCy3MPMAf-UTQ" field="CHECK" name="AMQP_USE_AUTH" value="false"/>
+    <elementParameter xmi:id="_7GtEBJWPEfCy3MPMAf-UTQ" field="TEXT" name="AMQP_USERNAME" value="&quot;guest&quot;"/>
+    <elementParameter xmi:id="_7GtEBZWPEfCy3MPMAf-UTQ" field="PASSWORD" name="AMQP_PASSWORD" value="enc:system.encryption.key.v1:ORetoNb+Pib9MQMZ172ChquJ6qd8yW0JZcihFLmy3IwOLNE="/>
+    <elementParameter xmi:id="_7GtEBpWPEfCy3MPMAf-UTQ" field="TEXT" name="AMQP_DRIVER_JAR" value="qpid-amqp-1-0-common-0.28.jar;qpid-amqp-1-0-client-0.28.jar;qpid-amqp-1-0-client-jms-0.28.jar"/>
+    <elementParameter xmi:id="_7GtEB5WPEfCy3MPMAf-UTQ" field="TEXT" name="MQTT_HOST" value="&quot;127.0.0.1&quot;"/>
+    <elementParameter xmi:id="_7GtECJWPEfCy3MPMAf-UTQ" field="TEXT" name="MQTT_PORT" value="1883"/>
+    <elementParameter xmi:id="_7GtECZWPEfCy3MPMAf-UTQ" field="CHECK" name="MQTT_SSL" value="false"/>
+    <elementParameter xmi:id="_7GtECpWPEfCy3MPMAf-UTQ" field="FILE" name="MQTT_SSL_TRUST_STORE" value=""/>
+    <elementParameter xmi:id="_7GtEC5WPEfCy3MPMAf-UTQ" field="PASSWORD" name="MQTT_SSL_TRUST_STORE_PASSWORD" value=""/>
+    <elementParameter xmi:id="_7GtEDJWPEfCy3MPMAf-UTQ" field="TEXT" name="MQTT_CONNECT_ATTEMPTS" value="-1"/>
+    <elementParameter xmi:id="_7GtEDZWPEfCy3MPMAf-UTQ" field="TEXT" name="MQTT_RECONNECT_ATTEMPTS" value="-1"/>
+    <elementParameter xmi:id="_7GtEDpWPEfCy3MPMAf-UTQ" field="TEXT" name="MQTT_RECONNECT_DELAY" value="10"/>
+    <elementParameter xmi:id="_7GtED5WPEfCy3MPMAf-UTQ" field="CLOSED_LIST" name="MQTT_QOS" value="0"/>
+    <elementParameter xmi:id="_7GtEEJWPEfCy3MPMAf-UTQ" field="TEXT" name="MQTT_CONNECT_WAIT_IN_SECONDS" value="10"/>
+    <elementParameter xmi:id="_7GtEEZWPEfCy3MPMAf-UTQ" field="TEXT" name="MQTT_DISCONNECT_WAIT_IN_SECONDS" value="5"/>
+    <elementParameter xmi:id="_7GtEEpWPEfCy3MPMAf-UTQ" field="TEXT" name="MQTT_SEND_WAIT_IN_SECONDS" value="5"/>
+    <elementParameter xmi:id="_7GtEE5WPEfCy3MPMAf-UTQ" field="MEMO_JAVA" name="OTHER_CODE" value="&#xA;&#x9;&#x9;&#x9;&#x9;/*&#xA;&#x9;&#x9;&#x9;&#x9;* Please specify &quot;jmsConnectionFactory&quot; here&#xA;&#x9;&#x9;&#x9;&#x9;*/&#xA;&#x9;&#x9;&#x9;&#x9;//jmsConnectionFactory = new org.apache.activemq.ActiveMQConnectionFactory(&quot;vm://localhost?broker.persistent=false&quot;);&#xA;&#x9;&#x9;&#x9;"/>
+    <elementParameter xmi:id="_7GtEFJWPEfCy3MPMAf-UTQ" field="TABLE" name="OTHER_DRIVER_JAR"/>
+    <elementParameter xmi:id="_7GtEFZWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7GtEFpWPEfCy3MPMAf-UTQ" componentName="cJMS" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="160">
+    <elementParameter xmi:id="_7GtEF5WPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cJMS_1"/>
+    <elementParameter xmi:id="_7GtEGJWPEfCy3MPMAf-UTQ" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_7GtEGZWPEfCy3MPMAf-UTQ" field="CLOSED_LIST" name="TYPE" value="queue"/>
+    <elementParameter xmi:id="_7GtEGpWPEfCy3MPMAf-UTQ" field="TEXT" name="DESTINATION" value="&quot;routeContextTest&quot;"/>
+    <elementParameter xmi:id="_7GtEG5WPEfCy3MPMAf-UTQ" field="ROUTE_COMPONENT_TYPE" name="CONNECTION_FACOTRY_CONFIGURATION" value="cMQConnectionFactory_1"/>
+    <elementParameter xmi:id="_7GtEHJWPEfCy3MPMAf-UTQ" field="TABLE" name="URI_OPTIONS"/>
+    <elementParameter xmi:id="_7GtEHZWPEfCy3MPMAf-UTQ" field="TEXT" name="LABEL" value="routeContextTest"/>
+    <elementParameter xmi:id="_7GtEHpWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7GtEH5WPEfCy3MPMAf-UTQ" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="160">
+    <elementParameter xmi:id="_7GtEIJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cLog_1"/>
+    <elementParameter xmi:id="_7GtEIZWPEfCy3MPMAf-UTQ" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_7GtEIpWPEfCy3MPMAf-UTQ" field="TEXT" name="LOGGING_CATEGORY" value="&quot;intercepted&quot;"/>
+    <elementParameter xmi:id="_7GtEI5WPEfCy3MPMAf-UTQ" field="CLOSED_LIST" name="LEVEL_TYPE" value="INFO"/>
+    <elementParameter xmi:id="_7GtEJJWPEfCy3MPMAf-UTQ" field="RADIO" name="NOTHING" value="false"/>
+    <elementParameter xmi:id="_7GtEJZWPEfCy3MPMAf-UTQ" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_7GtEJpWPEfCy3MPMAf-UTQ" field="TEXT" name="SIZE" value="1"/>
+    <elementParameter xmi:id="_7GtEJ5WPEfCy3MPMAf-UTQ" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_7GtEKJWPEfCy3MPMAf-UTQ" field="TEXT" name="INTERVAL" value="1"/>
+    <elementParameter xmi:id="_7GtEKZWPEfCy3MPMAf-UTQ" field="TEXT" name="DELAY" value="0"/>
+    <elementParameter xmi:id="_7GtEKpWPEfCy3MPMAf-UTQ" field="CHECK" name="ACTIVE_ONLY" value="true"/>
+    <elementParameter xmi:id="_7GtEK5WPEfCy3MPMAf-UTQ" field="RADIO" name="FORMAT" value="true"/>
+    <elementParameter xmi:id="_7GtELJWPEfCy3MPMAf-UTQ" field="TABLE" name="ARGUMENTS">
+      <elementValue xmi:id="_7GtELZWPEfCy3MPMAf-UTQ" elementRef="NAME" value="&quot;showProperties&quot;"/>
+      <elementValue xmi:id="_7GtELpWPEfCy3MPMAf-UTQ" elementRef="VALUE" value="true"/>
+      <elementValue xmi:id="_7GtEL5WPEfCy3MPMAf-UTQ" elementRef="NAME" value="&quot;showHeaders&quot;"/>
+      <elementValue xmi:id="_7GtEMJWPEfCy3MPMAf-UTQ" elementRef="VALUE" value="true"/>
+    </elementParameter>
+    <elementParameter xmi:id="_7GtEMZWPEfCy3MPMAf-UTQ" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_7GtEMpWPEfCy3MPMAf-UTQ" field="TEXT" name="MESSAGE" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_7GtEM5WPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7GtENJWPEfCy3MPMAf-UTQ" componentName="cIntercept" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="320">
+    <elementParameter xmi:id="_7GtENZWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cIntercept_1"/>
+    <elementParameter xmi:id="_7GtENpWPEfCy3MPMAf-UTQ" field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter xmi:id="_7GtEN5WPEfCy3MPMAf-UTQ" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_7GtEOJWPEfCy3MPMAf-UTQ" field="CLOSED_LIST" name="ROUTE_WHEN_LANGUAGES" value="constant"/>
+    <elementParameter xmi:id="_7GtEOZWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7GtEOpWPEfCy3MPMAf-UTQ" componentName="cJavaDSLProcessor" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="320">
+    <elementParameter xmi:id="_7GtEO5WPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cJavaDSLProcessor_1"/>
+    <elementParameter xmi:id="_7GtEPJWPEfCy3MPMAf-UTQ" field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter xmi:id="_7GtEPZWPEfCy3MPMAf-UTQ" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_7GtEPpWPEfCy3MPMAf-UTQ" field="MEMO_JAVA" name="CODE" value=".setProperty(&quot;myRouteContext&quot;).simple(&quot;ref:routeContext&quot;)"/>
+    <elementParameter xmi:id="_7GtEP5WPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7GtEQJWPEfCy3MPMAf-UTQ" componentName="cBeanRegister" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="64">
+    <elementParameter xmi:id="_7GtEQZWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cBeanRegister_1"/>
+    <elementParameter xmi:id="_7GtEQpWPEfCy3MPMAf-UTQ" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_7GtEQ5WPEfCy3MPMAf-UTQ" field="TEXT" name="ID" value="&quot;routeContext&quot;"/>
+    <elementParameter xmi:id="_7GtERJWPEfCy3MPMAf-UTQ" field="RADIO" name="SIMPLE_CONFIG" value="false"/>
+    <elementParameter xmi:id="_7GtERZWPEfCy3MPMAf-UTQ" field="RADIO" name="CONFIG_BY_CODE" value="true"/>
+    <elementParameter xmi:id="_7GtERpWPEfCy3MPMAf-UTQ" field="TEXT" name="CLASS_QUALIFIED_NAME" value="java.util.HashMap"/>
+    <elementParameter xmi:id="_7GtER5WPEfCy3MPMAf-UTQ" field="CHECK" name="SPECIFY_ARGUMENTS" value="false"/>
+    <elementParameter xmi:id="_7GtESJWPEfCy3MPMAf-UTQ" field="TABLE" name="ARGUMENTS"/>
+    <elementParameter xmi:id="_7GtESZWPEfCy3MPMAf-UTQ" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_7GtESpWPEfCy3MPMAf-UTQ" field="LABEL" name="NOTE" value="Note: Provide own codes to specify *beanInstance* variable"/>
+    <elementParameter xmi:id="_7GtES5WPEfCy3MPMAf-UTQ" field="MEMO_JAVA" name="CODE" value="// beanInstance = ....;&#xA;Map&lt;String, Object> routeContext;&#xA;&#xA;routeContext = new HashMap();&#xA;routeContext.put(&quot;key1&quot;, &quot;value1&quot;);&#xA;routeContext.put(&quot;key2&quot;, &quot;value2&quot;);&#xA;beanInstance = routeContext;"/>
+    <elementParameter xmi:id="_7GtETJWPEfCy3MPMAf-UTQ" field="TEXT" name="LABEL" value="routeContext"/>
+    <elementParameter xmi:id="_7GtETZWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7GtETpWPEfCy3MPMAf-UTQ" componentName="cJMS" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="224">
+    <elementParameter xmi:id="_7GtET5WPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cJMS_2"/>
+    <elementParameter xmi:id="_7GtEUJWPEfCy3MPMAf-UTQ" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_7GtEUZWPEfCy3MPMAf-UTQ" field="CLOSED_LIST" name="TYPE" value="queue"/>
+    <elementParameter xmi:id="_7GtEUpWPEfCy3MPMAf-UTQ" field="TEXT" name="DESTINATION" value="&quot;someQueue&quot;"/>
+    <elementParameter xmi:id="_7GtEU5WPEfCy3MPMAf-UTQ" field="ROUTE_COMPONENT_TYPE" name="CONNECTION_FACOTRY_CONFIGURATION" value="cMQConnectionFactory_1"/>
+    <elementParameter xmi:id="_7GtEVJWPEfCy3MPMAf-UTQ" field="TABLE" name="URI_OPTIONS"/>
+    <elementParameter xmi:id="_7GtEVZWPEfCy3MPMAf-UTQ" field="TEXT" name="LABEL" value="someQueue"/>
+    <elementParameter xmi:id="_7GtEVpWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7GtEV5WPEfCy3MPMAf-UTQ" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="224">
+    <elementParameter xmi:id="_7GtEWJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cLog_2"/>
+    <elementParameter xmi:id="_7GtEWZWPEfCy3MPMAf-UTQ" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_7GtEWpWPEfCy3MPMAf-UTQ" field="TEXT" name="LOGGING_CATEGORY" value="&quot;someQueue&quot;"/>
+    <elementParameter xmi:id="_7GtEW5WPEfCy3MPMAf-UTQ" field="CLOSED_LIST" name="LEVEL_TYPE" value="INFO"/>
+    <elementParameter xmi:id="_7GtEXJWPEfCy3MPMAf-UTQ" field="RADIO" name="NOTHING" value="false"/>
+    <elementParameter xmi:id="_7GtEXZWPEfCy3MPMAf-UTQ" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_7GtEXpWPEfCy3MPMAf-UTQ" field="TEXT" name="SIZE" value="1"/>
+    <elementParameter xmi:id="_7GtEX5WPEfCy3MPMAf-UTQ" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_7GtEYJWPEfCy3MPMAf-UTQ" field="TEXT" name="INTERVAL" value="1"/>
+    <elementParameter xmi:id="_7GtEYZWPEfCy3MPMAf-UTQ" field="TEXT" name="DELAY" value="0"/>
+    <elementParameter xmi:id="_7GtEYpWPEfCy3MPMAf-UTQ" field="CHECK" name="ACTIVE_ONLY" value="true"/>
+    <elementParameter xmi:id="_7GtEY5WPEfCy3MPMAf-UTQ" field="RADIO" name="FORMAT" value="true"/>
+    <elementParameter xmi:id="_7GtEZJWPEfCy3MPMAf-UTQ" field="TABLE" name="ARGUMENTS">
+      <elementValue xmi:id="_7GtEZZWPEfCy3MPMAf-UTQ" elementRef="NAME" value="&quot;showProperties&quot;"/>
+      <elementValue xmi:id="_7GtEZpWPEfCy3MPMAf-UTQ" elementRef="VALUE" value="true"/>
+      <elementValue xmi:id="_7GtEZ5WPEfCy3MPMAf-UTQ" elementRef="NAME" value="&quot;showHeaders&quot;"/>
+      <elementValue xmi:id="_7GtEaJWPEfCy3MPMAf-UTQ" elementRef="VALUE" value="true"/>
+    </elementParameter>
+    <elementParameter xmi:id="_7GtEaZWPEfCy3MPMAf-UTQ" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_7GtEapWPEfCy3MPMAf-UTQ" field="TEXT" name="MESSAGE" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_7GtEa5WPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7GtEbJWPEfCy3MPMAf-UTQ" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="320">
+    <elementParameter xmi:id="_7GtEbZWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cLog_3"/>
+    <elementParameter xmi:id="_7GtEbpWPEfCy3MPMAf-UTQ" field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter xmi:id="_7GtEb5WPEfCy3MPMAf-UTQ" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_7GtEcJWPEfCy3MPMAf-UTQ" field="TEXT" name="LOGGING_CATEGORY" value="&quot;RouteContextTest.cLog_3&quot;"/>
+    <elementParameter xmi:id="_7GtEcZWPEfCy3MPMAf-UTQ" field="CLOSED_LIST" name="LEVEL_TYPE" value="INFO"/>
+    <elementParameter xmi:id="_7GtEcpWPEfCy3MPMAf-UTQ" field="RADIO" name="NOTHING" value="false"/>
+    <elementParameter xmi:id="_7GtEc5WPEfCy3MPMAf-UTQ" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_7GtEdJWPEfCy3MPMAf-UTQ" field="TEXT" name="SIZE" value="1"/>
+    <elementParameter xmi:id="_7GtEdZWPEfCy3MPMAf-UTQ" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_7GtEdpWPEfCy3MPMAf-UTQ" field="TEXT" name="INTERVAL" value="1"/>
+    <elementParameter xmi:id="_7GtEd5WPEfCy3MPMAf-UTQ" field="TEXT" name="DELAY" value="0"/>
+    <elementParameter xmi:id="_7GtEeJWPEfCy3MPMAf-UTQ" field="CHECK" name="ACTIVE_ONLY" value="true"/>
+    <elementParameter xmi:id="_7GtEeZWPEfCy3MPMAf-UTQ" field="RADIO" name="FORMAT" value="true"/>
+    <elementParameter xmi:id="_7GtEepWPEfCy3MPMAf-UTQ" field="TABLE" name="ARGUMENTS">
+      <elementValue xmi:id="_7GtEe5WPEfCy3MPMAf-UTQ" elementRef="NAME" value="&quot;showHeaders&quot;"/>
+      <elementValue xmi:id="_7GtEfJWPEfCy3MPMAf-UTQ" elementRef="VALUE" value="true"/>
+    </elementParameter>
+    <elementParameter xmi:id="_7GtEfZWPEfCy3MPMAf-UTQ" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_7GtEfpWPEfCy3MPMAf-UTQ" field="TEXT" name="MESSAGE" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_7GtEf5WPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7GtEgJWPEfCy3MPMAf-UTQ" componentName="cJavaDSLProcessor" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="224">
+    <elementParameter xmi:id="_7GtEgZWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cJavaDSLProcessor_2"/>
+    <elementParameter xmi:id="_7GtEgpWPEfCy3MPMAf-UTQ" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_7GtEg5WPEfCy3MPMAf-UTQ" field="MEMO_JAVA" name="CODE" value="interceptFrom(&quot;.*:routeContextTest&quot;)"/>
+    <elementParameter xmi:id="_7GtEhJWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7GtEhZWPEfCy3MPMAf-UTQ" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="224">
+    <elementParameter xmi:id="_7GtEhpWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cLog_4"/>
+    <elementParameter xmi:id="_7GtEh5WPEfCy3MPMAf-UTQ" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_7GtEiJWPEfCy3MPMAf-UTQ" field="TEXT" name="LOGGING_CATEGORY" value="&quot;RouteContextTest.cLog_4&quot;"/>
+    <elementParameter xmi:id="_7GtEiZWPEfCy3MPMAf-UTQ" field="CLOSED_LIST" name="LEVEL_TYPE" value="INFO"/>
+    <elementParameter xmi:id="_7GtEipWPEfCy3MPMAf-UTQ" field="RADIO" name="NOTHING" value="false"/>
+    <elementParameter xmi:id="_7GtEi5WPEfCy3MPMAf-UTQ" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_7GtEjJWPEfCy3MPMAf-UTQ" field="TEXT" name="SIZE" value="1"/>
+    <elementParameter xmi:id="_7GtEjZWPEfCy3MPMAf-UTQ" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_7GtEjpWPEfCy3MPMAf-UTQ" field="TEXT" name="INTERVAL" value="1"/>
+    <elementParameter xmi:id="_7GtEj5WPEfCy3MPMAf-UTQ" field="TEXT" name="DELAY" value="0"/>
+    <elementParameter xmi:id="_7GtEkJWPEfCy3MPMAf-UTQ" field="CHECK" name="ACTIVE_ONLY" value="true"/>
+    <elementParameter xmi:id="_7GtEkZWPEfCy3MPMAf-UTQ" field="RADIO" name="FORMAT" value="true"/>
+    <elementParameter xmi:id="_7GtEkpWPEfCy3MPMAf-UTQ" field="TABLE" name="ARGUMENTS">
+      <elementValue xmi:id="_7GtEk5WPEfCy3MPMAf-UTQ" elementRef="NAME" value="&quot;showHeaders&quot;"/>
+      <elementValue xmi:id="_7GtElJWPEfCy3MPMAf-UTQ" elementRef="VALUE" value="true"/>
+    </elementParameter>
+    <elementParameter xmi:id="_7GtElZWPEfCy3MPMAf-UTQ" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_7GtElpWPEfCy3MPMAf-UTQ" field="TEXT" name="MESSAGE" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_7GtEl5WPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <connection xmi:id="_7GtEmJWPEfCy3MPMAf-UTQ" connectorName="ROUTE" label="route1" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cJMS_1" target="cLog_1">
+    <elementParameter xmi:id="_7GtEmZWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="route1"/>
+  </connection>
+  <connection xmi:id="_7GtEmpWPEfCy3MPMAf-UTQ" connectorName="ROUTE_WHEN" label="when1" lineStyle="15" metaname="cIntercept_1" offsetLabelX="0" offsetLabelY="0" source="cIntercept_1" target="cLog_3">
+    <elementParameter xmi:id="_7GtEm5WPEfCy3MPMAf-UTQ" field="CLOSED_LIST" name="ROUTETYPE" value="constant"/>
+    <elementParameter xmi:id="_7GtEnJWPEfCy3MPMAf-UTQ" field="MEMO_JAVA" name="CONDITION" value="&quot;${header[&quot; + org.apache.camel.Exchange.INTERCEPTED_ENDPOINT + &quot;]} contains 'routeContextTest'&quot;"/>
+    <elementParameter xmi:id="_7GtEnZWPEfCy3MPMAf-UTQ" field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter xmi:id="_7GtEnpWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="when1"/>
+  </connection>
+  <connection xmi:id="_7GtEn5WPEfCy3MPMAf-UTQ" connectorName="ROUTE" label="route2" lineStyle="14" metaname="cJMS_2" offsetLabelX="0" offsetLabelY="0" source="cJMS_2" target="cLog_2">
+    <elementParameter xmi:id="_7GtEoJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="route2"/>
+  </connection>
+  <connection xmi:id="_7GtEoZWPEfCy3MPMAf-UTQ" connectorName="ROUTE" label="route4" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cLog_3" target="cJavaDSLProcessor_1">
+    <elementParameter xmi:id="_7GtEopWPEfCy3MPMAf-UTQ" field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter xmi:id="_7GtEo5WPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="route4"/>
+  </connection>
+  <connection xmi:id="_7GtEpJWPEfCy3MPMAf-UTQ" connectorName="ROUTE" label="route5" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cJavaDSLProcessor_2" target="cLog_4">
+    <elementParameter xmi:id="_7GtEpZWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="route5"/>
+  </connection>
+  <note xmi:id="_7GtEppWPEfCy3MPMAf-UTQ" opaque="true" posX="384" posY="32" sizeHeight="129" sizeWidth="513" text="InterceptFrom (and InterceptTo) must be created with cJavaDSL&#xD;&#xA;rather than the Intercept component.  They have a different &#xD;&#xA;message header contract, populating Exchange.INTERCEPTED_ENDPOINT.&#xD;&#xA;Even if the when condition is fixed it is much more expensive because&#xD;&#xA;the cIntercept checks every step in the route."/>
+  <subjob xmi:id="_7GtEp5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7GtEqJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cMQConnectionFactory_1"/>
+    <elementParameter xmi:id="_7GtEqZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_7GtEqpWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7GtEq5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7GtErJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cJMS_1"/>
+    <elementParameter xmi:id="_7GtErZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_7GtErpWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7GtEr5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7GtEsJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cLog_1"/>
+    <elementParameter xmi:id="_7GtEsZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_7GtEspWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7GtEs5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7GtEtJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cIntercept_1"/>
+    <elementParameter xmi:id="_7GtEtZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_7GtEtpWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7GtEt5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7GtEuJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cJavaDSLProcessor_1"/>
+    <elementParameter xmi:id="_7GtEuZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_7GtEupWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7GtEu5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7GtEvJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cBeanRegister_1"/>
+    <elementParameter xmi:id="_7GtEvZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_7GtEvpWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7GtEv5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7GtEwJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cJMS_2"/>
+    <elementParameter xmi:id="_7GtEwZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_7GtEwpWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7GtEw5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7GtExJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cLog_2"/>
+    <elementParameter xmi:id="_7GtExZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_7GtExpWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7GtEx5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7GtEyJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cLog_3"/>
+    <elementParameter xmi:id="_7GtEyZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_7GtEypWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7GtEy5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7GtEzJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cJavaDSLProcessor_2"/>
+    <elementParameter xmi:id="_7GtEzZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_7GtEzpWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7GtEz5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7GtE0JWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cLog_4"/>
+    <elementParameter xmi:id="_7GtE0ZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_7GtE0pWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+</talendfile:ProcessType>

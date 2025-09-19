@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="target_state" prompt="target_state?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MA" internalId="_hYH4kBgGEeu7NborGg88uA"/>
+    <contextParameter comment="" name="aws_access_key" prompt="aws_access_key?" promptNeeded="false" repositoryContextId="_UcS2EH8NEeqatM4uq0BJ5A" type="id_String" value="AKIARVSPO47N5YXF2CRM" internalId="_KbiLECfrEeulqOff9TooGQ"/>
+    <contextParameter comment="" name="aws_secret_key" prompt="aws_secret_key?" promptNeeded="false" repositoryContextId="_UcS2EH8NEeqatM4uq0BJ5A" type="id_Password" value="enc:system.encryption.key.v1:7feK2DT2XAwDdyGQioH2Xzj7BRqliLGErUykP23cOgbVbQH1Ui7g7Mod3Ww2m4tTpjIkjTdRqPFEIO3pcQVsoR/Ta1I=" internalId="_KbiyICfrEeulqOff9TooGQ"/>
+    <contextParameter comment="" name="aws_rds_containers_AdditionalParams" prompt="aws_rds_containers_AdditionalParams?" promptNeeded="false" repositoryContextId="_0_oVQO-NEemliJhmMRgfWw" type="id_String" value="noDatetimeStringSync=true" internalId="_KbiyISfrEeulqOff9TooGQ"/>
+    <contextParameter comment="" name="aws_rds_containers_Database" prompt="aws_rds_containers_Database?" promptNeeded="false" repositoryContextId="_0_oVQO-NEemliJhmMRgfWw" type="id_String" value="eost_demodb" internalId="_KbiyIifrEeulqOff9TooGQ"/>
+    <contextParameter comment="" name="aws_rds_containers_Login" prompt="aws_rds_containers_Login?" promptNeeded="false" repositoryContextId="_0_oVQO-NEemliJhmMRgfWw" type="id_String" value="eost" internalId="_KbiyIyfrEeulqOff9TooGQ"/>
+    <contextParameter comment="" name="aws_rds_containers_Password" prompt="aws_rds_containers_Password?" promptNeeded="false" repositoryContextId="_0_oVQO-NEemliJhmMRgfWw" type="id_Password" value="enc:system.encryption.key.v1:o9+fJUfEQEkSRKO4aJm5w9W8JQENZLaDq7G2/QQuzcJkQbmI" internalId="_KbiyJCfrEeulqOff9TooGQ"/>
+    <contextParameter comment="" name="aws_rds_containers_Port" prompt="aws_rds_containers_Port?" promptNeeded="false" repositoryContextId="_0_oVQO-NEemliJhmMRgfWw" type="id_String" value="3306" internalId="_KbiyJSfrEeulqOff9TooGQ"/>
+    <contextParameter comment="" name="aws_rds_containers_Server" prompt="aws_rds_containers_Server?" promptNeeded="false" repositoryContextId="_0_oVQO-NEemliJhmMRgfWw" type="id_String" value="uspresales-west-mysql.cbpnmjkf0hbr.us-west-2.rds.amazonaws.com" internalId="_KbiyJifrEeulqOff9TooGQ"/>
+    <contextParameter comment="" name="aws_rds_customerorders_AdditionalParams" prompt="aws_rds_customerorders_AdditionalParams?" promptNeeded="false" repositoryContextId="_X9Fv8O-JEemliJhmMRgfWw" type="id_String" value="noDatetimeStringSync=true" internalId="_KbiyJyfrEeulqOff9TooGQ"/>
+    <contextParameter comment="" name="aws_rds_customerorders_Database" prompt="aws_rds_customerorders_Database?" promptNeeded="false" repositoryContextId="_X9Fv8O-JEemliJhmMRgfWw" type="id_String" value="eost_demodb" internalId="_KbiyKCfrEeulqOff9TooGQ"/>
+    <contextParameter comment="" name="aws_rds_customerorders_Login" prompt="aws_rds_customerorders_Login?" promptNeeded="false" repositoryContextId="_X9Fv8O-JEemliJhmMRgfWw" type="id_String" value="eost" internalId="_KbiyKSfrEeulqOff9TooGQ"/>
+    <contextParameter comment="" name="aws_rds_customerorders_Password" prompt="aws_rds_customerorders_Password?" promptNeeded="false" repositoryContextId="_X9Fv8O-JEemliJhmMRgfWw" type="id_Password" value="enc:system.encryption.key.v1:mxj3I8JR6/loljEMBC5Wg1iH16aPGFT0zwNbfhFtdl8Mgfda" internalId="_KbiyKifrEeulqOff9TooGQ"/>
+    <contextParameter comment="" name="aws_rds_customerorders_Port" prompt="aws_rds_customerorders_Port?" promptNeeded="false" repositoryContextId="_X9Fv8O-JEemliJhmMRgfWw" type="id_String" value="3306" internalId="_KbiyKyfrEeulqOff9TooGQ"/>
+    <contextParameter comment="" name="aws_rds_customerorders_Server" prompt="aws_rds_customerorders_Server?" promptNeeded="false" repositoryContextId="_X9Fv8O-JEemliJhmMRgfWw" type="id_String" value="uspresales-west-mysql.cbpnmjkf0hbr.us-west-2.rds.amazonaws.com" internalId="_KbiyLCfrEeulqOff9TooGQ"/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="true"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="true"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" value="false" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="_8vR4gOmuEemvcrLQOldEsw" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="tMysqlInput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="MYSQL_5"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="context.aws_rds_containers_Server"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="context.aws_rds_containers_Port"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="context.aws_rds_containers_Database"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="context.aws_rds_containers_Database" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="context.aws_rds_containers_AdditionalParams"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="context.aws_rds_containers_Login"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:6hHvsQmiSrMroLzDQREvc+tVo3zbeS5qqRPOQSWpxsiU1351mMePxsiYf7o09w8MPFk9oIjUSYm+DXgQidw0"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;container_parameters&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;job_id='&quot; + java.util.Optional.ofNullable( System.getenv().get(&quot;JOB_ID&quot;) ).orElse(&quot;test_enrich_customer_icl&quot;)+ &quot;'&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="true"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Talend/amc_splunk&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tMysqlOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;amc&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;tadmin&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:/568QTZNfqt055CK3QBnKU9cjvL6EvTbpj7e3MGxRwCDwLjh" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;stats&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;log&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;flowmeter&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="true"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter id="_eXl-gE7HEeKuZ4bEBM7HYw" name="DQTechnical"/>
+    <routinesParameter id="_eUxUAE7HEeKuZ4bEBM7HYw" name="DataOperation"/>
+    <routinesParameter id="_eWo8QE7HEeKuZ4bEBM7HYw" name="DataQuality"/>
+    <routinesParameter id="_eXeCsE7HEeKuZ4bEBM7HYw" name="DqStringHandling"/>
+    <routinesParameter id="_eVg64E7HEeKuZ4bEBM7HYw" name="Mathematical"/>
+    <routinesParameter id="_eVoPoE7HEeKuZ4bEBM7HYw" name="Numeric"/>
+    <routinesParameter id="_eVvkYE7HEeKuZ4bEBM7HYw" name="Relational"/>
+    <routinesParameter id="_buB7QE7HEeKuZ4bEBM7HYw" name="SQLike"/>
+    <routinesParameter id="_eV1D8E7HEeKuZ4bEBM7HYw" name="StringHandling"/>
+    <routinesParameter id="_eV_cAE7HEeKuZ4bEBM7HYw" name="TalendDataGenerator"/>
+    <routinesParameter id="_eWHX0E7HEeKuZ4bEBM7HYw" name="TalendDate"/>
+    <routinesParameter id="_eWQhwE7HEeKuZ4bEBM7HYw" name="TalendString"/>
+    <routinesParameter id="_22H_AJ2nEeWeaPBmoJJIeg" name="DataQualityDependencies"/>
+    <routinesParameter id="_YcJWgEblEea-na-KC6eDKg" name="DataMasking"/>
+    <routinesParameter id="_kHAEkPMAEeipxtU1n6Hp2w" name="TalendStringUtil"/>
+  </parameters>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="Enrich_Customer"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_HgHdQO8zEem69OEm_-3pJw"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="USE_BASE64" value="false"/>
+    <metadata connector="FLOW" name="tRunJob_1"/>
+  </node>
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFixedFlowInput_1" show="false"/>
+    <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
+    <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
+    <elementParameter field="TABLE" name="VALUES">
+      <elementValue elementRef="SCHEMA_COLUMN" value="target_state"/>
+      <elementValue elementRef="VALUE" value="context.target_state"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="job_id"/>
+      <elementValue elementRef="VALUE" value="java.util.Optional.ofNullable( System.getenv().get(&quot;JOB_ID&quot;) ).orElse(&quot;test_enrich_customer_icl&quot;)"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
+    <elementParameter field="TABLE" name="INTABLE" show="false"/>
+    <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;" show="false"/>
+    <elementParameter field="MEMO" name="INLINECONTENT" value="" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFixedFlowInput_1">
+      <column comment="" key="false" length="-1" name="target_state" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="job_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="target_state"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="job_id"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_1">
+      <column comment="" key="false" length="-1" name="target_state" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="job_id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tLogRow_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="target_state"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="job_id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tRunJob_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
+  </connection>
+  <note opaque="true" posX="672" posY="64" sizeHeight="193" sizeWidth="513" text="This example uses Implicit Context Load.&#xD;&#xA;It uses the environment variable JOB_ID to&#xD;&#xA;lookup the context variables in a database.&#xD;&#xA;If the JOB_ID environment var is not set, it&#xD;&#xA;will default to &quot;test_enrich_customer&quot;."/>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFixedFlowInput_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

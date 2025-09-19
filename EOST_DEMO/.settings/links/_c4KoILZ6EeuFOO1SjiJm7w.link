@@ -1,0 +1,48 @@
+{
+  "itemId" : "_c4KoILZ6EeuFOO1SjiJm7w",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_Jz4IgK1eEeuw5ritRo8M1g",
+    "parameterList" : [ {
+      "id" : "_J0JORK1eEeuw5ritRo8M1g",
+      "name" : "local_mysql_AdditionalParams"
+    }, {
+      "id" : "_J0JORq1eEeuw5ritRo8M1g",
+      "name" : "local_mysql_Database"
+    }, {
+      "id" : "_J0JOQq1eEeuw5ritRo8M1g",
+      "name" : "local_mysql_Login"
+    }, {
+      "id" : "_J0JOQa1eEeuw5ritRo8M1g",
+      "name" : "local_mysql_Password"
+    }, {
+      "id" : "_J0JOQ61eEeuw5ritRo8M1g",
+      "name" : "local_mysql_Port"
+    }, {
+      "id" : "_J0JORa1eEeuw5ritRo8M1g",
+      "name" : "local_mysql_Server"
+    } ]
+  }, {
+    "contextName" : "docker",
+    "repoId" : "_Jz4IgK1eEeuw5ritRo8M1g",
+    "parameterList" : [ {
+      "id" : "_DX6xMTCzEe6M2t4ERruDkw",
+      "name" : "local_mysql_Password"
+    }, {
+      "id" : "_DX6xMjCzEe6M2t4ERruDkw",
+      "name" : "local_mysql_Login"
+    }, {
+      "id" : "_DX6xMzCzEe6M2t4ERruDkw",
+      "name" : "local_mysql_Port"
+    }, {
+      "id" : "_DX6xNDCzEe6M2t4ERruDkw",
+      "name" : "local_mysql_AdditionalParams"
+    }, {
+      "id" : "_DX6xNTCzEe6M2t4ERruDkw",
+      "name" : "local_mysql_Server"
+    }, {
+      "id" : "_DX6xNjCzEe6M2t4ERruDkw",
+      "name" : "local_mysql_Database"
+    } ]
+  } ]
+}

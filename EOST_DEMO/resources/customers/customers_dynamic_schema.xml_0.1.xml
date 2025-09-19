@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+	<column comment="" default="" key="true" label="sysid" length="4" nullable="false" originalDbColumnName="" pattern="&quot;dd-MM-yyyy&quot;" precision="0" talendType="id_Integer"/>
+	<column comment="" default="" key="false" label="customerId" length="5" nullable="false" originalDbColumnName="" pattern="&quot;dd-MM-yyyy&quot;" precision="0" talendType="id_String"/>
+	<column comment="" default="" key="false" label="last" length="10" nullable="false" originalDbColumnName="" pattern="&quot;dd-MM-yyyy&quot;" precision="0" talendType="id_String"/>
+	<column comment="" default="" key="false" label="first" length="10" nullable="true" originalDbColumnName="" pattern="&quot;dd-MM-yyyy&quot;" precision="0" talendType="id_String"/>
+	<column comment="" default="" key="false" label="gender" length="1" nullable="true" originalDbColumnName="" pattern="&quot;dd-MM-yyyy&quot;" precision="0" talendType="id_Character"/>
+</schema>

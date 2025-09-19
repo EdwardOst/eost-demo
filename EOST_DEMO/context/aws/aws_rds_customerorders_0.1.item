@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_9ERuIH8JEeqatM4uq0BJ5A" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_9ERuIX8JEeqatM4uq0BJ5A" comment="" name="aws_rds_customerorders_Login" prompt="aws_rds_customerorders_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="eost"/>
+  <contextParameter xmi:id="_9ERuIn8JEeqatM4uq0BJ5A" comment="" name="aws_rds_customerorders_AdditionalParams" prompt="aws_rds_customerorders_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true"/>
+  <contextParameter xmi:id="_9ERuI38JEeqatM4uq0BJ5A" comment="" name="aws_rds_customerorders_Password" prompt="aws_rds_customerorders_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:0FamkR8+ZEVukt3vwViLPrUO7tIKvdGudG8VyCS67hLGm9/N"/>
+  <contextParameter xmi:id="_9ERuJH8JEeqatM4uq0BJ5A" comment="" name="aws_rds_customerorders_Database" prompt="aws_rds_customerorders_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="eost_demodb"/>
+  <contextParameter xmi:id="_9ERuJX8JEeqatM4uq0BJ5A" comment="" name="aws_rds_customerorders_Server" prompt="aws_rds_customerorders_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="uspresales-west-mysql.cbpnmjkf0hbr.us-west-2.rds.amazonaws.com"/>
+  <contextParameter xmi:id="_9ERuJn8JEeqatM4uq0BJ5A" comment="" name="aws_rds_customerorders_Port" prompt="aws_rds_customerorders_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+</talendfile:ContextType>

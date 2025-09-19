@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_7N6fAZWPEfCy3MPMAf-UTQ" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_7N6fApWPEfCy3MPMAf-UTQ" confirmationNeeded="false" hide="false" name="Default"/>
+  <parameters xmi:id="_7N6fA5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7N6fBJWPEfCy3MPMAf-UTQ" field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter xmi:id="_7N6fBZWPEfCy3MPMAf-UTQ" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_7N6fBpWPEfCy3MPMAf-UTQ" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_7N6fB5WPEfCy3MPMAf-UTQ" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_7N6fCJWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_7N6fCZWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_7N6fCpWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_7N6fC5WPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_7N6fDJWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_7N6fDZWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_7N6fDpWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_7N6fD5WPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_7N6fEJWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_7N6fEZWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_7N6fEpWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_7N6fE5WPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_7N6fFJWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_7N6fFZWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+  </parameters>
+  <node xmi:id="_7N6fFpWPEfCy3MPMAf-UTQ" componentName="cConfig" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="200">
+    <elementParameter xmi:id="_7N6fF5WPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cConfig_1" show="false"/>
+    <elementParameter xmi:id="_7N6fGJWPEfCy3MPMAf-UTQ" field="MEMO_JAVA" name="CODE" value="&#xA;/*&#xA;*&#x9;Here you can put Java code that will be used within the route.&#xA;* &#xA;*   Usually you would register custom components in camelContext or&#xA;*   manipulate typeConverterRegistry.&#xA;*  &#xA;*   Needed libraries and import statements must be added in Advanced settings.&#xA;*&#xA;*   For example:&#xA;* &#xA;*     // Declaring a custom component in the Camel Context&#xA;*     camelContext.addComponent(&quot;component&quot;, new  org.apache.camel.component.dataset.DataSetComponent());&#xA;* &#xA;*     // Register a special type conversion &#xA;*     typeConverterRegistry.addTypeConverter(String.class, Object.class, new org.apache.camel.impl.converter.ToStringTypeConverter());&#xA;*/&#xA;"/>
+    <elementParameter xmi:id="_7N6fGZWPEfCy3MPMAf-UTQ" field="CHECK" name="USE_MDC_LOGGING" value="false"/>
+    <elementParameter xmi:id="_7N6fGpWPEfCy3MPMAf-UTQ" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_7N6fG5WPEfCy3MPMAf-UTQ" field="TABLE" name="DRIVER_JAR"/>
+    <elementParameter xmi:id="_7N6fHJWPEfCy3MPMAf-UTQ" field="LABEL" name="WARNING" value="*Note: External JARs will not be embedded in OSGi bundle by default, to configure it please edit Route Dependencies"/>
+    <elementParameter xmi:id="_7N6fHZWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_7N6fHpWPEfCy3MPMAf-UTQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <subjob xmi:id="_7N6fH5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7N6fIJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cConfig_1" show="false"/>
+  </subjob>
+</talendfile:ProcessType>

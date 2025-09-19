@@ -1,0 +1,11 @@
+{
+  "itemId" : "_0aw-cNN3Ee-LEqx2-n1UEA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_VW6nMME0Ee-wt_7LLKUIZw",
+    "parameterList" : [ {
+      "id" : "_Xv6PYMCmEe-wt_7LLKUIZw",
+      "name" : "enable_log_bitbucket"
+    } ]
+  } ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_9EIkMH8JEeqatM4uq0BJ5A" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_9EIkMX8JEeqatM4uq0BJ5A" comment="" name="aws_rds_containers_Login" prompt="aws_rds_containers_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="eost"/>
+  <contextParameter xmi:id="_9EIkMn8JEeqatM4uq0BJ5A" comment="" name="aws_rds_containers_AdditionalParams" prompt="aws_rds_containers_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true"/>
+  <contextParameter xmi:id="_9EIkM38JEeqatM4uq0BJ5A" comment="" name="aws_rds_containers_Password" prompt="aws_rds_containers_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:ne2mFkKbX/AOutbEfO1w/TB6am1XDyeMmmRF8jqiFprM+Szw"/>
+  <contextParameter xmi:id="_9EIkNH8JEeqatM4uq0BJ5A" comment="" name="aws_rds_containers_Database" prompt="aws_rds_containers_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="eost_demodb"/>
+  <contextParameter xmi:id="_9EIkNX8JEeqatM4uq0BJ5A" comment="" name="aws_rds_containers_Server" prompt="aws_rds_containers_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="uspresales-west-mysql.cbpnmjkf0hbr.us-west-2.rds.amazonaws.com"/>
+  <contextParameter xmi:id="_9EIkNn8JEeqatM4uq0BJ5A" comment="" name="aws_rds_containers_Port" prompt="aws_rds_containers_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+</talendfile:ContextType>

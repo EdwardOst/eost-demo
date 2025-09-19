@@ -1,0 +1,8 @@
+executionRoleArn=myExecutionRoleArn
+family=myFamily
+cpu=myCpu
+memory=myMemory
+container_name=myContainerName
+image=myImage
+awslogs_group=myAwslogsGroup
+awslogs_region=myAwslogsRegion

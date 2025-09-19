@@ -1,0 +1,22 @@
+{
+	"executionRoleArn" : "$executionRoleArn",
+	"networkMode" : "$networkMode",
+	"requiresCompatibilities" : ["FARGATE"] ,
+	"family" : "$family",
+	"cpu": "$cpu",
+	"memory": "$memory",
+	"containerDefinitions":   [
+		{
+			"name": "$container_name",
+			"image": "$image",
+            "logConfiguration": {
+				"logDriver": "awslogs",
+				"options": {
+					"awslogs-group" : "$awslogs_group",
+					"awslogs-region": "$awslogs_region",
+					"awslogs-stream-prefix" : "ecs"
+				}
+			}
+		}
+	]
+}

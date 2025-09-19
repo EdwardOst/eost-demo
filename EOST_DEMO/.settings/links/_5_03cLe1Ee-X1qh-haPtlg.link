@@ -1,0 +1,24 @@
+{
+  "itemId" : "_5_03cLe1Ee-X1qh-haPtlg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_klaiULVaEe-338E6sqP1dQ",
+    "parameterList" : [ {
+      "id" : "_p336cLVaEe-338E6sqP1dQ",
+      "name" : "working_folder"
+    }, {
+      "id" : "_xuhskLiaEe-X1qh-haPtlg",
+      "name" : "working_subfolder"
+    } ]
+  }, {
+    "contextName" : "service_account_test",
+    "repoId" : "_klaiULVaEe-338E6sqP1dQ",
+    "parameterList" : [ {
+      "id" : "_p336cLVaEe-338E6sqP1dQ",
+      "name" : "working_folder"
+    }, {
+      "id" : "_xuhskLiaEe-X1qh-haPtlg",
+      "name" : "working_subfolder"
+    } ]
+  } ]
+}

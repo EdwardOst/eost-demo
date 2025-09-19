@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_R_6hEIt8Ee-v1IJwYj0hww" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="_SAtLQIt8Ee-v1IJwYj0hww" comment="" name="input_folder" prompt="input_folder?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="/tmp/talend/demo/patterns/parallel_extract_and_transform/input"/>
+  <contextParameter xmi:id="_SAtLQYt8Ee-v1IJwYj0hww" comment="" name="staging_folder" prompt="staging_folder?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="/tmp/talend/demo/patterns/parallel_extract_and_transform/staging"/>
+  <contextParameter xmi:id="_SAtLQot8Ee-v1IJwYj0hww" comment="" name="output_folder" prompt="output_folder?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="/tmp/talend/demo/patterns/parallel_extract_and_transform/output"/>
+  <contextParameter xmi:id="_bfI_IIt9Ee-v1IJwYj0hww" comment="" name="sample_data_folder" prompt="sample_data_folder?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="/tmp/talend/demo/patterns/parallel_extract_and_transform/sample_data"/>
+</talendfile:ContextType>

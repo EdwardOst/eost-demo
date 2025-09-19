@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_7G54EJWPEfCy3MPMAf-UTQ" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_7G54EZWPEfCy3MPMAf-UTQ" confirmationNeeded="false" name="Default"/>
+  <parameters xmi:id="_7G54EpWPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7G54E5WPEfCy3MPMAf-UTQ" field="TEXT" name="SCREEN_OFFSET_X" value="27" show="false"/>
+    <elementParameter xmi:id="_7G54FJWPEfCy3MPMAf-UTQ" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_7G54FZWPEfCy3MPMAf-UTQ" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_7G54FpWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_7G54F5WPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_7G54GJWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_7G54GZWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_7G54GpWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_7G54G5WPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_7G54HJWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_7G54HZWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_7G54HpWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_7G54H5WPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_7G54IJWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_7G54IZWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_7G54IpWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_7G54I5WPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <routinesParameter xmi:id="_7G54JJWPEfCy3MPMAf-UTQ" id="_VNoi0GIWEeGfO7GPYkJUUQ" name="DQTechnical"/>
+    <routinesParameter xmi:id="_7G54JZWPEfCy3MPMAf-UTQ" id="_egw9QCn-EeGo7Z_hCcWhpg" name="DataOperation"/>
+    <routinesParameter xmi:id="_7G54JpWPEfCy3MPMAf-UTQ" id="_VNL24GIWEeGfO7GPYkJUUQ" name="DataQuality"/>
+    <routinesParameter xmi:id="_7G54J5WPEfCy3MPMAf-UTQ" id="_VNex0GIWEeGfO7GPYkJUUQ" name="DqStringHandling"/>
+    <routinesParameter xmi:id="_7G54KJWPEfCy3MPMAf-UTQ" id="_eivTMCn-EeGo7Z_hCcWhpg" name="Mathematical"/>
+    <routinesParameter xmi:id="_7G54KZWPEfCy3MPMAf-UTQ" id="_ei32ECn-EeGo7Z_hCcWhpg" name="Numeric"/>
+    <routinesParameter xmi:id="_7G54KpWPEfCy3MPMAf-UTQ" id="_ei9VoCn-EeGo7Z_hCcWhpg" name="Relational"/>
+    <routinesParameter xmi:id="_7G54K5WPEfCy3MPMAf-UTQ" id="_ejikcCn-EeGo7Z_hCcWhpg" name="SQLike"/>
+    <routinesParameter xmi:id="_7G54LJWPEfCy3MPMAf-UTQ" id="_ejEqYCn-EeGo7Z_hCcWhpg" name="StringHandling"/>
+    <routinesParameter xmi:id="_7G54LZWPEfCy3MPMAf-UTQ" id="_ejNNQCn-EeGo7Z_hCcWhpg" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_7G54LpWPEfCy3MPMAf-UTQ" id="_ejT68Cn-EeGo7Z_hCcWhpg" name="TalendDate"/>
+    <routinesParameter xmi:id="_7G54L5WPEfCy3MPMAf-UTQ" id="_ejbPsCn-EeGo7Z_hCcWhpg" name="TalendString"/>
+    <routinesParameter xmi:id="_7G54MJWPEfCy3MPMAf-UTQ" id="_HKXfQGIZEd26GZmhFZLTPA" name="GetRandomPhoneNum"/>
+    <routinesParameter xmi:id="_7G54MZWPEfCy3MPMAf-UTQ" id="_fdr5oHwdEeqfV_f2PFQEig" name="TalendStringUtil"/>
+    <routinesParameter xmi:id="_7G54MpWPEfCy3MPMAf-UTQ" id="_fdynUHwdEeqfV_f2PFQEig" name="DataMasking"/>
+    <routinesParameter xmi:id="_7G54M5WPEfCy3MPMAf-UTQ" id="_fd58EHwdEeqfV_f2PFQEig" name="DataQualityDependencies"/>
+  </parameters>
+  <node xmi:id="_7G54NJWPEfCy3MPMAf-UTQ" componentName="cJMS" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="160">
+    <elementParameter xmi:id="_7G54NZWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cJMS_2" show="false"/>
+    <elementParameter xmi:id="_7G54NpWPEfCy3MPMAf-UTQ" field="CLOSED_LIST" name="TYPE" value="queue"/>
+    <elementParameter xmi:id="_7G54N5WPEfCy3MPMAf-UTQ" field="TEXT" name="DESTINATION" value="&quot;customerService&quot;"/>
+    <elementParameter xmi:id="_7G54OJWPEfCy3MPMAf-UTQ" field="ROUTE_COMPONENT_TYPE" name="CONNECTION_FACOTRY_CONFIGURATION" value="springDaoProxySenderConnectionFacotry"/>
+    <elementParameter xmi:id="_7G54OZWPEfCy3MPMAf-UTQ" field="TABLE" name="URI_OPTIONS"/>
+    <elementParameter xmi:id="_7G54OpWPEfCy3MPMAf-UTQ" field="TEXT" name="LABEL" value="springDaoProxySender"/>
+    <elementParameter xmi:id="_7G54O5WPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7G54PJWPEfCy3MPMAf-UTQ" componentName="cMessagingEndpoint" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="160">
+    <elementParameter xmi:id="_7G54PZWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_2" show="false"/>
+    <elementParameter xmi:id="_7G54PpWPEfCy3MPMAf-UTQ" field="TEXT" name="URI" value="&quot;timer?springDaoProxy?period=1000&amp;repeatCount=1&quot;"/>
+    <elementParameter xmi:id="_7G54P5WPEfCy3MPMAf-UTQ" field="TABLE" name="HOTLIBS"/>
+    <elementParameter xmi:id="_7G54QJWPEfCy3MPMAf-UTQ" field="CHECK" name="USE_CUSTOM_COMPONENT" value="false"/>
+    <elementParameter xmi:id="_7G54QZWPEfCy3MPMAf-UTQ" field="MODULE_LIST" name="LIBRARY" value="" show="false"/>
+    <elementParameter xmi:id="_7G54QpWPEfCy3MPMAf-UTQ" field="TEXT" name="LABEL" value="springDaoProxyTimer"/>
+    <elementParameter xmi:id="_7G54Q5WPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7G54RJWPEfCy3MPMAf-UTQ" componentName="cConfig" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="64">
+    <elementParameter xmi:id="_7G54RZWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cConfig_1" show="false"/>
+    <elementParameter xmi:id="_7G54RpWPEfCy3MPMAf-UTQ" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_7G54R5WPEfCy3MPMAf-UTQ" field="MEMO_JAVA" name="CODE" value="&#xA;&#x9;&#x9;&#x9;  /*&#xA;&#x9;&#x9;&#x9;  *&#x9;Please write java codes of manipulate CamelContext here. &#xA;&#x9;&#x9;&#x9;  *   Here are some defined variables: &#xA;&#x9;&#x9;&#x9;  *     1 camelContext: for manipulate CamelContext&#xA;&#x9;&#x9;&#x9;  *     2 typeConverterRegistry: for type TypeConverter registry&#xA;&#x9;&#x9;&#x9;  *   Examples:&#xA;&#x9;&#x9;&#x9;  *     1 camelContext.addComponent(&quot;component&quot;, new  org.apache.camel.component.dataset.DataSetComponent());&#xA;&#x9;&#x9;&#x9;  *     2 typeConverterRegistry.addTypeConverter(String.class, Object.class, new org.apache.camel.impl.converter.ToStringTypeConverter());&#xA;&#x9;&#x9;&#x9;  */&#xA;&#xA;&#xA;camelContext = beans.CamelUtil.loadSpring(new String[]{&quot;file:C:/Users/EdwardOst/workspace/indigo/demo/customers/src/main/resources/META-INF/spring/customerService.xml&quot;}, camelContext, &quot;camel-customerService&quot;);&#xA;&#xA;// how to get a handle on the Spring Context from the camelContext&#xA;beans.ContextHandle contextHandle = camelContext.getRegistry().lookup(&quot;contextHandle&quot;, beans.ContextHandle.class);&#xA;org.springframework.context.ApplicationContext applicationContext = contextHandle.getApplicationContext();&#xA;System.out.println(&quot;SpringApplicationContext id = &quot; + applicationContext.getId());&#xA;&#xA;System.out.println(&quot;*********** cConfig ***********&quot;);&#xA;System.out.println(&quot;&quot;);&#xA;System.out.println(&quot;Registry: &quot; + beans.CamelUtil.printRegistry(camelContext));&#xA;System.out.println(&quot;Endpoints&quot;);&#xA;System.out.println(beans.CamelUtil.printEndpoints(camelContext));&#xA;System.out.println(&quot;Components&quot;);&#xA;System.out.println(beans.CamelUtil.printComponents(camelContext));&#xA;System.out.println(&quot;Routes&quot;);&#xA;System.out.println(beans.CamelUtil.printRoutes(camelContext));&#xA;System.out.println(&quot;&quot;);&#xA;System.out.println(&quot;*********** cConfig ***********&quot;);&#xA;&#xA;"/>
+    <elementParameter xmi:id="_7G54SJWPEfCy3MPMAf-UTQ" field="TABLE" name="DRIVER_JAR_SE" show="false"/>
+    <elementParameter xmi:id="_7G54SZWPEfCy3MPMAf-UTQ" field="TABLE" name="DRIVER_JAR">
+      <elementValue xmi:id="_7G54SpWPEfCy3MPMAf-UTQ" elementRef="JAR_NAME" value="log4j-1.2.16.jar"/>
+      <elementValue xmi:id="_7G54S5WPEfCy3MPMAf-UTQ" elementRef="JAR_PATH" value=""/>
+      <elementValue xmi:id="_7G54TJWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_VERSION" value=""/>
+      <elementValue xmi:id="_7G54TZWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_PRE_VERSION" value=""/>
+      <elementValue xmi:id="_7G54TpWPEfCy3MPMAf-UTQ" elementRef="JAR_NAME" value="log4j-properties.jar"/>
+      <elementValue xmi:id="_7G54T5WPEfCy3MPMAf-UTQ" elementRef="JAR_PATH" value=""/>
+      <elementValue xmi:id="_7G54UJWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_VERSION" value=""/>
+      <elementValue xmi:id="_7G54UZWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_PRE_VERSION" value=""/>
+      <elementValue xmi:id="_7G54UpWPEfCy3MPMAf-UTQ" elementRef="JAR_NAME" value="spring-asm-3.0.6.RELEASE.jar"/>
+      <elementValue xmi:id="_7G54U5WPEfCy3MPMAf-UTQ" elementRef="JAR_PATH" value=""/>
+      <elementValue xmi:id="_7G54VJWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_VERSION" value=""/>
+      <elementValue xmi:id="_7G54VZWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_PRE_VERSION" value=""/>
+      <elementValue xmi:id="_7G54VpWPEfCy3MPMAf-UTQ" elementRef="JAR_NAME" value="spring-beans-3.0.6.RELEASE.jar"/>
+      <elementValue xmi:id="_7G54V5WPEfCy3MPMAf-UTQ" elementRef="JAR_PATH" value=""/>
+      <elementValue xmi:id="_7G54WJWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_VERSION" value=""/>
+      <elementValue xmi:id="_7G54WZWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_PRE_VERSION" value=""/>
+      <elementValue xmi:id="_7G54WpWPEfCy3MPMAf-UTQ" elementRef="JAR_NAME" value="spring-core-3.0.6.RELEASE.jar"/>
+      <elementValue xmi:id="_7G54W5WPEfCy3MPMAf-UTQ" elementRef="JAR_PATH" value=""/>
+      <elementValue xmi:id="_7G54XJWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_VERSION" value=""/>
+      <elementValue xmi:id="_7G54XZWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_PRE_VERSION" value=""/>
+      <elementValue xmi:id="_7G54XpWPEfCy3MPMAf-UTQ" elementRef="JAR_NAME" value="spring-context-3.0.6.RELEASE.jar"/>
+      <elementValue xmi:id="_7G54X5WPEfCy3MPMAf-UTQ" elementRef="JAR_PATH" value=""/>
+      <elementValue xmi:id="_7G54YJWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_VERSION" value=""/>
+      <elementValue xmi:id="_7G54YZWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_PRE_VERSION" value=""/>
+      <elementValue xmi:id="_7G54YpWPEfCy3MPMAf-UTQ" elementRef="JAR_NAME" value="spring-expression-3.0.6.RELEASE.jar"/>
+      <elementValue xmi:id="_7G54Y5WPEfCy3MPMAf-UTQ" elementRef="JAR_PATH" value=""/>
+      <elementValue xmi:id="_7G54ZJWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_VERSION" value=""/>
+      <elementValue xmi:id="_7G54ZZWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_PRE_VERSION" value=""/>
+      <elementValue xmi:id="_7G54ZpWPEfCy3MPMAf-UTQ" elementRef="JAR_NAME" value="camel-stream-alldep-2.8.4.jar"/>
+      <elementValue xmi:id="_7G54Z5WPEfCy3MPMAf-UTQ" elementRef="JAR_PATH" value=""/>
+      <elementValue xmi:id="_7G54aJWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_VERSION" value=""/>
+      <elementValue xmi:id="_7G54aZWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_PRE_VERSION" value=""/>
+      <elementValue xmi:id="_7G54apWPEfCy3MPMAf-UTQ" elementRef="JAR_NAME" value="activemq-all-5.5.1.jar"/>
+      <elementValue xmi:id="_7G54a5WPEfCy3MPMAf-UTQ" elementRef="JAR_PATH" value=""/>
+      <elementValue xmi:id="_7G54bJWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_VERSION" value=""/>
+      <elementValue xmi:id="_7G54bZWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_PRE_VERSION" value=""/>
+      <elementValue xmi:id="_7G54bpWPEfCy3MPMAf-UTQ" elementRef="JAR_NAME" value="camel-jms-alldep-2.8.4.jar"/>
+      <elementValue xmi:id="_7G54b5WPEfCy3MPMAf-UTQ" elementRef="JAR_PATH" value=""/>
+      <elementValue xmi:id="_7G54cJWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_VERSION" value=""/>
+      <elementValue xmi:id="_7G54cZWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_PRE_VERSION" value=""/>
+      <elementValue xmi:id="_7G54cpWPEfCy3MPMAf-UTQ" elementRef="JAR_NAME" value="commons-dbcp-1.2.1.jar"/>
+      <elementValue xmi:id="_7G54c5WPEfCy3MPMAf-UTQ" elementRef="JAR_PATH" value=""/>
+      <elementValue xmi:id="_7G54dJWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_VERSION" value=""/>
+      <elementValue xmi:id="_7G54dZWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_PRE_VERSION" value=""/>
+      <elementValue xmi:id="_7G54dpWPEfCy3MPMAf-UTQ" elementRef="JAR_NAME" value="activemq-pool-5.5.1.jar"/>
+      <elementValue xmi:id="_7G54d5WPEfCy3MPMAf-UTQ" elementRef="JAR_PATH" value=""/>
+      <elementValue xmi:id="_7G54eJWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_VERSION" value=""/>
+      <elementValue xmi:id="_7G54eZWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_PRE_VERSION" value=""/>
+      <elementValue xmi:id="_7G54epWPEfCy3MPMAf-UTQ" elementRef="JAR_NAME" value="commons-pool-1.5.1.jar"/>
+      <elementValue xmi:id="_7G54e5WPEfCy3MPMAf-UTQ" elementRef="JAR_PATH" value=""/>
+      <elementValue xmi:id="_7G54fJWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_VERSION" value=""/>
+      <elementValue xmi:id="_7G54fZWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_PRE_VERSION" value=""/>
+      <elementValue xmi:id="_7G54fpWPEfCy3MPMAf-UTQ" elementRef="JAR_NAME" value="commons-dbcp-1.2.1.jar"/>
+      <elementValue xmi:id="_7G54f5WPEfCy3MPMAf-UTQ" elementRef="JAR_PATH" value=""/>
+      <elementValue xmi:id="_7G54gJWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_VERSION" value=""/>
+      <elementValue xmi:id="_7G54gZWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_PRE_VERSION" value=""/>
+      <elementValue xmi:id="_7G54gpWPEfCy3MPMAf-UTQ" elementRef="JAR_NAME" value="spring-jdbc-3.0.6.RELEASE.jar"/>
+      <elementValue xmi:id="_7G54g5WPEfCy3MPMAf-UTQ" elementRef="JAR_PATH" value=""/>
+      <elementValue xmi:id="_7G54hJWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_VERSION" value=""/>
+      <elementValue xmi:id="_7G54hZWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_PRE_VERSION" value=""/>
+      <elementValue xmi:id="_7G54hpWPEfCy3MPMAf-UTQ" elementRef="JAR_NAME" value="customers-0.0.1.jar"/>
+      <elementValue xmi:id="_7G54h5WPEfCy3MPMAf-UTQ" elementRef="JAR_PATH" value=""/>
+      <elementValue xmi:id="_7G54iJWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_VERSION" value=""/>
+      <elementValue xmi:id="_7G54iZWPEfCy3MPMAf-UTQ" elementRef="JAR_NEXUS_PRE_VERSION" value=""/>
+    </elementParameter>
+    <elementParameter xmi:id="_7G54ipWPEfCy3MPMAf-UTQ" field="LABEL" name="WARNING" value="*Note: External JARs will not be embedded in OSGi bundle by default, to configure it please edit Route Dependencies"/>
+    <elementParameter xmi:id="_7G54i5WPEfCy3MPMAf-UTQ" field="CHECK" name="USE_MDC_LOGGING" value="false"/>
+    <elementParameter xmi:id="_7G54jJWPEfCy3MPMAf-UTQ" field="CHECK_NEXUS_BUTTON" name="CHECK_OPTION" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_7G54jZWPEfCy3MPMAf-UTQ" field="SYNC_NEXUS_BUTTON" name="SYNC_OPTION" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_7G54jpWPEfCy3MPMAf-UTQ" field="TABLE" name="NEED_UPDATE_LIST"/>
+    <elementParameter xmi:id="_7G54j5WPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7G54kJWPEfCy3MPMAf-UTQ" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="160">
+    <elementParameter xmi:id="_7G54kZWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
+    <elementParameter xmi:id="_7G54kpWPEfCy3MPMAf-UTQ" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_7G54k5WPEfCy3MPMAf-UTQ" field="MEMO_JAVA" name="CODE" value="exchange.setPattern(org.apache.camel.ExchangePattern.InOut);"/>
+    <elementParameter xmi:id="_7G54lJWPEfCy3MPMAf-UTQ" field="TEXT" name="LABEL" value="InOut"/>
+    <elementParameter xmi:id="_7G54lZWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7G54lpWPEfCy3MPMAf-UTQ" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="160">
+    <elementParameter xmi:id="_7G54l5WPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cProcessor_2" show="false"/>
+    <elementParameter xmi:id="_7G54mJWPEfCy3MPMAf-UTQ" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_7G54mZWPEfCy3MPMAf-UTQ" field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;JmsClient: response: in =&quot; + exchange.getIn().getBody(String.class));"/>
+    <elementParameter xmi:id="_7G54mpWPEfCy3MPMAf-UTQ" field="TEXT" name="LABEL" value="printJmsClientResponse1"/>
+    <elementParameter xmi:id="_7G54m5WPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7G54nJWPEfCy3MPMAf-UTQ" componentName="cSetHeader" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="160">
+    <elementParameter xmi:id="_7G54nZWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cSetHeader_1" show="false"/>
+    <elementParameter xmi:id="_7G54npWPEfCy3MPMAf-UTQ" field="TABLE" name="VALUES">
+      <elementValue xmi:id="_7G54n5WPEfCy3MPMAf-UTQ" elementRef="NAME" value="&quot;CamelBeanMethodName&quot;"/>
+      <elementValue xmi:id="_7G54oJWPEfCy3MPMAf-UTQ" elementRef="LANGUAGE" value="constant"/>
+      <elementValue xmi:id="_7G54oZWPEfCy3MPMAf-UTQ" elementRef="EXPRESSION" value="&quot;getCustomers&quot;"/>
+    </elementParameter>
+    <elementParameter xmi:id="_7G54opWPEfCy3MPMAf-UTQ" field="CHECK" name="USE_NAMESPACES" value="false" show="false"/>
+    <elementParameter xmi:id="_7G54o5WPEfCy3MPMAf-UTQ" field="TABLE" name="NAMESPACES" show="false"/>
+    <elementParameter xmi:id="_7G54pJWPEfCy3MPMAf-UTQ" field="LABEL" name="WARNING" value="*Note: For Bean Language, the Expression should be a qualified class name without quotes.&#xA;                     *Note: For None Language, the Value should be a full expression, instead of a plain text.&#xA;                     *Note: For XPath Language, the Namespaces will be used automatically if it's checked." show="false"/>
+    <elementParameter xmi:id="_7G54pZWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7G54ppWPEfCy3MPMAf-UTQ" componentName="cMQConnectionFactory" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="256">
+    <elementParameter xmi:id="_7G54p5WPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="springDaoProxySender_ConnectionFacotry" show="false"/>
+    <elementParameter xmi:id="_7G54qJWPEfCy3MPMAf-UTQ" field="CLOSED_LIST" name="MQ_TYPE" value="ActiveMQ"/>
+    <elementParameter xmi:id="_7G54qZWPEfCy3MPMAf-UTQ" field="CHECK" name="USE_TRANSACTION" value="false"/>
+    <elementParameter xmi:id="_7G54qpWPEfCy3MPMAf-UTQ" field="TEXT" name="AMQ_BROKER_URI" value="&quot;tcp://localhost:61616?broker.persistent=false&quot;"/>
+    <elementParameter xmi:id="_7G54q5WPEfCy3MPMAf-UTQ" field="CHECK" name="IS_AMQ_HTTP_BROKER" value="false"/>
+    <elementParameter xmi:id="_7G54rJWPEfCy3MPMAf-UTQ" field="CHECK" name="AMQ_POOL" value="false"/>
+    <elementParameter xmi:id="_7G54rZWPEfCy3MPMAf-UTQ" field="TEXT" name="AMQ_POOL_MAX_CONNECTIONS" value="1" show="false"/>
+    <elementParameter xmi:id="_7G54rpWPEfCy3MPMAf-UTQ" field="TEXT" name="AMQ_POOL_MAX_ACTIVE" value="500" show="false"/>
+    <elementParameter xmi:id="_7G54r5WPEfCy3MPMAf-UTQ" field="TEXT" name="AMQ_POOL_IDLE_TIMEOUT" value="30000" show="false"/>
+    <elementParameter xmi:id="_7G54sJWPEfCy3MPMAf-UTQ" field="TEXT" name="AMQ_POOL_EXPIRY_TIMEOUT" value="60000" show="false"/>
+    <elementParameter xmi:id="_7G54sZWPEfCy3MPMAf-UTQ" field="CHECK" name="AMQ_AUTH" value="false"/>
+    <elementParameter xmi:id="_7G54spWPEfCy3MPMAf-UTQ" field="TEXT" name="AMQ_USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_7G54s5WPEfCy3MPMAf-UTQ" field="PASSWORD" name="AMQ_PASSWORD" value="enc:system.encryption.key.v1:WoUnXLTqaG9Cx+nKuptwrHIK7SgEiqaPwK4jwc63" show="false"/>
+    <elementParameter xmi:id="_7G54tJWPEfCy3MPMAf-UTQ" field="CHECK" name="AMQ_USE_RETROACTIVE_CONSUMER" value="false"/>
+    <elementParameter xmi:id="_7G54tZWPEfCy3MPMAf-UTQ" field="TEXT" name="WQM_SEVER" value="&quot;localhost&quot;" show="false"/>
+    <elementParameter xmi:id="_7G54tpWPEfCy3MPMAf-UTQ" field="TEXT" name="WMQ_PORT" value="&quot;1414&quot;" show="false"/>
+    <elementParameter xmi:id="_7G54t5WPEfCy3MPMAf-UTQ" field="CLOSED_LIST" name="WMQ_TRANSPORT_TYPE" value="1" show="false"/>
+    <elementParameter xmi:id="_7G54uJWPEfCy3MPMAf-UTQ" field="TEXT" name="WMQ_QUEUE_MANAGER" value="&quot;mq.queue.manager&quot;" show="false"/>
+    <elementParameter xmi:id="_7G54uZWPEfCy3MPMAf-UTQ" field="TEXT" name="WMQ_CHANNEL" value="&quot;SYSTEM.DEF.SVRCONN&quot;" show="false"/>
+    <elementParameter xmi:id="_7G54upWPEfCy3MPMAf-UTQ" field="CHECK" name="WMQ_AUTH" value="false" show="false"/>
+    <elementParameter xmi:id="_7G54u5WPEfCy3MPMAf-UTQ" field="TEXT" name="WMQ_USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_7G54vJWPEfCy3MPMAf-UTQ" field="PASSWORD" name="WMQ_PASSWORD" value="enc:system.encryption.key.v1:OSBzQxIzdmctxX3mghVnskijjg6goGVhff7I55S7" show="false"/>
+    <elementParameter xmi:id="_7G54vZWPEfCy3MPMAf-UTQ" field="TABLE" name="WMQ_DRIVER_JAR" show="false"/>
+    <elementParameter xmi:id="_7G54vpWPEfCy3MPMAf-UTQ" field="TEXT" name="WMQ_N_SEVER" value="&quot;localhost&quot;" show="false"/>
+    <elementParameter xmi:id="_7G54v5WPEfCy3MPMAf-UTQ" field="TEXT" name="WMQ_N_PORT" value="&quot;1414&quot;" show="false"/>
+    <elementParameter xmi:id="_7G54wJWPEfCy3MPMAf-UTQ" field="TEXT" name="WMQ_N_CHANNEL" value="&quot;channel.name&quot;" show="false"/>
+    <elementParameter xmi:id="_7G54wZWPEfCy3MPMAf-UTQ" field="TEXT" name="WMQ_N_NAME" value="&quot;default&quot;" show="false"/>
+    <elementParameter xmi:id="_7G54wpWPEfCy3MPMAf-UTQ" field="CHECK" name="WMQ_N_AUTH" value="false" show="false"/>
+    <elementParameter xmi:id="_7G54w5WPEfCy3MPMAf-UTQ" field="TEXT" name="WMQ_N_CCSID" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_7G54xJWPEfCy3MPMAf-UTQ" field="TEXT" name="WMQ_N_USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_7G54xZWPEfCy3MPMAf-UTQ" field="PASSWORD" name="WMQ_N_PASSWORD" value="enc:system.encryption.key.v1:O4T6imd2ZNaLZ5xDoat2G7bwHWJT4bIzsVayyc2A" show="false"/>
+    <elementParameter xmi:id="_7G54xpWPEfCy3MPMAf-UTQ" field="TABLE" name="WMQ_N_DRIVER_JAR" show="false"/>
+    <elementParameter xmi:id="_7G54x5WPEfCy3MPMAf-UTQ" field="TEXT" name="AMQP_BROKER_URI" value="&quot;localhost&quot;" show="false"/>
+    <elementParameter xmi:id="_7G54yJWPEfCy3MPMAf-UTQ" field="TEXT" name="AMQP_PORT" value="&quot;5672&quot;" show="false"/>
+    <elementParameter xmi:id="_7G54yZWPEfCy3MPMAf-UTQ" field="CHECK" name="AMQP_SSL" value="false" show="false"/>
+    <elementParameter xmi:id="_7G54ypWPEfCy3MPMAf-UTQ" field="CHECK" name="AMQP_USE_AUTH" value="false" show="false"/>
+    <elementParameter xmi:id="_7G54y5WPEfCy3MPMAf-UTQ" field="TEXT" name="AMQP_USERNAME" value="&quot;guest&quot;" show="false"/>
+    <elementParameter xmi:id="_7G54zJWPEfCy3MPMAf-UTQ" field="PASSWORD" name="AMQP_PASSWORD" value="enc:system.encryption.key.v1:IcQNvGQQcPc9qBCQLemhQdows33sTGWoEUN0siEC0uWDHI4=" show="false"/>
+    <elementParameter xmi:id="_7G54zZWPEfCy3MPMAf-UTQ" field="TEXT" name="MQTT_HOST" value="&quot;127.0.0.1&quot;" show="false"/>
+    <elementParameter xmi:id="_7G54zpWPEfCy3MPMAf-UTQ" field="TEXT" name="MQTT_PORT" value="1883" show="false"/>
+    <elementParameter xmi:id="_7G54z5WPEfCy3MPMAf-UTQ" field="CHECK" name="MQTT_SSL" value="false" show="false"/>
+    <elementParameter xmi:id="_7G540JWPEfCy3MPMAf-UTQ" field="FILE" name="MQTT_SSL_TRUST_STORE" value="" show="false"/>
+    <elementParameter xmi:id="_7G540ZWPEfCy3MPMAf-UTQ" field="PASSWORD" name="MQTT_SSL_TRUST_STORE_PASSWORD" value="" show="false"/>
+    <elementParameter xmi:id="_7G540pWPEfCy3MPMAf-UTQ" field="FILE" name="MQTT_SSL_KEY_STORE" value="" show="false"/>
+    <elementParameter xmi:id="_7G5405WPEfCy3MPMAf-UTQ" field="PASSWORD" name="MQTT_SSL_KEY_STORE_PASSWORD" value="" show="false"/>
+    <elementParameter xmi:id="_7G541JWPEfCy3MPMAf-UTQ" field="TEXT" name="MQTT_CONNECT_ATTEMPTS" value="-1" show="false"/>
+    <elementParameter xmi:id="_7G541ZWPEfCy3MPMAf-UTQ" field="TEXT" name="MQTT_RECONNECT_ATTEMPTS" value="-1" show="false"/>
+    <elementParameter xmi:id="_7G541pWPEfCy3MPMAf-UTQ" field="TEXT" name="MQTT_RECONNECT_DELAY" value="10" show="false"/>
+    <elementParameter xmi:id="_7G5415WPEfCy3MPMAf-UTQ" field="CLOSED_LIST" name="MQTT_QOS" value="0" show="false"/>
+    <elementParameter xmi:id="_7G542JWPEfCy3MPMAf-UTQ" field="TEXT" name="MQTT_CONNECT_WAIT_IN_SECONDS" value="10" show="false"/>
+    <elementParameter xmi:id="_7G542ZWPEfCy3MPMAf-UTQ" field="TEXT" name="MQTT_DISCONNECT_WAIT_IN_SECONDS" value="5" show="false"/>
+    <elementParameter xmi:id="_7G542pWPEfCy3MPMAf-UTQ" field="TEXT" name="MQTT_SEND_WAIT_IN_SECONDS" value="5" show="false"/>
+    <elementParameter xmi:id="_7G5425WPEfCy3MPMAf-UTQ" field="MEMO_JAVA" name="OTHER_CODE" value="&#x9;&#x9;&#xA;/*&#xA;*&#x9;Please specify &quot;connectionFactory&quot; here&#xA;*/&#xA;//connectionFactory = new org.apache.activemq.ActiveMQConnectionFactory(&quot;vm://localhost?broker.persistent=false&quot;);&#xA;&#x9;&#x9;&#x9;" show="false"/>
+    <elementParameter xmi:id="_7G543JWPEfCy3MPMAf-UTQ" field="TABLE" name="OTHER_DRIVER_JAR" show="false"/>
+    <elementParameter xmi:id="_7G543ZWPEfCy3MPMAf-UTQ" field="CHECK" name="MQTT_AUTH" value="false" show="false"/>
+    <elementParameter xmi:id="_7G543pWPEfCy3MPMAf-UTQ" field="TEXT" name="MQTT_USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_7G5435WPEfCy3MPMAf-UTQ" field="PASSWORD" name="MQTT_PASSWORD" value="enc:system.encryption.key.v1:BlR+GW4ipD9S3S1+HzALbEm0Y6tcAem1e2VQqpeJ" show="false"/>
+    <elementParameter xmi:id="_7G544JWPEfCy3MPMAf-UTQ" field="TEXT" name="LABEL" value="springDaoProxySender_ConnectionFacotry"/>
+    <elementParameter xmi:id="_7G544ZWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <connection xmi:id="_7G544pWPEfCy3MPMAf-UTQ" connectorName="ROUTE" label="route3" lineStyle="14" metaname="cJMS_2" offsetLabelX="0" offsetLabelY="0" source="cJMS_2" target="cProcessor_2">
+    <elementParameter xmi:id="_7G5445WPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="route3" show="false"/>
+    <elementParameter xmi:id="_7G545JWPEfCy3MPMAf-UTQ" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_7G545ZWPEfCy3MPMAf-UTQ" connectorName="ROUTE" label="route2" lineStyle="14" metaname="cMessagingEndpoint_2" offsetLabelX="0" offsetLabelY="0" source="cMessagingEndpoint_2" target="cSetHeader_1">
+    <elementParameter xmi:id="_7G545pWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="route2" show="false"/>
+    <elementParameter xmi:id="_7G5455WPEfCy3MPMAf-UTQ" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_7G546JWPEfCy3MPMAf-UTQ" connectorName="ROUTE" label="route1" lineStyle="14" metaname="cProcessor_1" offsetLabelX="0" offsetLabelY="0" source="cProcessor_1" target="cJMS_2">
+    <elementParameter xmi:id="_7G546ZWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
+    <elementParameter xmi:id="_7G546pWPEfCy3MPMAf-UTQ" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_7G5465WPEfCy3MPMAf-UTQ" connectorName="ROUTE" label="route4" lineStyle="14" metaname="cSetHeader_1" offsetLabelX="0" offsetLabelY="0" source="cSetHeader_1" target="cProcessor_1">
+    <elementParameter xmi:id="_7G547JWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="route4" show="false"/>
+    <elementParameter xmi:id="_7G547ZWPEfCy3MPMAf-UTQ" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <subjob xmi:id="_7G547pWPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7G5475WPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cJMS_2" show="false"/>
+    <elementParameter xmi:id="_7G548JWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_7G548ZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7G548pWPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7G5485WPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_2" show="false"/>
+    <elementParameter xmi:id="_7G549JWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_7G549ZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7G549pWPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7G5495WPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cConfig_1" show="false"/>
+    <elementParameter xmi:id="_7G54-JWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_7G54-ZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7G54-pWPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7G54-5WPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
+    <elementParameter xmi:id="_7G54_JWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_7G54_ZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7G54_pWPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7G54_5WPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cProcessor_2" show="false"/>
+    <elementParameter xmi:id="_7G55AJWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_7G55AZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7G55ApWPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7G55A5WPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cSetHeader_1" show="false"/>
+    <elementParameter xmi:id="_7G55BJWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_7G55BZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7G55BpWPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7G55B5WPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="springDaoProxySender_ConnectionFacotry" show="false"/>
+    <elementParameter xmi:id="_7G55CJWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_7G55CZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_7LBjEJWPEfCy3MPMAf-UTQ" defaultContext="Default">
+  <context xmi:id="_7LBjEZWPEfCy3MPMAf-UTQ" confirmationNeeded="false" name="Default"/>
+  <parameters xmi:id="_7LBjEpWPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7LBjE5WPEfCy3MPMAf-UTQ" field="TEXT" name="SCREEN_OFFSET_X" value="0"/>
+    <elementParameter xmi:id="_7LBjFJWPEfCy3MPMAf-UTQ" field="TEXT" name="SCREEN_OFFSET_Y" value="0"/>
+    <elementParameter xmi:id="_7LBjFZWPEfCy3MPMAf-UTQ" field="TEXT" name="REPOSITORY_CONNECTION_ID" value=""/>
+    <routinesParameter xmi:id="_7LBjFpWPEfCy3MPMAf-UTQ" id="_Bd0wgIA5EeOwya0-9JCcIg" name="DQTechnical"/>
+    <routinesParameter xmi:id="_7LBjF5WPEfCy3MPMAf-UTQ" id="_BebNcIA5EeOwya0-9JCcIg" name="DataOperation"/>
+    <routinesParameter xmi:id="_7LBjGJWPEfCy3MPMAf-UTQ" id="_BYEGwIA5EeOwya0-9JCcIg" name="DataQuality"/>
+    <routinesParameter xmi:id="_7LBjGZWPEfCy3MPMAf-UTQ" id="_BdLQQIA5EeOwya0-9JCcIg" name="DqStringHandling"/>
+    <routinesParameter xmi:id="_7LBjGpWPEfCy3MPMAf-UTQ" id="_BfBqYIA5EeOwya0-9JCcIg" name="Mathematical"/>
+    <routinesParameter xmi:id="_7LBjG5WPEfCy3MPMAf-UTQ" id="_BfrKoIA5EeOwya0-9JCcIg" name="Numeric"/>
+    <routinesParameter xmi:id="_7LBjHJWPEfCy3MPMAf-UTQ" id="_BgVR8IA5EeOwya0-9JCcIg" name="Relational"/>
+    <routinesParameter xmi:id="_7LBjHZWPEfCy3MPMAf-UTQ" id="_BjJ8cIA5EeOwya0-9JCcIg" name="SQLike"/>
+    <routinesParameter xmi:id="_7LBjHpWPEfCy3MPMAf-UTQ" id="_Bg55sIA5EeOwya0-9JCcIg" name="StringHandling"/>
+    <routinesParameter xmi:id="_7LBjH5WPEfCy3MPMAf-UTQ" id="_Bhd6YIA5EeOwya0-9JCcIg" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_7LBjIJWPEfCy3MPMAf-UTQ" id="_BiAs8IA5EeOwya0-9JCcIg" name="TalendDate"/>
+    <routinesParameter xmi:id="_7LBjIZWPEfCy3MPMAf-UTQ" id="_BiktoIA5EeOwya0-9JCcIg" name="TalendString"/>
+    <routinesParameter xmi:id="_7LBjIpWPEfCy3MPMAf-UTQ" id="_N653ICoUEeOXW_CsPlpHtA" name="DEMO_BIGDATA"/>
+    <routinesParameter xmi:id="_7LBjI5WPEfCy3MPMAf-UTQ" id="_WLn1cHFfEeKIGbRRUtiRHQ" name="Fibonacci"/>
+    <routinesParameter xmi:id="_7LBjJJWPEfCy3MPMAf-UTQ" id="_F8etkNdKEeKNU7zMGbHlQA" name="Thumbnail"/>
+    <routinesParameter xmi:id="_7LBjJZWPEfCy3MPMAf-UTQ" id="_cUWzAOyNEd2AippjGM9H-A" name="Convert"/>
+    <routinesParameter xmi:id="_7LBjJpWPEfCy3MPMAf-UTQ" id="_HX3E4OJpEeCmJNdA0HkfKA" name="A1_parisstreetindexcreationTstandardizerow_1"/>
+    <routinesParameter xmi:id="_7LBjJ5WPEfCy3MPMAf-UTQ" id="_U2GysOJpEeCmJNdA0HkfKA" name="A2_normalizeaddressTstandardizerow_1"/>
+    <routinesParameter xmi:id="_7LBjKJWPEfCy3MPMAf-UTQ" id="_jFtsAOJpEeCmJNdA0HkfKA" name="A2_standardizeaddressTstandardizerow_1"/>
+    <routinesParameter xmi:id="_7LBjKZWPEfCy3MPMAf-UTQ" id="_GSpGYGf7EeONMtYsYm-UXw" name="ImporttweetsTstandardizerow_1"/>
+    <routinesParameter xmi:id="_7LBjKpWPEfCy3MPMAf-UTQ" id="_VCnh0Gf7EeONMtYsYm-UXw" name="ImporttweetsTstandardizerow_2"/>
+    <routinesParameter xmi:id="_7LBjK5WPEfCy3MPMAf-UTQ" id="_wU5qIOJpEeCmJNdA0HkfKA" name="Products_parsingTstandardizerow_1"/>
+    <routinesParameter xmi:id="_7LBjLJWPEfCy3MPMAf-UTQ" id="_2RIxoGf6EeONMtYsYm-UXw" name="Standardize_and_word_analysisTstandardizerow_1"/>
+    <routinesParameter xmi:id="_7LBjLZWPEfCy3MPMAf-UTQ" id="_uYJtMPtoEeOFQcYXQEAg2g" name="Step1_import_tweetsTstandardizerow_2"/>
+    <routinesParameter xmi:id="_7LBjLpWPEfCy3MPMAf-UTQ" id="_WxkbQLdWEeSdgaQjwHXdqA" name="Step1_import_tweets_localTstandardizerow_2"/>
+    <routinesParameter xmi:id="_7LBjL5WPEfCy3MPMAf-UTQ" id="_Ant3ULoLEeScYPkz2Y-jEw" name="Step1_import_tweets_working_hdfsTstandardizerow_2"/>
+    <routinesParameter xmi:id="_7LBjMJWPEfCy3MPMAf-UTQ" id="_8qwkYFjNEdyj6eiqDt60Og" name="DemoRoutines"/>
+    <routinesParameter xmi:id="_7LBjMZWPEfCy3MPMAf-UTQ" id="_HKXfQGIZEd26GZmhFZLTPA" name="GetRandomPhoneNum"/>
+    <routinesParameter xmi:id="_7LBjMpWPEfCy3MPMAf-UTQ" id="_Caw4ILqhEeSTKafzYDQC9w" name="GzipUtil"/>
+    <routinesParameter xmi:id="_7LBjM5WPEfCy3MPMAf-UTQ" id="_G417gAc-EeKqOMQjhZ_0wQ" name="KeyManagementForSqoop"/>
+    <routinesParameter xmi:id="_7LBjNJWPEfCy3MPMAf-UTQ" id="_mRkXsNjNEeKGDNw10VC2Eg" name="MyDataGenerator"/>
+    <routinesParameter xmi:id="_7LBjNZWPEfCy3MPMAf-UTQ" id="_TVdvcGcqEeOjappPcW-THA" name="Tweets_Generator"/>
+    <routinesParameter xmi:id="_7LBjNpWPEfCy3MPMAf-UTQ" id="_13-xUKoSEeOUTvl9amgImQ" name="getNotNullFromString"/>
+  </parameters>
+  <node xmi:id="_7LBjN5WPEfCy3MPMAf-UTQ" componentName="cFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="128">
+    <elementParameter xmi:id="_7LBjOJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cFile_1"/>
+    <elementParameter xmi:id="_7LBjOZWPEfCy3MPMAf-UTQ" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_7LBjOpWPEfCy3MPMAf-UTQ" field="DIRECTORY" name="URI" value="&quot;C:/Users/eost/Documents/SE/TDM/in&quot;"/>
+    <elementParameter xmi:id="_7LBjO5WPEfCy3MPMAf-UTQ" field="CHECK" name="NOOP" value="true"/>
+    <elementParameter xmi:id="_7LBjPJWPEfCy3MPMAf-UTQ" field="CHECK" name="FLATTEN" value="false"/>
+    <elementParameter xmi:id="_7LBjPZWPEfCy3MPMAf-UTQ" field="CHECK" name="AUTOCREATE" value="true"/>
+    <elementParameter xmi:id="_7LBjPpWPEfCy3MPMAf-UTQ" field="TEXT" name="BUFFER_SIZE" value="&quot;128&quot;"/>
+    <elementParameter xmi:id="_7LBjP5WPEfCy3MPMAf-UTQ" field="ENCODING_TYPE" name="ENCODING" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_7LBjQJWPEfCy3MPMAf-UTQ" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter xmi:id="_7LBjQZWPEfCy3MPMAf-UTQ" field="TEXT" name="FILENAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_7LBjQpWPEfCy3MPMAf-UTQ" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_7LBjQ5WPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7LBjRJWPEfCy3MPMAf-UTQ" componentName="cMap" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="384" posY="128">
+    <elementParameter xmi:id="_7LBjRZWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cMap_1"/>
+    <elementParameter xmi:id="_7LBjRpWPEfCy3MPMAf-UTQ" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_7LBjR5WPEfCy3MPMAf-UTQ" field="EXTERNAL" name="MAP_EDITOR" value=""/>
+    <elementParameter xmi:id="_7LBjSJWPEfCy3MPMAf-UTQ" field="HMAP_PATH" name="HMAP_PATH" value="&quot;/SE_DEMO/Maps/routing/PO_loadFlat_identity&quot;"/>
+    <elementParameter xmi:id="_7LBjSZWPEfCy3MPMAf-UTQ" field="CLOSED_LIST" name="LOG" value="infrequent"/>
+    <elementParameter xmi:id="_7LBjSpWPEfCy3MPMAf-UTQ" field="CLOSED_LIST" name="EXCEPTION" value="FATAL"/>
+    <elementParameter xmi:id="_7LBjS5WPEfCy3MPMAf-UTQ" field="CLOSED_LIST" name="OUTPUT_TYPE" value="default"/>
+    <elementParameter xmi:id="_7LBjTJWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7LBjTZWPEfCy3MPMAf-UTQ" componentName="cFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="128">
+    <elementParameter xmi:id="_7LBjTpWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cFile_2"/>
+    <elementParameter xmi:id="_7LBjT5WPEfCy3MPMAf-UTQ" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_7LBjUJWPEfCy3MPMAf-UTQ" field="DIRECTORY" name="URI" value="&quot;C:/Users/eost/Documents/SE/TDM/out1&quot;"/>
+    <elementParameter xmi:id="_7LBjUZWPEfCy3MPMAf-UTQ" field="CHECK" name="NOOP" value="true"/>
+    <elementParameter xmi:id="_7LBjUpWPEfCy3MPMAf-UTQ" field="CHECK" name="FLATTEN" value="false"/>
+    <elementParameter xmi:id="_7LBjU5WPEfCy3MPMAf-UTQ" field="CHECK" name="AUTOCREATE" value="true"/>
+    <elementParameter xmi:id="_7LBjVJWPEfCy3MPMAf-UTQ" field="TEXT" name="BUFFER_SIZE" value="&quot;128&quot;"/>
+    <elementParameter xmi:id="_7LBjVZWPEfCy3MPMAf-UTQ" field="ENCODING_TYPE" name="ENCODING" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_7LBjVpWPEfCy3MPMAf-UTQ" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter xmi:id="_7LBjV5WPEfCy3MPMAf-UTQ" field="TEXT" name="FILENAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_7LBjWJWPEfCy3MPMAf-UTQ" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_7LBjWZWPEfCy3MPMAf-UTQ" field="TEXT" name="LABEL" value="out1"/>
+    <elementParameter xmi:id="_7LBjWpWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <connection xmi:id="_7LBjW5WPEfCy3MPMAf-UTQ" connectorName="ROUTE" label="route2" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cFile_1" target="cMap_1">
+    <elementParameter xmi:id="_7LBjXJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="route2"/>
+  </connection>
+  <connection xmi:id="_7LBjXZWPEfCy3MPMAf-UTQ" connectorName="ROUTE" label="route1" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cMap_1" target="cFile_2">
+    <elementParameter xmi:id="_7LBjXpWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="route1"/>
+  </connection>
+  <subjob xmi:id="_7LBjX5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7LBjYJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cFile_1"/>
+    <elementParameter xmi:id="_7LBjYZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_7LBjYpWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7LBjY5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7LBjZJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cMap_1"/>
+    <elementParameter xmi:id="_7LBjZZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_7LBjZpWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_7LBjZ5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7LBjaJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cFile_2"/>
+    <elementParameter xmi:id="_7LBjaZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_7LBjapWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+</talendfile:ProcessType>

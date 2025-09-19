@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_7HbcgJWPEfCy3MPMAf-UTQ" defaultContext="Default">
+  <context xmi:id="_7HbcgZWPEfCy3MPMAf-UTQ" confirmationNeeded="false" name="Default"/>
+  <parameters xmi:id="_7HbcgpWPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7Hbcg5WPEfCy3MPMAf-UTQ" field="TEXT" name="REPOSITORY_CONNECTION_ID" value=""/>
+    <routinesParameter xmi:id="_7HbchJWPEfCy3MPMAf-UTQ" id="_Bd0wgIA5EeOwya0-9JCcIg" name="DQTechnical"/>
+    <routinesParameter xmi:id="_7HbchZWPEfCy3MPMAf-UTQ" id="_BebNcIA5EeOwya0-9JCcIg" name="DataOperation"/>
+    <routinesParameter xmi:id="_7HbchpWPEfCy3MPMAf-UTQ" id="_BYEGwIA5EeOwya0-9JCcIg" name="DataQuality"/>
+    <routinesParameter xmi:id="_7Hbch5WPEfCy3MPMAf-UTQ" id="_BdLQQIA5EeOwya0-9JCcIg" name="DqStringHandling"/>
+    <routinesParameter xmi:id="_7HbciJWPEfCy3MPMAf-UTQ" id="_BfBqYIA5EeOwya0-9JCcIg" name="Mathematical"/>
+    <routinesParameter xmi:id="_7HbciZWPEfCy3MPMAf-UTQ" id="_BfrKoIA5EeOwya0-9JCcIg" name="Numeric"/>
+    <routinesParameter xmi:id="_7HbcipWPEfCy3MPMAf-UTQ" id="_BgVR8IA5EeOwya0-9JCcIg" name="Relational"/>
+    <routinesParameter xmi:id="_7Hbci5WPEfCy3MPMAf-UTQ" id="_BjJ8cIA5EeOwya0-9JCcIg" name="SQLike"/>
+    <routinesParameter xmi:id="_7HbcjJWPEfCy3MPMAf-UTQ" id="_Bg55sIA5EeOwya0-9JCcIg" name="StringHandling"/>
+    <routinesParameter xmi:id="_7HbcjZWPEfCy3MPMAf-UTQ" id="_Bhd6YIA5EeOwya0-9JCcIg" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_7HbcjpWPEfCy3MPMAf-UTQ" id="_BiAs8IA5EeOwya0-9JCcIg" name="TalendDate"/>
+    <routinesParameter xmi:id="_7Hbcj5WPEfCy3MPMAf-UTQ" id="_BiktoIA5EeOwya0-9JCcIg" name="TalendString"/>
+    <routinesParameter xmi:id="_7HbckJWPEfCy3MPMAf-UTQ" id="_N653ICoUEeOXW_CsPlpHtA" name="DEMO_BIGDATA"/>
+    <routinesParameter xmi:id="_7HbckZWPEfCy3MPMAf-UTQ" id="_8qwkYFjNEdyj6eiqDt60Og" name="DemoRoutines"/>
+    <routinesParameter xmi:id="_7HbckpWPEfCy3MPMAf-UTQ" id="_HKXfQGIZEd26GZmhFZLTPA" name="GetRandomPhoneNum"/>
+    <routinesParameter xmi:id="_7Hbck5WPEfCy3MPMAf-UTQ" id="_Caw4ILqhEeSTKafzYDQC9w" name="GzipUtil"/>
+    <routinesParameter xmi:id="_7HbclJWPEfCy3MPMAf-UTQ" id="_G417gAc-EeKqOMQjhZ_0wQ" name="KeyManagementForSqoop"/>
+    <routinesParameter xmi:id="_7HbclZWPEfCy3MPMAf-UTQ" id="_WLn1cHFfEeKIGbRRUtiRHQ" name="Fibonacci"/>
+    <routinesParameter xmi:id="_7HbclpWPEfCy3MPMAf-UTQ" id="_F8etkNdKEeKNU7zMGbHlQA" name="Thumbnail"/>
+    <routinesParameter xmi:id="_7Hbcl5WPEfCy3MPMAf-UTQ" id="_TVdvcGcqEeOjappPcW-THA" name="Tweets_Generator"/>
+    <routinesParameter xmi:id="_7HbcmJWPEfCy3MPMAf-UTQ" id="_cUWzAOyNEd2AippjGM9H-A" name="Convert"/>
+    <routinesParameter xmi:id="_7HbcmZWPEfCy3MPMAf-UTQ" id="_HX3E4OJpEeCmJNdA0HkfKA" name="A1_parisstreetindexcreationTstandardizerow_1"/>
+    <routinesParameter xmi:id="_7HbcmpWPEfCy3MPMAf-UTQ" id="_U2GysOJpEeCmJNdA0HkfKA" name="A2_normalizeaddressTstandardizerow_1"/>
+    <routinesParameter xmi:id="_7Hbcm5WPEfCy3MPMAf-UTQ" id="_jFtsAOJpEeCmJNdA0HkfKA" name="A2_standardizeaddressTstandardizerow_1"/>
+    <routinesParameter xmi:id="_7HbcnJWPEfCy3MPMAf-UTQ" id="_13-xUKoSEeOUTvl9amgImQ" name="getNotNullFromString"/>
+    <routinesParameter xmi:id="_7HbcnZWPEfCy3MPMAf-UTQ" id="_GSpGYGf7EeONMtYsYm-UXw" name="ImporttweetsTstandardizerow_1"/>
+    <routinesParameter xmi:id="_7HbcnpWPEfCy3MPMAf-UTQ" id="_VCnh0Gf7EeONMtYsYm-UXw" name="ImporttweetsTstandardizerow_2"/>
+    <routinesParameter xmi:id="_7Hbcn5WPEfCy3MPMAf-UTQ" id="_wU5qIOJpEeCmJNdA0HkfKA" name="Products_parsingTstandardizerow_1"/>
+    <routinesParameter xmi:id="_7HbcoJWPEfCy3MPMAf-UTQ" id="_2RIxoGf6EeONMtYsYm-UXw" name="Standardize_and_word_analysisTstandardizerow_1"/>
+    <routinesParameter xmi:id="_7HbcoZWPEfCy3MPMAf-UTQ" id="_uYJtMPtoEeOFQcYXQEAg2g" name="Step1_import_tweetsTstandardizerow_2"/>
+    <routinesParameter xmi:id="_7HbcopWPEfCy3MPMAf-UTQ" id="_WxkbQLdWEeSdgaQjwHXdqA" name="Step1_import_tweets_localTstandardizerow_2"/>
+    <routinesParameter xmi:id="_7Hbco5WPEfCy3MPMAf-UTQ" id="_Ant3ULoLEeScYPkz2Y-jEw" name="Step1_import_tweets_working_hdfsTstandardizerow_2"/>
+  </parameters>
+</talendfile:ProcessType>

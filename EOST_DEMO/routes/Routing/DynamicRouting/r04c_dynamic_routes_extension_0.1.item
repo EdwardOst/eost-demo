@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_7KL1kJWPEfCy3MPMAf-UTQ" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_7KL1kZWPEfCy3MPMAf-UTQ" confirmationNeeded="false" name="Default"/>
+  <parameters xmi:id="_7KL1kpWPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7KL1k5WPEfCy3MPMAf-UTQ" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_7KL1lJWPEfCy3MPMAf-UTQ" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_7KL1lZWPEfCy3MPMAf-UTQ" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_7KL1lpWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_7KL1l5WPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_7KL1mJWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_7KL1mZWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_7KL1mpWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_7KL1m5WPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_7KL1nJWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_7KL1nZWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_7KL1npWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_7KL1n5WPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_7KL1oJWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_7KL1oZWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_7KL1opWPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_7KL1o5WPEfCy3MPMAf-UTQ" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <routinesParameter xmi:id="_7KL1pJWPEfCy3MPMAf-UTQ" id="_Yil8wEblEea-na-KC6eDKg" name="DQTechnical"/>
+    <routinesParameter xmi:id="_7KL1pZWPEfCy3MPMAf-UTQ" id="_YcJWgEblEea-na-KC6eDKg" name="DataMasking"/>
+    <routinesParameter xmi:id="_7KL1ppWPEfCy3MPMAf-UTQ" id="_YlMk0EblEea-na-KC6eDKg" name="DataOperation"/>
+    <routinesParameter xmi:id="_7KL1p5WPEfCy3MPMAf-UTQ" id="_Yf51IEblEea-na-KC6eDKg" name="DataQualityDependencies"/>
+    <routinesParameter xmi:id="_7KL1qJWPEfCy3MPMAf-UTQ" id="_Yek_cEblEea-na-KC6eDKg" name="DataQuality"/>
+    <routinesParameter xmi:id="_7KL1qZWPEfCy3MPMAf-UTQ" id="_YhODwEblEea-na-KC6eDKg" name="DqStringHandling"/>
+    <routinesParameter xmi:id="_7KL1qpWPEfCy3MPMAf-UTQ" id="_YmY3oEblEea-na-KC6eDKg" name="Mathematical"/>
+    <routinesParameter xmi:id="_7KL1q5WPEfCy3MPMAf-UTQ" id="_YnkjYEblEea-na-KC6eDKg" name="Numeric"/>
+    <routinesParameter xmi:id="_7KL1rJWPEfCy3MPMAf-UTQ" id="_YoyrYEblEea-na-KC6eDKg" name="Relational"/>
+    <routinesParameter xmi:id="_7KL1rZWPEfCy3MPMAf-UTQ" id="_Yj6LYEblEea-na-KC6eDKg" name="SQLike"/>
+    <routinesParameter xmi:id="_7KL1rpWPEfCy3MPMAf-UTQ" id="_Yp5eoEblEea-na-KC6eDKg" name="StringHandling"/>
+    <routinesParameter xmi:id="_7KL1r5WPEfCy3MPMAf-UTQ" id="_YrL4EEblEea-na-KC6eDKg" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_7KL1sJWPEfCy3MPMAf-UTQ" id="_YsbOMEblEea-na-KC6eDKg" name="TalendDate"/>
+    <routinesParameter xmi:id="_7KL1sZWPEfCy3MPMAf-UTQ" id="_YtqkUEblEea-na-KC6eDKg" name="TalendString"/>
+    <routinesParameter xmi:id="_7KL1spWPEfCy3MPMAf-UTQ" id="_di-uoCdCEeaLNpvBEQh0uQ" name="SfObmHelper"/>
+    <routinesParameter xmi:id="_7KL1s5WPEfCy3MPMAf-UTQ" id="_E5MYoCdGEeaLNpvBEQh0uQ" name="SfObmNotification"/>
+    <routinesParameter xmi:id="_7KL1tJWPEfCy3MPMAf-UTQ" id="_5oT6QCdFEeaLNpvBEQh0uQ" name="SfObmObjectAttribute"/>
+    <routinesParameter xmi:id="_7KL1tZWPEfCy3MPMAf-UTQ" id="_AUmzICdGEeaLNpvBEQh0uQ" name="SfObmObject"/>
+    <routinesParameter xmi:id="_7KL1tpWPEfCy3MPMAf-UTQ" id="_Hqrz4JjIEeaDW-LTnpLy9g" name="AdobeEventMapper"/>
+    <routinesParameter xmi:id="_7KL1t5WPEfCy3MPMAf-UTQ" id="__gM7kJ3yEeaPXoQk74evjw" name="AdobeEventMapper_Java7"/>
+    <routinesParameter xmi:id="_7KL1uJWPEfCy3MPMAf-UTQ" id="_dnpOQD3HEeO7UMG_YqAtyA" name="DQ_METHODS"/>
+    <routinesParameter xmi:id="_7KL1uZWPEfCy3MPMAf-UTQ" id="_tCAnQMeYEeSrE9pbd6oYnw" name="DataTypeUtil"/>
+    <routinesParameter xmi:id="_7KL1upWPEfCy3MPMAf-UTQ" id="_CvTbIOkKEeK60_2jX9gBEQ" name="FileListHtmlGenerator"/>
+    <routinesParameter xmi:id="_7KL1u5WPEfCy3MPMAf-UTQ" id="_PESjcCYYEeW5gZVXtfxI4A" name="IpaasFileUtil"/>
+    <routinesParameter xmi:id="_7KL1vJWPEfCy3MPMAf-UTQ" id="_b9xFECGQEeKD7Og2nzf47Q" name="ONS"/>
+    <routinesParameter xmi:id="_7KL1vZWPEfCy3MPMAf-UTQ" id="_JsAZQHlHEeS5M-4wmV8XNg" name="Transformation"/>
+    <routinesParameter xmi:id="_7KL1vpWPEfCy3MPMAf-UTQ" id="_1cAIgMywEeSadJSYhJEDKA" name="tic_word_titleCase"/>
+  </parameters>
+  <node xmi:id="_7KL1v5WPEfCy3MPMAf-UTQ" componentName="cDirectVM" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="256" posY="192">
+    <elementParameter xmi:id="_7KL1wJWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cDirectVM_1" show="false"/>
+    <elementParameter xmi:id="_7KL1wZWPEfCy3MPMAf-UTQ" field="RADIO" name="SELECT_FROM_EXISTING" value="true" show="false"/>
+    <elementParameter xmi:id="_7KL1wpWPEfCy3MPMAf-UTQ" field="RADIO" name="INPUT_ENDPOINT_NAME" value="false" show="false"/>
+    <elementParameter xmi:id="_7KL1w5WPEfCy3MPMAf-UTQ" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_7KL1xJWPEfCy3MPMAf-UTQ" field="TEXT" name="ENDPOINT_NAME" value="&quot;out4&quot;"/>
+    <elementParameter xmi:id="_7KL1xZWPEfCy3MPMAf-UTQ" field="CHECK" name="BLOCK" value="false" show="false"/>
+    <elementParameter xmi:id="_7KL1xpWPEfCy3MPMAf-UTQ" field="TEXT" name="TIMEOUT" value="30000" show="false"/>
+    <elementParameter xmi:id="_7KL1x5WPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_7KL1yJWPEfCy3MPMAf-UTQ" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="192">
+    <elementParameter xmi:id="_7KL1yZWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
+    <elementParameter xmi:id="_7KL1ypWPEfCy3MPMAf-UTQ" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_7KL1y5WPEfCy3MPMAf-UTQ" field="MEMO_JAVA" name="CODE" value="/*&#xA;* Provide own codes to consume or translate the message exchanges.&#xA;* @param org.apache.camel.Exchange exchange&#xA;*/&#xA;System.out.println(&quot;*** out4 ***&quot;);"/>
+    <elementParameter xmi:id="_7KL1zJWPEfCy3MPMAf-UTQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <connection xmi:id="_7KL1zZWPEfCy3MPMAf-UTQ" connectorName="ROUTE" label="route1" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cDirectVM_1" target="cProcessor_1">
+    <elementParameter xmi:id="_7KL1zpWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
+  </connection>
+  <subjob xmi:id="_7KL1z5WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7KL10JWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cDirectVM_1" show="false"/>
+    <elementParameter xmi:id="_7KL10ZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_7KL10pWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_7KL105WPEfCy3MPMAf-UTQ">
+    <elementParameter xmi:id="_7KL11JWPEfCy3MPMAf-UTQ" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
+    <elementParameter xmi:id="_7KL11ZWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_7KL11pWPEfCy3MPMAf-UTQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>
