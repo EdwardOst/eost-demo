@@ -2,16 +2,6 @@
   "itemId" : "_HgHdQO8zEem69OEm_-3pJw",
   "contextList" : [ {
     "contextName" : "Default",
-    "repoId" : "_UcS2EH8NEeqatM4uq0BJ5A",
-    "parameterList" : [ {
-      "id" : "_UcgRcX8NEeqatM4uq0BJ5A",
-      "name" : "aws_access_key"
-    }, {
-      "id" : "_UcgRcn8NEeqatM4uq0BJ5A",
-      "name" : "aws_secret_key"
-    } ]
-  }, {
-    "contextName" : "Default",
     "repoId" : "_X9Fv8O-JEemliJhmMRgfWw",
     "parameterList" : [ {
       "id" : "_9ERuIn8JEeqatM4uq0BJ5A",
