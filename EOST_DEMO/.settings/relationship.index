@@ -1,5 +1,1329 @@
 [ {
   "baseItem" : {
+    "id" : "_-FmgIOuhEe-dNseBQv8b5g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "TruistUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TruistUtilOne",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_0C_6AIt-Ee-v1IJwYj0hww",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_R_56AIt8Ee-v1IJwYj0hww",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_JiPKIIt8Ee-v1IJwYj0hww",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_RPbdkI1kEe-dMfU2R79aeA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_cIJN8It_Ee-v1IJwYj0hww",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_iepZ0It7Ee-v1IJwYj0hww",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_0XctwJLWEe-KFa_JhYAkYQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_0evaMZkVEeu2dbvQKnrmSg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "DynamicEndpoint",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_1CwyIMBpEe-wt_7LLKUIZw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_1GORILV5Ee-338E6sqP1dQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_n4FmcLV6Ee-338E6sqP1dQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_3SniAPjqEe-lqbdcvnvHFQ",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_4xgMMCj2EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_MQUVUCj3EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_g1hp4PjqEe-lqbdcvnvHFQ",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_wvJcoPJVEe-THK0_NyUevA",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_1RXlQMJ9EeS0-LPeMXyp5A",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "A1_parisstreetindexcreationTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "A2_normalizeaddressTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "A2_standardizeaddressTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Convert",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DEMO_BIGDATA",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DemoRoutines",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Fibonacci",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GetRandomPhoneNum",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GzipUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "ImporttweetsTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "ImporttweetsTstandardizerow_2",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "KeyManagementForSqoop",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Products_parsingTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Standardize_and_word_analysisTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Step1_import_tweetsTstandardizerow_2",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Step1_import_tweets_localTstandardizerow_2",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Step1_import_tweets_working_hdfsTstandardizerow_2",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Thumbnail",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Tweets_Generator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "getNotNullFromString",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_2vF6AMDKEe-wt_7LLKUIZw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_4O3UgLfTEe-X1qh-haPtlg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_5-OLoMDOEe-wt_7LLKUIZw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_5A8LMNyQEeSJOOlqs_KupQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Jz4IgK1eEeuw5ritRo8M1g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_TuHuALP6Ee-TycxSWRMzBw",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_31KqUD_7Eeu7ENGEOMkRSw",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_5DFCQKmKEeGrAZfNM81NIA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "BasicHttpBinding_IRFPSoapServiceStub",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DemoRoutines",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "EverBank",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GetRandomPhoneNum",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "IRFPSoapService",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "RFPSoapService",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "RFPSoapServiceLocator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Result",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "RfpDemo",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_5_03cLe1Ee-X1qh-haPtlg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_klaiULVaEe-338E6sqP1dQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_F8PQ8GQSEeuMor5Dr5FCTw",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_peIO0Lf5Ee-X1qh-haPtlg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_T75_ELifEe-X1qh-haPtlg - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_652Y0C-DEe-j94ajqq18FA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_qJF5UMSDEe6Tx8LJmnEwTQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_rQDkAC-EEe-j94ajqq18FA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_qJF5UMSDEe6Tx8LJmnEwTQ - old_prospect",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rQDkAC-EEe-j94ajqq18FA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_6FkWUELSEeujPpbhI_uryQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_klaiULVaEe-338E6sqP1dQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_FWZoYJWEEfC8fddbPubGvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_w1IzYI-nEfCHsYocwdGGGw",
+    "version" : "Latest",
+    "type" : "resource"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_6_zzALV7EeuFOO1SjiJm7w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "Kiran_Routine",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_6kWX0Kl2EeGfB9PJ69ochw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "BasicHttpBinding_IRFPSoapServiceStub",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DemoRoutines",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "EverBank",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GetRandomPhoneNum",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "IRFPSoapService",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "RFPSoapService",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "RFPSoapServiceLocator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Result",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "RfpDemo",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_6yN4kI2CEe-dMfU2R79aeA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_R_56AIt8Ee-v1IJwYj0hww",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_Sq7TUJLXEe-KFa_JhYAkYQ",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_72_UUJ4HEeOKKvMQerw4ZQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "A1_parisstreetindexcreationTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "A2_normalizeaddressTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "A2_standardizeaddressTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DemoRoutines",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GetRandomPhoneNum",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Products_parsingTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_7eLfAHRmEfCQi9gDOiwn5w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Jz4IgK1eEeuw5ritRo8M1g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_3SniAPjqEe-lqbdcvnvHFQ",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_4xgMMCj2EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_AHsXUPdhEe-ZCpFmrHvDHw",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_MQUVUCj3EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_Z-CBIHS-EfCVS8ZbIEp6ow",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_g1hp4PjqEe-lqbdcvnvHFQ",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_wvJcoPJVEe-THK0_NyUevA",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_31KqUD_7Eeu7ENGEOMkRSw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AGONAGUIEeuMor5Dr5FCTw",
+    "version" : "Latest",
+    "type" : "resource"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_8KJkkNygEeSHVuD5_bCuMg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Jz4IgK1eEeuw5ritRo8M1g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_31KqUD_7Eeu7ENGEOMkRSw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_8VZfUBSJEfCF05xA1VDfqA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_8bXRoCTZEeu8VfB-qzh-ag",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "dynamicSchema_helper",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_8pPJABCyEfCs44uDX8BkfA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_8r_7YHTGEfCVS8ZbIEp6ow",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_vZlYMHTIEfCVS8ZbIEp6ow",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_3SniAPjqEe-lqbdcvnvHFQ",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_4xgMMCj2EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_AHsXUPdhEe-ZCpFmrHvDHw",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_MQUVUCj3EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_Z-CBIHS-EfCVS8ZbIEp6ow",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_g1hp4PjqEe-lqbdcvnvHFQ",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_wvJcoPJVEe-THK0_NyUevA",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_ViWWoFMEEeqGX97LsLsdLg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AGONAGUIEeuMor5Dr5FCTw",
+    "version" : "Latest",
+    "type" : "resource"
+  }, {
+    "id" : "_ViWWoFMEEeqGX97LsLsdLg - co_addresses",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ViWWoFMEEeqGX97LsLsdLg - co_customers",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_9DulQPXaEe-ZCpFmrHvDHw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Jz4IgK1eEeuw5ritRo8M1g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_31KqUD_7Eeu7ENGEOMkRSw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_9_QH0Le5EeuFOO1SjiJm7w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_4fOj4LewEeuFOO1SjiJm7w",
+    "version" : "Latest",
+    "type" : "resource"
+  }, {
+    "id" : "_52UJcLV9EeuFOO1SjiJm7w",
+    "version" : "Latest",
+    "type" : "resource"
+  }, {
+    "id" : "TalendUtilGuavaHelper",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_9yQ5MAO9EeqODsEInChL5g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Jz4IgK1eEeuw5ritRo8M1g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_Nr9F8Om4EemvcrLQOldEsw",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_31KqUD_7Eeu7ENGEOMkRSw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_A8seYJ2lEeuj7rIw7cb-mQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "STUDIO_SERVERLESS:_ZHRMwGEwEeuR-e6lmuvWCA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_aln8wGESEeukWJty-ykD3Q",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_tpkMYHGoEeu_ZMkn1oSufQ",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_Bq70QMX0EeaNbfDRT9DANg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "AdobeEventMapper",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "AdobeEventMapper_Java7",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DQ_METHODS",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataTypeUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "FileListHtmlGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "IpaasFileUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SfObmHelper",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SfObmNotification",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SfObmObject",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SfObmObjectAttribute",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Transformation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "tic_word_titleCase",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_CjP1MO0YEe-0A6CzqnH4_Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "FileUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TruistUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TruistUtilOne",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_DtPjQOQ9Ee-5vbWIQq23BA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_pYwB0HgjEfCmQeQVW3-E1w",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_E-8FQPkxEe-lqbdcvnvHFQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_EwlbgK1jEeuw5ritRo8M1g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Jz4IgK1eEeuw5ritRo8M1g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_31KqUD_7Eeu7ENGEOMkRSw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_F-PcEGQSEeuMor5Dr5FCTw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_F51dMGQSEeuMor5Dr5FCTw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_F8PQ8GQSEeuMor5Dr5FCTw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_Fp-GAMJrEeS0-LPeMXyp5A",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "A1_parisstreetindexcreationTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "A2_normalizeaddressTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "A2_standardizeaddressTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Convert",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DEMO_BIGDATA",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DemoRoutines",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Fibonacci",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GetRandomPhoneNum",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GzipUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "ImporttweetsTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "ImporttweetsTstandardizerow_2",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "KeyManagementForSqoop",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Products_parsingTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Standardize_and_word_analysisTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Step1_import_tweetsTstandardizerow_2",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Step1_import_tweets_localTstandardizerow_2",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Step1_import_tweets_working_hdfsTstandardizerow_2",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Thumbnail",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Tweets_Generator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "getNotNullFromString",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_GIjHYJzOEeOEi9UzJVHKRA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "BasicHttpBinding_IRFPSoapServiceStub",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DemoRoutines",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "EverBank",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GetRandomPhoneNum",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "IRFPSoapService",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "RFPSoapService",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "RFPSoapServiceLocator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Result",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "RfpDemo",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_H7J8QCiREeiaVr37Iq9xEw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_H7ZI4N8SEe-0j7-B-xzPLA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_R_56AIt8Ee-v1IJwYj0hww",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_0XctwJLWEe-KFa_JhYAkYQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_4xgMMCj2EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_MQUVUCj3EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_wvJcoPJVEe-THK0_NyUevA",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_HgHdQO8zEem69OEm_-3pJw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UcS2EH8NEeqatM4uq0BJ5A",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_X9Fv8O-JEemliJhmMRgfWw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_I0yyIJ2cEeuj7rIw7cb-mQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_YQZk0GQSEeuMor5Dr5FCTw",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_ZHRMwGEwEeuR-e6lmuvWCA",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_JiPKIIt8Ee-v1IJwYj0hww",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_R_56AIt8Ee-v1IJwYj0hww",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_JwozcJ4CEeOKKvMQerw4ZQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "A1_parisstreetindexcreationTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "A2_normalizeaddressTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "A2_standardizeaddressTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DemoRoutines",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GetRandomPhoneNum",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Products_parsingTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_KJmkwIt_Ee-v1IJwYj0hww",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_R_56AIt8Ee-v1IJwYj0hww",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_H7ZI4N8SEe-0j7-B-xzPLA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_ZEdgoN8oEe-oGOAeHv2kBA",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_Kh4LMMDPEe-wt_7LLKUIZw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_LvMvgKH6Ee-UZt9CKNTW9g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_UaXYMCKrEe-iH8tB9faxUw",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_qJF5UMSDEe6Tx8LJmnEwTQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DynamicDBTypeMapper",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DynamicSchemaMapperHelper",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_qJF5UMSDEe6Tx8LJmnEwTQ - STAGE_INPUTFILE",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_qJF5UMSDEe6Tx8LJmnEwTQ - old_prospect",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_M6y4oDCSEe6M2t4ERruDkw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Jz4IgK1eEeuw5ritRo8M1g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_31KqUD_7Eeu7ENGEOMkRSw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_MWK-wK1hEeuw5ritRo8M1g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Jz4IgK1eEeuw5ritRo8M1g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_lJQHgHUuEfCTOcuwpXY1CQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_MwSUoOnIEemvcrLQOldEsw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_klaiULVaEe-338E6sqP1dQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_fA_dcJCFEfCnSsm8VF-bYw",
+    "version" : "Latest",
+    "type" : "resource"
+  }, {
+    "id" : "_lpdmQJCFEfCnSsm8VF-bYw",
+    "version" : "Latest",
+    "type" : "resource"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_PFIUQKvkEe-vnKPx_hZbxw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AGONAGUIEeuMor5Dr5FCTw",
+    "version" : "Latest",
+    "type" : "resource"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_QKNNUGZ8EeWm5YvsrIoYzQ",
     "version" : "0.1",
     "type" : "job"
@@ -12,5 +1336,2092 @@
     "id" : "GetRandomPhoneNum",
     "version" : "Latest",
     "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_RMF10LYREeq2pILZRNvd8g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "DynamicEndpoint",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_RPbdkI1kEe-dMfU2R79aeA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_R_56AIt8Ee-v1IJwYj0hww",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_Sq7TUJLXEe-KFa_JhYAkYQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_THsXUMHMEeGchblQ5yvF6w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "BasicHttpBinding_IRFPSoapServiceStub",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DemoRoutines",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "EverBank",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GetRandomPhoneNum",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "IRFPSoapService",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "RFPSoapService",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "RFPSoapServiceLocator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Result",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "RfpDemo",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_ThcT0LijEe-X1qh-haPtlg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_TuHuALP6Ee-TycxSWRMzBw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Jz4IgK1eEeuw5ritRo8M1g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_31KqUD_7Eeu7ENGEOMkRSw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_UPZUQK2iEeu1dYEqqzvAGA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_URQrwBKLEeeAMueLhXbfPw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_UPZUQK2iEeu1dYEqqzvAGA",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_UVU8IEmUEeuPBdPRtt-gEw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Jz4IgK1eEeuw5ritRo8M1g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_31KqUD_7Eeu7ENGEOMkRSw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_52UJcLV9EeuFOO1SjiJm7w",
+    "version" : "Latest",
+    "type" : "resource"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_UrcHAPm4Ee-AULWvKJ_agw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_4xgMMCj2EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_AHsXUPdhEe-ZCpFmrHvDHw",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_MQUVUCj3EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_wvJcoPJVEe-THK0_NyUevA",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_VS8ikKv-Ee-G7Ohtd4i47A",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_YQZk0GQSEeuMor5Dr5FCTw",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_4xgMMCj2EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_AHsXUPdhEe-ZCpFmrHvDHw",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_MQUVUCj3EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_wvJcoPJVEe-THK0_NyUevA",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_VTTPIL-pEeSYSdEjEqhYRg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "A1_parisstreetindexcreationTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "A2_normalizeaddressTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "A2_standardizeaddressTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Convert",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DEMO_BIGDATA",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DemoRoutines",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Fibonacci",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GetRandomPhoneNum",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GzipUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "ImporttweetsTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "ImporttweetsTstandardizerow_2",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "KeyManagementForSqoop",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Products_parsingTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Standardize_and_word_analysisTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Step1_import_tweetsTstandardizerow_2",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Step1_import_tweets_localTstandardizerow_2",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Step1_import_tweets_working_hdfsTstandardizerow_2",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Thumbnail",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Tweets_Generator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "getNotNullFromString",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_VW6nMME0Ee-wt_7LLKUIZw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_WhRAIK1pEeuw5ritRo8M1g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Jz4IgK1eEeuw5ritRo8M1g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_Nr9F8Om4EemvcrLQOldEsw",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_31KqUD_7Eeu7ENGEOMkRSw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dhPFQK5hEeual9DkVfaQ_g",
+    "version" : "Latest",
+    "type" : "resource"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_WpYSwAaPEfCUnJbCrG8xfQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_XD36IK26EeuXhqTHo9DNCw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Jz4IgK1eEeuw5ritRo8M1g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_31KqUD_7Eeu7ENGEOMkRSw",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_Y88WECDxEeOh_PN4PeLJeA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_3SniAPjqEe-lqbdcvnvHFQ",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_4xgMMCj2EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_AHsXUPdhEe-ZCpFmrHvDHw",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_MQUVUCj3EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_Oy2tgHSPEfCVS8ZbIEp6ow",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_g1hp4PjqEe-lqbdcvnvHFQ",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_wvJcoPJVEe-THK0_NyUevA",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_AGONAGUIEeuMor5Dr5FCTw",
+    "version" : "Latest",
+    "type" : "resource"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_YBPdUMPhEeSIfojqHIp2tg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "A1_parisstreetindexcreationTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "A2_normalizeaddressTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "A2_standardizeaddressTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Convert",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DEMO_BIGDATA",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DemoRoutines",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Fibonacci",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GetRandomPhoneNum",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GzipUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "ImporttweetsTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "ImporttweetsTstandardizerow_2",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "KeyManagementForSqoop",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MyDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Products_parsingTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Standardize_and_word_analysisTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Step1_import_tweetsTstandardizerow_2",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Step1_import_tweets_localTstandardizerow_2",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Step1_import_tweets_working_hdfsTstandardizerow_2",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Thumbnail",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Tweets_Generator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "getNotNullFromString",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_YGe8oGEZEeuR-e6lmuvWCA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_YQZk0GQSEeuMor5Dr5FCTw",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_YQZk0GQSEeuMor5Dr5FCTw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_F-PcEGQSEeuMor5Dr5FCTw",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_F51dMGQSEeuMor5Dr5FCTw",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_F8PQ8GQSEeuMor5Dr5FCTw",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_hZNRgGQUEeuMor5Dr5FCTw",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_4xgMMCj2EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_AHsXUPdhEe-ZCpFmrHvDHw",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_MQUVUCj3EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_wvJcoPJVEe-THK0_NyUevA",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_Yn7nkKvhEe-aTtOuouwbAg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_4xgMMCj2EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_AHsXUPdhEe-ZCpFmrHvDHw",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_MQUVUCj3EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_wvJcoPJVEe-THK0_NyUevA",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_ZEdgoN8oEe-oGOAeHv2kBA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_R_56AIt8Ee-v1IJwYj0hww",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_Sq7TUJLXEe-KFa_JhYAkYQ",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "__JTEcEx3EeyFbMJmPEj3gQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_52UJcLV9EeuFOO1SjiJm7w",
+    "version" : "Latest",
+    "type" : "resource"
+  }, {
+    "id" : "DynamicSchemaHelper",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "__LBzIDJBEe-w9aJIMs3HqA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_E-8FQPkxEe-lqbdcvnvHFQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_YQZk0GQSEeuMor5Dr5FCTw",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_4xgMMCj2EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_AHsXUPdhEe-ZCpFmrHvDHw",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_MQUVUCj3EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_wvJcoPJVEe-THK0_NyUevA",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "__dsMMNyQEeSJOOlqs_KupQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_a5GYgLiQEe-X1qh-haPtlg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_klaiULVaEe-338E6sqP1dQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_T75_ELifEe-X1qh-haPtlg - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_arFv4HTIEfCVS8ZbIEp6ow",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Jz4IgK1eEeuw5ritRo8M1g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_3SniAPjqEe-lqbdcvnvHFQ",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_4xgMMCj2EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_AHsXUPdhEe-ZCpFmrHvDHw",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_MQUVUCj3EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_g1hp4PjqEe-lqbdcvnvHFQ",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_wvJcoPJVEe-THK0_NyUevA",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_31KqUD_7Eeu7ENGEOMkRSw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_bKCWYLeyEe-X1qh-haPtlg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_bUwJMPXaEe-ZCpFmrHvDHw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Jz4IgK1eEeuw5ritRo8M1g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_31KqUD_7Eeu7ENGEOMkRSw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_bYPiEPXaEe-ZCpFmrHvDHw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Jz4IgK1eEeuw5ritRo8M1g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_31KqUD_7Eeu7ENGEOMkRSw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AGONAGUIEeuMor5Dr5FCTw",
+    "version" : "Latest",
+    "type" : "resource"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_bax4sPXaEe-ZCpFmrHvDHw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Jz4IgK1eEeuw5ritRo8M1g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_4xgMMCj2EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_MQUVUCj3EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_wvJcoPJVEe-THK0_NyUevA",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_31KqUD_7Eeu7ENGEOMkRSw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_31KqUD_7Eeu7ENGEOMkRSw - valid_customers",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_bxHyEO1IEe-0A6CzqnH4_Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "FileUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TruistUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TruistUtilOne",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_c4KoILZ6EeuFOO1SjiJm7w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Jz4IgK1eEeuw5ritRo8M1g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_31KqUD_7Eeu7ENGEOMkRSw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_52UJcLV9EeuFOO1SjiJm7w",
+    "version" : "Latest",
+    "type" : "resource"
+  }, {
+    "id" : "_rE8MQLbwEeuFOO1SjiJm7w",
+    "version" : "Latest",
+    "type" : "resource"
+  }, {
+    "id" : "TalendUtilDynamicSchemaHelper",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_IMyTULZ8EeuFOO1SjiJm7w - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_cIJN8It_Ee-v1IJwYj0hww",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_R_56AIt8Ee-v1IJwYj0hww",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_c_WBoDFTEe6M2t4ERruDkw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Jz4IgK1eEeuw5ritRo8M1g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_Nr9F8Om4EemvcrLQOldEsw",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_31KqUD_7Eeu7ENGEOMkRSw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dhPFQK5hEeual9DkVfaQ_g",
+    "version" : "Latest",
+    "type" : "resource"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_cf7TkLcEEeuFOO1SjiJm7w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_4fOj4LewEeuFOO1SjiJm7w",
+    "version" : "Latest",
+    "type" : "resource"
+  }, {
+    "id" : "_52UJcLV9EeuFOO1SjiJm7w",
+    "version" : "Latest",
+    "type" : "resource"
+  }, {
+    "id" : "TalendUtilDynamicSchemaHelper",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_ckEHMPIEEe-QeJW8t4eyBA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_R_56AIt8Ee-v1IJwYj0hww",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_0XctwJLWEe-KFa_JhYAkYQ",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_cmFgcPIEEe-QeJW8t4eyBA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_R_56AIt8Ee-v1IJwYj0hww",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_Sq7TUJLXEe-KFa_JhYAkYQ",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_coEdcPIEEe-QeJW8t4eyBA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_R_56AIt8Ee-v1IJwYj0hww",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_Sq7TUJLXEe-KFa_JhYAkYQ",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_dYeP0MClEe-wt_7LLKUIZw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_ekD90PXaEe-ZCpFmrHvDHw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_emoJoPXaEe-ZCpFmrHvDHw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_epHc8PXaEe-ZCpFmrHvDHw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_erLScPXaEe-ZCpFmrHvDHw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_fctRIHQ5EeGJt5PTJiX9MQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "GetRandomPhoneNum",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_fi-HUIuFEe-v1IJwYj0hww",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_klaiULVaEe-338E6sqP1dQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_SEkMAIuGEe-v1IJwYj0hww",
+    "version" : "Latest",
+    "type" : "resource"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_g245QMLbEe-3mux6PVWlrg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_gYD5wHTIEfCVS8ZbIEp6ow",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_vZlYMHTIEfCVS8ZbIEp6ow",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_3SniAPjqEe-lqbdcvnvHFQ",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_4xgMMCj2EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_AHsXUPdhEe-ZCpFmrHvDHw",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_MQUVUCj3EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_g1hp4PjqEe-lqbdcvnvHFQ",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_wvJcoPJVEe-THK0_NyUevA",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_ViWWoFMEEeqGX97LsLsdLg",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_hI3z4DuqEfC8mPAUBvrrEA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "FileUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TruistUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TruistUtilOne",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_hZNRgGQUEeuMor5Dr5FCTw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_iAYcYJejEe-KFa_JhYAkYQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_YQZk0GQSEeuMor5Dr5FCTw",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_floRMJejEe-KFa_JhYAkYQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_pOuSYJejEe-KFa_JhYAkYQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_vy2GsJejEe-KFa_JhYAkYQ",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_iIq0sJ2dEeuj7rIw7cb-mQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "STUDIO_SERVERLESS:_ZHRMwGEwEeuR-e6lmuvWCA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_aln8wGESEeukWJty-ykD3Q",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_tpkMYHGoEeu_ZMkn1oSufQ",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_iepZ0It7Ee-v1IJwYj0hww",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_R_56AIt8Ee-v1IJwYj0hww",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_H7ZI4N8SEe-0j7-B-xzPLA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_ZEdgoN8oEe-oGOAeHv2kBA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_4xgMMCj2EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_MQUVUCj3EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_wvJcoPJVEe-THK0_NyUevA",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_ilPd8DOBEeiv5r1K04FiqA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "AdobeEventMapper",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "AdobeEventMapper_Java7",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DQ_METHODS",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataTypeUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "FileListHtmlGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "IpaasFileUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "KafkaCommit",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "LogUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MerckUtils",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "ONS",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Process",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "S3util",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SimpleValidatorService",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SplitCDCKeys",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StripControlChars",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Transformation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "myHashMap",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "tic_word_titleCase",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_ix9dwJLWEe-KFa_JhYAkYQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_R_56AIt8Ee-v1IJwYj0hww",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_H7ZI4N8SEe-0j7-B-xzPLA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_ZEdgoN8oEe-oGOAeHv2kBA",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_jLEXh0nfEeiirvYx4BAZKw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_N_vK8CiUEemigINqY-uvtQ",
+    "version" : "Latest",
+    "type" : "resource"
+  }, {
+    "id" : "__arUICiVEemigINqY-uvtQ",
+    "version" : "Latest",
+    "type" : "resource"
+  }, {
+    "id" : "SimpleValidatorServiceFactory",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_jXf2AHUuEfCTOcuwpXY1CQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_vZlYMHTIEfCVS8ZbIEp6ow",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_3SniAPjqEe-lqbdcvnvHFQ",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_4xgMMCj2EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_AHsXUPdhEe-ZCpFmrHvDHw",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_MQUVUCj3EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_g1hp4PjqEe-lqbdcvnvHFQ",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_wvJcoPJVEe-THK0_NyUevA",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_ViWWoFMEEeqGX97LsLsdLg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_ViWWoFMEEeqGX97LsLsdLg - co_addresses",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ViWWoFMEEeqGX97LsLsdLg - co_customers",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ViWWoFMEEeqGX97LsLsdLg - valid_customers",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_lDwqYKlZEeGIP9HHvn0fCw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "BasicHttpBinding_IRFPSoapServiceStub",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DemoRoutines",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "EverBank",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GetRandomPhoneNum",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "IRFPSoapService",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "RFPSoapService",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "RFPSoapServiceLocator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Result",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "RfpDemo",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_lJQHgHUuEfCTOcuwpXY1CQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Jz4IgK1eEeuw5ritRo8M1g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_3SniAPjqEe-lqbdcvnvHFQ",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_4xgMMCj2EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_AHsXUPdhEe-ZCpFmrHvDHw",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_MQUVUCj3EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_g1hp4PjqEe-lqbdcvnvHFQ",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_wvJcoPJVEe-THK0_NyUevA",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_31KqUD_7Eeu7ENGEOMkRSw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_31KqUD_7Eeu7ENGEOMkRSw - valid_customers",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_mGGY0I_eEfCEusH3hTKl0Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_JM8W8I5DEfCbLcjyzXfxXA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_mI2UkK4PEeuXhqTHo9DNCw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_CBq2QFxmEeun1sLBNtPWLA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_n4FmcLV6Ee-338E6sqP1dQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_obRwsLe3Ee-X1qh-haPtlg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_oh_iwO8zEem69OEm_-3pJw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_MBk_sJ3FEemuKt9luIzbhA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_HgHdQO8zEem69OEm_-3pJw",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_pHTlcAlBEequL7uGX8aq6g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_0_oVQO-NEemliJhmMRgfWw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_UcS2EH8NEeqatM4uq0BJ5A",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_X9Fv8O-JEemliJhmMRgfWw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_HgHdQO8zEem69OEm_-3pJw",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_pYwB0HgjEfCmQeQVW3-E1w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_XKP2MbWBEeuFOO1SjiJm7w - co_customers",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_peIO0Lf5Ee-X1qh-haPtlg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_qLiFgLQWEe-TycxSWRMzBw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_uqX4QBhHEeKaAPOxCwfqcg",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_r1vEcMMzEe-3mux6PVWlrg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_r_ZngNyQEeSJOOlqs_KupQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_-B60MLPhEe-TycxSWRMzBw",
+    "version" : "Latest",
+    "type" : "resource"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_s0OE8GuzEfCexci-jQlqRQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "FileUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_sVpq8NyrEeaJ67yOWQ4S0g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "AdobeEventMapper",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "AdobeEventMapper_Java7",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DQ_METHODS",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataTypeUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "FileListHtmlGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "IpaasFileUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "ONS",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SfObmHelper",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SfObmNotification",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SfObmObject",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SfObmObjectAttribute",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Transformation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "tic_word_titleCase",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_sfBN8CQOEeukPYBESZl2hg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_UxcT8BG7Eeugqto2Pd_01g",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_9zNB4GykEeuzf-HNVvZJng",
+    "version" : "Latest",
+    "type" : "resource"
+  }, {
+    "id" : "_UxcT8BG7Eeugqto2Pd_01g - dv_sat_account",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_UxcT8BG7Eeugqto2Pd_01g - dv_sat_address",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_UxcT8BG7Eeugqto2Pd_01g - dv_sat_user",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_tMZD8MMGEeSmRrHWXRjKyA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_tpkMYHGoEeu_ZMkn1oSufQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_klaiULVaEe-338E6sqP1dQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_vo93sLe9Ee-X1qh-haPtlg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_YQZk0GQSEeuMor5Dr5FCTw",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "STUDIO_SERVERLESS:_obRwsLe3Ee-X1qh-haPtlg",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_wJ8zYPkwEe-lqbdcvnvHFQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "STUDIO_SERVERLESS:_E-8FQPkxEe-lqbdcvnvHFQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_wUPIcO1WEe-p-7gTM_ZWiA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "FileUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TruistUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TruistUtilOne",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_w_PhAO0ZEe-0A6CzqnH4_Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "FileUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_wf2TEG7hEeuz8qkrfnaDYQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_klaiULVaEe-338E6sqP1dQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_FWZoYJWEEfC8fddbPubGvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_NQN0kI5CEfCbLcjyzXfxXA",
+    "version" : "Latest",
+    "type" : "resource"
+  }, {
+    "id" : "_qyyPYI-nEfCHsYocwdGGGw",
+    "version" : "Latest",
+    "type" : "resource"
+  }, {
+    "id" : "_ER9HAGC9EeuPn4ViBirluw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_JM8W8I5DEfCbLcjyzXfxXA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_xFyv0O8zEem69OEm_-3pJw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_0_oVQO-NEemliJhmMRgfWw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_UcS2EH8NEeqatM4uq0BJ5A",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_X9Fv8O-JEemliJhmMRgfWw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_HgHdQO8zEem69OEm_-3pJw",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_8vR4gOmuEemvcrLQOldEsw",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_yOaxQJejEe-KFa_JhYAkYQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_4xgMMCj2EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_MQUVUCj3EeiMi5aEv-bNvg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_wvJcoPJVEe-THK0_NyUevA",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_zAx6MATvEfCfBqChwajRZg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_zcZA4JhbEeuLFppSaXdf6g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_zizi8MASEeSYSdEjEqhYRg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
   } ]
 } ]
