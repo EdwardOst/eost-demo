@@ -61,14 +61,14 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_0evaMZkVEeu2dbvQKnrmSg",
+    "id" : "_0aw-cNN3Ee-LEqx2-n1UEA",
     "version" : "0.1",
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "DynamicEndpoint",
+    "id" : "_VW6nMME0Ee-wt_7LLKUIZw",
     "version" : "Latest",
-    "type" : "routine"
+    "type" : "context"
   } ]
 }, {
   "baseItem" : {
@@ -117,93 +117,6 @@
     "type" : "joblet"
   }, {
     "id" : "r",
-    "version" : "Latest",
-    "type" : "routine"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_1RXlQMJ9EeS0-LPeMXyp5A",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "A1_parisstreetindexcreationTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "A2_normalizeaddressTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "A2_standardizeaddressTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Convert",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DEMO_BIGDATA",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DemoRoutines",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Fibonacci",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "GetRandomPhoneNum",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "GzipUtil",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "ImporttweetsTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "ImporttweetsTstandardizerow_2",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "KeyManagementForSqoop",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Products_parsingTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Standardize_and_word_analysisTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Step1_import_tweetsTstandardizerow_2",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Step1_import_tweets_localTstandardizerow_2",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Step1_import_tweets_working_hdfsTstandardizerow_2",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Thumbnail",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Tweets_Generator",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "getNotNullFromString",
     "version" : "Latest",
     "type" : "routine"
   } ]
@@ -262,49 +175,6 @@
     "id" : "_31KqUD_7Eeu7ENGEOMkRSw",
     "version" : "Latest",
     "type" : "property"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_5DFCQKmKEeGrAZfNM81NIA",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "BasicHttpBinding_IRFPSoapServiceStub",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DemoRoutines",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "EverBank",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "GetRandomPhoneNum",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "IRFPSoapService",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "RFPSoapService",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "RFPSoapServiceLocator",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Result",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "RfpDemo",
-    "version" : "Latest",
-    "type" : "routine"
   } ]
 }, {
   "baseItem" : {
@@ -396,49 +266,6 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_6kWX0Kl2EeGfB9PJ69ochw",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "BasicHttpBinding_IRFPSoapServiceStub",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DemoRoutines",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "EverBank",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "GetRandomPhoneNum",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "IRFPSoapService",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "RFPSoapService",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "RFPSoapServiceLocator",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Result",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "RfpDemo",
-    "version" : "Latest",
-    "type" : "routine"
-  } ]
-}, {
-  "baseItem" : {
     "id" : "_6yN4kI2CEe-dMfU2R79aeA",
     "version" : "0.1",
     "type" : "job"
@@ -455,37 +282,6 @@
     "id" : "STUDIO_SERVERLESS:_Sq7TUJLXEe-KFa_JhYAkYQ",
     "version" : "Latest",
     "type" : "job"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_72_UUJ4HEeOKKvMQerw4ZQ",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "A1_parisstreetindexcreationTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "A2_normalizeaddressTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "A2_standardizeaddressTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DemoRoutines",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "GetRandomPhoneNum",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Products_parsingTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
   } ]
 }, {
   "baseItem" : {
@@ -739,61 +535,6 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_Bq70QMX0EeaNbfDRT9DANg",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "AdobeEventMapper",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "AdobeEventMapper_Java7",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DQ_METHODS",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DataTypeUtil",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "FileListHtmlGenerator",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "IpaasFileUtil",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "SfObmHelper",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "SfObmNotification",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "SfObmObject",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "SfObmObjectAttribute",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Transformation",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "tic_word_titleCase",
-    "version" : "Latest",
-    "type" : "routine"
-  } ]
-}, {
-  "baseItem" : {
     "id" : "_CjP1MO0YEe-0A6CzqnH4_Q",
     "version" : "0.1",
     "type" : "job"
@@ -903,136 +644,6 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_Fp-GAMJrEeS0-LPeMXyp5A",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "A1_parisstreetindexcreationTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "A2_normalizeaddressTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "A2_standardizeaddressTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Convert",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DEMO_BIGDATA",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DemoRoutines",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Fibonacci",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "GetRandomPhoneNum",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "GzipUtil",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "ImporttweetsTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "ImporttweetsTstandardizerow_2",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "KeyManagementForSqoop",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Products_parsingTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Standardize_and_word_analysisTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Step1_import_tweetsTstandardizerow_2",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Step1_import_tweets_localTstandardizerow_2",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Step1_import_tweets_working_hdfsTstandardizerow_2",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Thumbnail",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Tweets_Generator",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "getNotNullFromString",
-    "version" : "Latest",
-    "type" : "routine"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_GIjHYJzOEeOEi9UzJVHKRA",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "BasicHttpBinding_IRFPSoapServiceStub",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DemoRoutines",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "EverBank",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "GetRandomPhoneNum",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "IRFPSoapService",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "RFPSoapService",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "RFPSoapServiceLocator",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Result",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "RfpDemo",
-    "version" : "Latest",
-    "type" : "routine"
-  } ]
-}, {
-  "baseItem" : {
     "id" : "_H7J8QCiREeiaVr37Iq9xEw",
     "version" : "0.1",
     "type" : "job"
@@ -1116,37 +727,6 @@
     "type" : "context"
   }, {
     "id" : "r",
-    "version" : "Latest",
-    "type" : "routine"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_JwozcJ4CEeOKKvMQerw4ZQ",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "A1_parisstreetindexcreationTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "A2_normalizeaddressTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "A2_standardizeaddressTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DemoRoutines",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "GetRandomPhoneNum",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Products_parsingTstandardizerow_1",
     "version" : "Latest",
     "type" : "routine"
   } ]
@@ -1305,17 +885,6 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_RMF10LYREeq2pILZRNvd8g",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "DynamicEndpoint",
-    "version" : "Latest",
-    "type" : "routine"
-  } ]
-}, {
-  "baseItem" : {
     "id" : "_RPbdkI1kEe-dMfU2R79aeA",
     "version" : "0.1",
     "type" : "job"
@@ -1339,49 +908,6 @@
     "id" : "built-in",
     "version" : "Latest",
     "type" : "context"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_THsXUMHMEeGchblQ5yvF6w",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "BasicHttpBinding_IRFPSoapServiceStub",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DemoRoutines",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "EverBank",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "GetRandomPhoneNum",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "IRFPSoapService",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "RFPSoapService",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "RFPSoapServiceLocator",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Result",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "RfpDemo",
-    "version" : "Latest",
-    "type" : "routine"
   } ]
 }, {
   "baseItem" : {
@@ -1538,93 +1064,6 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_VTTPIL-pEeSYSdEjEqhYRg",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "A1_parisstreetindexcreationTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "A2_normalizeaddressTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "A2_standardizeaddressTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Convert",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DEMO_BIGDATA",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DemoRoutines",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Fibonacci",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "GetRandomPhoneNum",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "GzipUtil",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "ImporttweetsTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "ImporttweetsTstandardizerow_2",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "KeyManagementForSqoop",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Products_parsingTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Standardize_and_word_analysisTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Step1_import_tweetsTstandardizerow_2",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Step1_import_tweets_localTstandardizerow_2",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Step1_import_tweets_working_hdfsTstandardizerow_2",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Thumbnail",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Tweets_Generator",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "getNotNullFromString",
-    "version" : "Latest",
-    "type" : "routine"
-  } ]
-}, {
-  "baseItem" : {
     "id" : "_VW6nMME0Ee-wt_7LLKUIZw",
     "version" : "0.1",
     "type" : "job"
@@ -1733,97 +1172,6 @@
     "id" : "_AGONAGUIEeuMor5Dr5FCTw",
     "version" : "Latest",
     "type" : "resource"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_YBPdUMPhEeSIfojqHIp2tg",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "A1_parisstreetindexcreationTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "A2_normalizeaddressTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "A2_standardizeaddressTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Convert",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DEMO_BIGDATA",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DemoRoutines",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Fibonacci",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "GetRandomPhoneNum",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "GzipUtil",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "ImporttweetsTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "ImporttweetsTstandardizerow_2",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "KeyManagementForSqoop",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "MyDataGenerator",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Products_parsingTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Standardize_and_word_analysisTstandardizerow_1",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Step1_import_tweetsTstandardizerow_2",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Step1_import_tweets_localTstandardizerow_2",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Step1_import_tweets_working_hdfsTstandardizerow_2",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Thumbnail",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Tweets_Generator",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "getNotNullFromString",
-    "version" : "Latest",
-    "type" : "routine"
   } ]
 }, {
   "baseItem" : {
@@ -2405,17 +1753,6 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_fctRIHQ5EeGJt5PTJiX9MQ",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "GetRandomPhoneNum",
-    "version" : "Latest",
-    "type" : "routine"
-  } ]
-}, {
-  "baseItem" : {
     "id" : "_fi-HUIuFEe-v1IJwYj0hww",
     "version" : "0.1",
     "type" : "job"
@@ -2612,85 +1949,6 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_ilPd8DOBEeiv5r1K04FiqA",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "AdobeEventMapper",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "AdobeEventMapper_Java7",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DQ_METHODS",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DataTypeUtil",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "FileListHtmlGenerator",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "IpaasFileUtil",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "KafkaCommit",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "LogUtil",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "MerckUtils",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "ONS",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Process",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "S3util",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "SimpleValidatorService",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "SplitCDCKeys",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "StripControlChars",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Transformation",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "myHashMap",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "tic_word_titleCase",
-    "version" : "Latest",
-    "type" : "routine"
-  } ]
-}, {
-  "baseItem" : {
     "id" : "_ix9dwJLWEe-KFa_JhYAkYQ",
     "version" : "0.1",
     "type" : "job"
@@ -2792,49 +2050,6 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_lDwqYKlZEeGIP9HHvn0fCw",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "BasicHttpBinding_IRFPSoapServiceStub",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DemoRoutines",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "EverBank",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "GetRandomPhoneNum",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "IRFPSoapService",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "RFPSoapService",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "RFPSoapServiceLocator",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Result",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "RfpDemo",
-    "version" : "Latest",
-    "type" : "routine"
-  } ]
-}, {
-  "baseItem" : {
     "id" : "_lJQHgHUuEfCTOcuwpXY1CQ",
     "version" : "0.1",
     "type" : "job"
@@ -2922,6 +2137,37 @@
     "type" : "context"
   }, {
     "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_nwafcFShEem2ObSLuA-kFQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "A1_parisstreetindexcreationTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "A2_normalizeaddressTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "A2_standardizeaddressTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DemoRoutines",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GetRandomPhoneNum",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Products_parsingTstandardizerow_1",
     "version" : "Latest",
     "type" : "routine"
   } ]
@@ -3019,65 +2265,6 @@
     "type" : "routine"
   }, {
     "id" : "r",
-    "version" : "Latest",
-    "type" : "routine"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_sVpq8NyrEeaJ67yOWQ4S0g",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "AdobeEventMapper",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "AdobeEventMapper_Java7",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DQ_METHODS",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "DataTypeUtil",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "FileListHtmlGenerator",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "IpaasFileUtil",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "ONS",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "SfObmHelper",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "SfObmNotification",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "SfObmObject",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "SfObmObjectAttribute",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "Transformation",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "tic_word_titleCase",
     "version" : "Latest",
     "type" : "routine"
   } ]
@@ -3308,13 +2495,36 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_zizi8MASEeSYSdEjEqhYRg",
+    "id" : "_FWZoYJWEEfC8fddbPubGvg",
     "version" : "0.1",
-    "type" : "job"
+    "type" : "joblet"
   },
   "relatedItems" : [ {
-    "id" : "built-in",
+    "id" : "_dWGR0JV7EfC8fddbPubGvg - metadata",
     "version" : "Latest",
-    "type" : "context"
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_UaXYMCKrEe-iH8tB9faxUw",
+    "version" : "0.1",
+    "type" : "joblet"
+  },
+  "relatedItems" : [ {
+    "id" : "_qJF5UMSDEe6Tx8LJmnEwTQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DynamicDBTypeMapper",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DynamicSchemaMapperHelper",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "r",
+    "version" : "Latest",
+    "type" : "routine"
   } ]
 } ]
