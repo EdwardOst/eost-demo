@@ -356,10 +356,6 @@
     "id" : "_AGONAGUIEeuMor5Dr5FCTw",
     "version" : "Latest",
     "type" : "resource"
-  }, {
-    "id" : "r",
-    "version" : "Latest",
-    "type" : "routine"
   } ]
 }, {
   "baseItem" : {
@@ -1434,10 +1430,6 @@
     "id" : "_31KqUD_7Eeu7ENGEOMkRSw",
     "version" : "Latest",
     "type" : "property"
-  }, {
-    "id" : "r",
-    "version" : "Latest",
-    "type" : "routine"
   } ]
 }, {
   "baseItem" : {
@@ -2109,10 +2101,6 @@
     "id" : "_31KqUD_7Eeu7ENGEOMkRSw",
     "version" : "Latest",
     "type" : "property"
-  }, {
-    "id" : "r",
-    "version" : "Latest",
-    "type" : "routine"
   }, {
     "id" : "_31KqUD_7Eeu7ENGEOMkRSw - valid_customers",
     "version" : "Latest",
