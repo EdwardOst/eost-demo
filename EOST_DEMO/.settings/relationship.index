@@ -2055,10 +2055,6 @@
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "r",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
     "id" : "_ViWWoFMEEeqGX97LsLsdLg - co_addresses",
     "version" : "Latest",
     "type" : "schema"
