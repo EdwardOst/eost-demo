@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_J0JOQK1eEeuw5ritRo8M1g" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_J0JOQa1eEeuw5ritRo8M1g" comment="" name="connection_mysql_Password" prompt="connection_mysql_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v4:rikuEO6dCQDOPfTUSv1t2thYt/sT9ZG5adwM88vtfIaDzwI="/>
+    <contextParameter xmi:id="_J0JOQq1eEeuw5ritRo8M1g" comment="" name="connection_mysql_Login" prompt="connection_mysql_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="qlik"/>
+    <contextParameter xmi:id="_J0JOQ61eEeuw5ritRo8M1g" comment="" name="connection_mysql_Port" prompt="connection_mysql_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_J0JORK1eEeuw5ritRo8M1g" comment="" name="connection_mysql_AdditionalParams" prompt="connection_mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_J0JORa1eEeuw5ritRo8M1g" comment="" name="connection_mysql_Server" prompt="connection_mysql_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_J0JORq1eEeuw5ritRo8M1g" comment="" name="connection_mysql_Database" prompt="connection_mysql_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="qlik"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_DX6xMDCzEe6M2t4ERruDkw" confirmationNeeded="false" hide="false" name="docker">
+    <contextParameter xmi:id="_DX6xMTCzEe6M2t4ERruDkw" comment="" name="connection_mysql_Password" prompt="connection_mysql_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v4:oOI3HoNJ02J+Hn5W2AHWz85MC5oG9WPHKeqAMlYvaLJvhN0="/>
+    <contextParameter xmi:id="_DX6xMjCzEe6M2t4ERruDkw" comment="" name="connection_mysql_Login" prompt="connection_mysql_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="qlik"/>
+    <contextParameter xmi:id="_DX6xMzCzEe6M2t4ERruDkw" comment="" name="connection_mysql_Port" prompt="connection_mysql_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_DX6xNDCzEe6M2t4ERruDkw" comment="" name="connection_mysql_AdditionalParams" prompt="connection_mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_DX6xNTCzEe6M2t4ERruDkw" comment="" name="connection_mysql_Server" prompt="connection_mysql_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql_server"/>
+    <contextParameter xmi:id="_DX6xNjCzEe6M2t4ERruDkw" comment="" name="connection_mysql_Database" prompt="connection_mysql_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="qlik"/>
+  </talendfile:ContextType>
+</xmi:XMI>

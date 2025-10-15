@@ -6,12 +6,12 @@
     <contextParameter comment="" name="docker_host_config" prompt="docker_host_config?" promptNeeded="false" repositoryContextId="built-in" type="id_Resource" value="_dhPFQK5hEeual9DkVfaQ_g|Latest" internalId="_rmJVAK5iEeual9DkVfaQ_g"/>
     <contextParameter comment="" name="docker_server_host" prompt="docker_server_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_5lXy0DGTEe6M2t4ERruDkw"/>
     <contextParameter comment="" name="docker_server_port" prompt="docker_server_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="2375" internalId="_5lXy0TGTEe6M2t4ERruDkw"/>
-    <contextParameter comment="" name="local_mysql_AdditionalParams" prompt="local_mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="noDatetimeStringSync=true" internalId="_5lZA8DGTEe6M2t4ERruDkw"/>
-    <contextParameter comment="" name="local_mysql_Database" prompt="local_mysql_Database?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_5lZA8TGTEe6M2t4ERruDkw"/>
-    <contextParameter comment="" name="local_mysql_Login" prompt="local_mysql_Login?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_5lZA8jGTEe6M2t4ERruDkw"/>
-    <contextParameter comment="" name="local_mysql_Password" prompt="local_mysql_Password?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_Password" value="enc:system.encryption.key.v4:KPYC/E2W4BoM+arsvVQZAwvrqH61Ru453Kgx1uyNAvQRXLc=" internalId="_5lZA8zGTEe6M2t4ERruDkw"/>
-    <contextParameter comment="" name="local_mysql_Port" prompt="local_mysql_Port?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="3306" internalId="_5lZA9DGTEe6M2t4ERruDkw"/>
-    <contextParameter comment="" name="local_mysql_Server" prompt="local_mysql_Server?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="localhost" internalId="_5lZA9TGTEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="connection_mysql_AdditionalParams" prompt="connection_mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="noDatetimeStringSync=true" internalId="_5lZA8DGTEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="connection_mysql_Database" prompt="connection_mysql_Database?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_5lZA8TGTEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="connection_mysql_Login" prompt="connection_mysql_Login?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_5lZA8jGTEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="connection_mysql_Password" prompt="connection_mysql_Password?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_Password" value="enc:system.encryption.key.v4:KPYC/E2W4BoM+arsvVQZAwvrqH61Ru453Kgx1uyNAvQRXLc=" internalId="_5lZA8zGTEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="connection_mysql_Port" prompt="connection_mysql_Port?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="3306" internalId="_5lZA9DGTEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="connection_mysql_Server" prompt="connection_mysql_Server?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="localhost" internalId="_5lZA9TGTEe6M2t4ERruDkw"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="docker">
     <contextParameter comment="" name="image" prompt="image?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="enrich_customer_implicit_context_load" internalId="_XXUz4KjTEeulVaQEZD08EA"/>
@@ -19,12 +19,12 @@
     <contextParameter comment="" name="url_path" prompt="url_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="jobs" internalId="_pIa9UKjbEeulVaQEZD08EA"/>
     <contextParameter comment="" name="docker_server_host" prompt="docker_server_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="host.docker.internal" internalId="_5lZA9jGTEe6M2t4ERruDkw"/>
     <contextParameter comment="" name="docker_server_port" prompt="docker_server_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="2375" internalId="_5lZA9zGTEe6M2t4ERruDkw"/>
-    <contextParameter comment="" name="local_mysql_AdditionalParams" prompt="local_mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="noDatetimeStringSync=true" internalId="_5lZA-DGTEe6M2t4ERruDkw"/>
-    <contextParameter comment="" name="local_mysql_Database" prompt="local_mysql_Database?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_5lZA-TGTEe6M2t4ERruDkw"/>
-    <contextParameter comment="" name="local_mysql_Login" prompt="local_mysql_Login?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_5lZA-jGTEe6M2t4ERruDkw"/>
-    <contextParameter comment="" name="local_mysql_Password" prompt="local_mysql_Password?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_Password" value="enc:system.encryption.key.v4:TUkjfZZ2GhutXWRPa3qfURkBoJTYMBJXcM3aNgg70SW0MLo=" internalId="_5lZA-zGTEe6M2t4ERruDkw"/>
-    <contextParameter comment="" name="local_mysql_Port" prompt="local_mysql_Port?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="3306" internalId="_5lZA_DGTEe6M2t4ERruDkw"/>
-    <contextParameter comment="" name="local_mysql_Server" prompt="local_mysql_Server?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="mysql_server" internalId="_5lZA_TGTEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="connection_mysql_AdditionalParams" prompt="connection_mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="noDatetimeStringSync=true" internalId="_5lZA-DGTEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="connection_mysql_Database" prompt="connection_mysql_Database?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_5lZA-TGTEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="connection_mysql_Login" prompt="connection_mysql_Login?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_5lZA-jGTEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="connection_mysql_Password" prompt="connection_mysql_Password?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_Password" value="enc:system.encryption.key.v4:TUkjfZZ2GhutXWRPa3qfURkBoJTYMBJXcM3aNgg70SW0MLo=" internalId="_5lZA-zGTEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="connection_mysql_Port" prompt="connection_mysql_Port?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="3306" internalId="_5lZA_DGTEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="connection_mysql_Server" prompt="connection_mysql_Server?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="mysql_server" internalId="_5lZA_TGTEe6M2t4ERruDkw"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -69,7 +69,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v4:Ywz350PCopdEQSQasU/iFGjIrdGqsYuAA1WJyPr/" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v4:f8NB1WbdbIAsHFCdkWoGTr8PStTY7semeOH0aWd4" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -123,7 +123,6 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
-    <routinesParameter id="_uDi24CvPEemn7J3ssWShHg" name="r"/>
   </parameters>
   <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1440" posY="-120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFixedFlowInput_4" show="false"/>
@@ -183,12 +182,12 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_31KqUD_7Eeu7ENGEOMkRSw" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
-    <elementParameter field="TEXT" name="HOST" value="context.local_mysql_Server"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_mysql_Server"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="context.local_mysql_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.local_mysql_Database"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.local_mysql_AdditionalParams"/>
-    <elementParameter field="TEXT" name="USER" value="context.local_mysql_Login"/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_mysql_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_mysql_Database"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_mysql_AdditionalParams"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_mysql_Login"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v4:e8GIHkwVj4Ioef8QJcrZkLIXepJC0j6iXkveDV6HtlfI3Zp3pyyYVeATaP4OTl7TH4Kjl0LlwYg="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>

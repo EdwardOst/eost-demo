@@ -2,21 +2,21 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Default">
     <contextParameter comment="" name="target_state" prompt="target_state?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MA" internalId="_hYH4kBgGEeu7NborGg88uA"/>
-    <contextParameter comment="" name="local_mysql_Login" prompt="local_mysql_Login?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_4oePoK1hEeuw5ritRo8M1g"/>
-    <contextParameter comment="" name="local_mysql_Server" prompt="local_mysql_Server?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="localhost" internalId="_4oePoa1hEeuw5ritRo8M1g"/>
-    <contextParameter comment="" name="local_mysql_Database" prompt="local_mysql_Database?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_4oePoq1hEeuw5ritRo8M1g"/>
-    <contextParameter comment="" name="local_mysql_Port" prompt="local_mysql_Port?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="3306" internalId="_4oePo61hEeuw5ritRo8M1g"/>
-    <contextParameter comment="" name="local_mysql_Password" prompt="local_mysql_Password?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_Password" value="enc:system.encryption.key.v4:MW+poPGi7M4a9dHgJRoR3dSE/l5KL444BbiqwZ1wUQ5DbBQ=" internalId="_4oePpK1hEeuw5ritRo8M1g"/>
-    <contextParameter comment="" name="local_mysql_AdditionalParams" prompt="local_mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="noDatetimeStringSync=true" internalId="_4oePpa1hEeuw5ritRo8M1g"/>
+    <contextParameter comment="" name="connection_mysql_Login" prompt="connection_mysql_Login?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_4oePoK1hEeuw5ritRo8M1g"/>
+    <contextParameter comment="" name="connection_mysql_Server" prompt="connection_mysql_Server?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="localhost" internalId="_4oePoa1hEeuw5ritRo8M1g"/>
+    <contextParameter comment="" name="connection_mysql_Database" prompt="connection_mysql_Database?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_4oePoq1hEeuw5ritRo8M1g"/>
+    <contextParameter comment="" name="connection_mysql_Port" prompt="connection_mysql_Port?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="3306" internalId="_4oePo61hEeuw5ritRo8M1g"/>
+    <contextParameter comment="" name="connection_mysql_Password" prompt="connection_mysql_Password?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_Password" value="enc:system.encryption.key.v4:MW+poPGi7M4a9dHgJRoR3dSE/l5KL444BbiqwZ1wUQ5DbBQ=" internalId="_4oePpK1hEeuw5ritRo8M1g"/>
+    <contextParameter comment="" name="connection_mysql_AdditionalParams" prompt="connection_mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="noDatetimeStringSync=true" internalId="_4oePpa1hEeuw5ritRo8M1g"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="docker">
     <contextParameter comment="" name="target_state" prompt="target_state?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FL" internalId="_hYH4kBgGEeu7NborGg88uA"/>
-    <contextParameter comment="" name="local_mysql_Login" prompt="local_mysql_Login?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_4oePoK1hEeuw5ritRo8M1g"/>
-    <contextParameter comment="" name="local_mysql_Server" prompt="local_mysql_Server?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="mysql_server" internalId="_4oePoa1hEeuw5ritRo8M1g"/>
-    <contextParameter comment="" name="local_mysql_Database" prompt="local_mysql_Database?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_4oePoq1hEeuw5ritRo8M1g"/>
-    <contextParameter comment="" name="local_mysql_Port" prompt="local_mysql_Port?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="3306" internalId="_4oePo61hEeuw5ritRo8M1g"/>
-    <contextParameter comment="" name="local_mysql_Password" prompt="local_mysql_Password?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_Password" value="enc:system.encryption.key.v4:FEJoIzJTvOVvHZTcynR+Rhtv0Gtbbfi9b2fziKui7laURnE=" internalId="_4oePpK1hEeuw5ritRo8M1g"/>
-    <contextParameter comment="" name="local_mysql_AdditionalParams" prompt="local_mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="noDatetimeStringSync=true" internalId="_4oePpa1hEeuw5ritRo8M1g"/>
+    <contextParameter comment="" name="connection_mysql_Login" prompt="connection_mysql_Login?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_4oePoK1hEeuw5ritRo8M1g"/>
+    <contextParameter comment="" name="connection_mysql_Server" prompt="connection_mysql_Server?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="mysql_server" internalId="_4oePoa1hEeuw5ritRo8M1g"/>
+    <contextParameter comment="" name="connection_mysql_Database" prompt="connection_mysql_Database?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_4oePoq1hEeuw5ritRo8M1g"/>
+    <contextParameter comment="" name="connection_mysql_Port" prompt="connection_mysql_Port?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="3306" internalId="_4oePo61hEeuw5ritRo8M1g"/>
+    <contextParameter comment="" name="connection_mysql_Password" prompt="connection_mysql_Password?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_Password" value="enc:system.encryption.key.v4:FEJoIzJTvOVvHZTcynR+Rhtv0Gtbbfi9b2fziKui7laURnE=" internalId="_4oePpK1hEeuw5ritRo8M1g"/>
+    <contextParameter comment="" name="connection_mysql_AdditionalParams" prompt="connection_mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="noDatetimeStringSync=true" internalId="_4oePpa1hEeuw5ritRo8M1g"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -76,7 +76,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/talend/Talend-Studio-V8.0.1-2025-08/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/talend/workspaces/2025-08/.metadata&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
@@ -96,7 +96,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v4:FmeGGBlO3iyX2sTqyZRcRVMV5xKbF8p1RJkOuBSd" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v4:nrywP5bNELecCZmkU2hkuFgMkaYvsaNsT5shsndE" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -115,13 +115,12 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
-    <routinesParameter id="_uDi24CvPEemn7J3ssWShHg" name="r"/>
   </parameters>
   <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
-    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="Enrich_Customer_Local_mysql"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="a03_enrich_customer_mysql"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="STUDIO_SERVERLESS:_lJQHgHUuEfCTOcuwpXY1CQ"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>

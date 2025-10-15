@@ -5,22 +5,22 @@
     "repoId" : "_Jz4IgK1eEeuw5ritRo8M1g",
     "parameterList" : [ {
       "id" : "_J0JORK1eEeuw5ritRo8M1g",
-      "name" : "local_mysql_AdditionalParams"
+      "name" : "connection_mysql_AdditionalParams"
     }, {
       "id" : "_J0JORq1eEeuw5ritRo8M1g",
-      "name" : "local_mysql_Database"
+      "name" : "connection_mysql_Database"
     }, {
       "id" : "_J0JOQq1eEeuw5ritRo8M1g",
-      "name" : "local_mysql_Login"
+      "name" : "connection_mysql_Login"
     }, {
       "id" : "_J0JOQa1eEeuw5ritRo8M1g",
-      "name" : "local_mysql_Password"
+      "name" : "connection_mysql_Password"
     }, {
       "id" : "_J0JOQ61eEeuw5ritRo8M1g",
-      "name" : "local_mysql_Port"
+      "name" : "connection_mysql_Port"
     }, {
       "id" : "_J0JORa1eEeuw5ritRo8M1g",
-      "name" : "local_mysql_Server"
+      "name" : "connection_mysql_Server"
     } ]
   } ]
 }

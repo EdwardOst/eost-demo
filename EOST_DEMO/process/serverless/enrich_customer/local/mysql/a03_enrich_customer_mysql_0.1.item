@@ -3,23 +3,23 @@
   <context confirmationNeeded="false" hide="false" name="Default">
     <contextParameter comment="parameter" name="target_state" prompt="target_state?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MA" internalId="_hXUAQBgGEeu7NborGg88uA"/>
     <contextParameter comment="" name="workflow_guid" prompt="workflow_guid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="42" internalId="_hXUAQRgGEeu7NborGg88uA"/>
-    <contextParameter comment="" name="local_mysql_Login" prompt="local_mysql_Login?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_SGTm0K1gEeuw5ritRo8M1g"/>
-    <contextParameter comment="" name="local_mysql_Server" prompt="local_mysql_Server?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="localhost" internalId="_SGTm0a1gEeuw5ritRo8M1g"/>
-    <contextParameter comment="" name="local_mysql_Database" prompt="local_mysql_Database?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_SGTm0q1gEeuw5ritRo8M1g"/>
-    <contextParameter comment="" name="local_mysql_Port" prompt="local_mysql_Port?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="3306" internalId="_SGTm061gEeuw5ritRo8M1g"/>
-    <contextParameter comment="" name="local_mysql_Password" prompt="local_mysql_Password?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_Password" value="enc:system.encryption.key.v4:Byp79NTDbir6HOtVxF8b6vQKw/hK4Dnl/8n0WMtiJOyIlqo=" internalId="_SGTm1K1gEeuw5ritRo8M1g"/>
-    <contextParameter comment="" name="local_mysql_AdditionalParams" prompt="local_mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="noDatetimeStringSync=true" internalId="_SGTm1a1gEeuw5ritRo8M1g"/>
+    <contextParameter comment="" name="connection_mysql_Login" prompt="connection_mysql_Login?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_SGTm0K1gEeuw5ritRo8M1g"/>
+    <contextParameter comment="" name="connection_mysql_Server" prompt="connection_mysql_Server?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="localhost" internalId="_SGTm0a1gEeuw5ritRo8M1g"/>
+    <contextParameter comment="" name="connection_mysql_Database" prompt="connection_mysql_Database?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_SGTm0q1gEeuw5ritRo8M1g"/>
+    <contextParameter comment="" name="connection_mysql_Port" prompt="connection_mysql_Port?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="3306" internalId="_SGTm061gEeuw5ritRo8M1g"/>
+    <contextParameter comment="" name="connection_mysql_Password" prompt="connection_mysql_Password?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_Password" value="enc:system.encryption.key.v4:Byp79NTDbir6HOtVxF8b6vQKw/hK4Dnl/8n0WMtiJOyIlqo=" internalId="_SGTm1K1gEeuw5ritRo8M1g"/>
+    <contextParameter comment="" name="connection_mysql_AdditionalParams" prompt="connection_mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="noDatetimeStringSync=true" internalId="_SGTm1a1gEeuw5ritRo8M1g"/>
     <contextParameter comment="" name="enable_log_bitbucket" prompt="enable_log_bitbucket?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false" internalId="_ZpojgPJeEe-THK0_NyUevA"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="docker">
     <contextParameter comment="parameter" name="target_state" prompt="target_state?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FL" internalId="_hXUAQBgGEeu7NborGg88uA"/>
     <contextParameter comment="" name="workflow_guid" prompt="workflow_guid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="42" internalId="_hXUAQRgGEeu7NborGg88uA"/>
-    <contextParameter comment="" name="local_mysql_Password" prompt="local_mysql_Password?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_Password" value="enc:system.encryption.key.v4:7x6EA+HDhVG4my7rYmCmNIyow+me1jvhqYwhKU8eNoDayY4=" internalId="_bPogUDDLEe6M2t4ERruDkw"/>
-    <contextParameter comment="" name="local_mysql_Login" prompt="local_mysql_Login?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_bPogUTDLEe6M2t4ERruDkw"/>
-    <contextParameter comment="" name="local_mysql_Port" prompt="local_mysql_Port?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="3306" internalId="_bPogUjDLEe6M2t4ERruDkw"/>
-    <contextParameter comment="" name="local_mysql_AdditionalParams" prompt="local_mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="noDatetimeStringSync=true" internalId="_bPogUzDLEe6M2t4ERruDkw"/>
-    <contextParameter comment="" name="local_mysql_Server" prompt="local_mysql_Server?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="mysql_server" internalId="_bPogVDDLEe6M2t4ERruDkw"/>
-    <contextParameter comment="" name="local_mysql_Database" prompt="local_mysql_Database?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_bPogVTDLEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="connection_mysql_Password" prompt="connection_mysql_Password?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_Password" value="enc:system.encryption.key.v4:7x6EA+HDhVG4my7rYmCmNIyow+me1jvhqYwhKU8eNoDayY4=" internalId="_bPogUDDLEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="connection_mysql_Login" prompt="connection_mysql_Login?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_bPogUTDLEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="connection_mysql_Port" prompt="connection_mysql_Port?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="3306" internalId="_bPogUjDLEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="connection_mysql_AdditionalParams" prompt="connection_mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="noDatetimeStringSync=true" internalId="_bPogUzDLEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="connection_mysql_Server" prompt="connection_mysql_Server?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="mysql_server" internalId="_bPogVDDLEe6M2t4ERruDkw"/>
+    <contextParameter comment="" name="connection_mysql_Database" prompt="connection_mysql_Database?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_bPogVTDLEe6M2t4ERruDkw"/>
     <contextParameter comment="" name="enable_log_bitbucket" prompt="enable_log_bitbucket?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="true" internalId="_ZpojgfJeEe-THK0_NyUevA"/>
   </context>
   <parameters>
@@ -556,11 +556,11 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.local_mysql_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.local_mysql_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.local_mysql_Database"/>
-    <elementParameter field="TEXT" name="USER" value="context.local_mysql_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v4:pLmGg5RO6dLipv4ghX0QrlSrA+AaFCUHV5BBwhF4d/K5nhD3zHgG/MYhgUllzpGeUMzqn9hBph8="/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_mysql_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_mysql_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_mysql_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_mysql_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v4:QBSdcdy/EjLVkO/rid8jHD3eCQuLyoQ9Q+kSj/JlTmrtyzYys+aJYhFBNPd8xDTscQnh7jVFihVn7EoYDQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;valid_customers&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -571,7 +571,7 @@
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.local_mysql_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_mysql_AdditionalParams"/>
     <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
     <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
@@ -918,13 +918,13 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_31KqUD_7Eeu7ENGEOMkRSw" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
-    <elementParameter field="TEXT" name="HOST" value="context.local_mysql_Server"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_mysql_Server"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="context.local_mysql_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.local_mysql_Database"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.local_mysql_AdditionalParams"/>
-    <elementParameter field="TEXT" name="USER" value="context.local_mysql_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v4:uLfoFztznQiiZPLue1vira1vCfhNl8j/tx1jLA+9Oa/BzCz/NyoiB6ia6BPgW6GrLXiO68kU9WA="/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_mysql_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_mysql_Database"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_mysql_AdditionalParams"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_mysql_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v4:DEb2yJNGHoSFZjCPB8ZR0TEAUFKRtsN6Vw3XNygyNmkuDkv0zIwJvd+OrefQRUeCwm/qB/c0ZwZrcAZiYg=="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
@@ -2042,7 +2042,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;255;128"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
@@ -2060,7 +2060,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
