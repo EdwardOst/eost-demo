@@ -1,0 +1,54 @@
+{
+  "itemId" : "_73vqQKmHEfCcg42zeHwJrg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_vZlYMHTIEfCVS8ZbIEp6ow",
+    "parameterList" : [ {
+      "id" : "_vZ3sEXTIEfCVS8ZbIEp6ow",
+      "name" : "connection_postgres_Login"
+    }, {
+      "id" : "_vZ3sEnTIEfCVS8ZbIEp6ow",
+      "name" : "connection_postgres_Server"
+    }, {
+      "id" : "_vZ3sE3TIEfCVS8ZbIEp6ow",
+      "name" : "connection_postgres_Port"
+    }, {
+      "id" : "_vZ3sFHTIEfCVS8ZbIEp6ow",
+      "name" : "connection_postgres_Schema"
+    }, {
+      "id" : "_vZ3sFXTIEfCVS8ZbIEp6ow",
+      "name" : "connection_postgres_AdditionalParams"
+    }, {
+      "id" : "_vZ3sFnTIEfCVS8ZbIEp6ow",
+      "name" : "connection_postgres_Database"
+    }, {
+      "id" : "_vZ3sF3TIEfCVS8ZbIEp6ow",
+      "name" : "connection_postgres_Password"
+    } ]
+  }, {
+    "contextName" : "aws",
+    "repoId" : "_vZlYMHTIEfCVS8ZbIEp6ow",
+    "parameterList" : [ {
+      "id" : "_NsxcoXX3EfCTOcuwpXY1CQ",
+      "name" : "connection_postgres_Login"
+    }, {
+      "id" : "_NsxconX3EfCTOcuwpXY1CQ",
+      "name" : "connection_postgres_Server"
+    }, {
+      "id" : "_Nsxco3X3EfCTOcuwpXY1CQ",
+      "name" : "connection_postgres_Port"
+    }, {
+      "id" : "_NsxcpHX3EfCTOcuwpXY1CQ",
+      "name" : "connection_postgres_Schema"
+    }, {
+      "id" : "_NsxcpXX3EfCTOcuwpXY1CQ",
+      "name" : "connection_postgres_AdditionalParams"
+    }, {
+      "id" : "_NsxcpnX3EfCTOcuwpXY1CQ",
+      "name" : "connection_postgres_Database"
+    }, {
+      "id" : "_Nsxcp3X3EfCTOcuwpXY1CQ",
+      "name" : "connection_postgres_Password"
+    } ]
+  } ]
+}
