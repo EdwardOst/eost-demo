@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_dkThQa0GEfCdr4B5bHeijA" name="Northwind_Customers_column_analysis_evo_report" creationDate="2025-10-19T12:01:48.133-0400" defaultContext="Default">
+  <clientDependency href="../../Analyses/eost_dq/Northwind_Customers_column_analysis_0.1.ana#_6u6sQq0EEfCdr4B5bHeijA"/>
+  <clientDependency href="../../Analyses/eost_dq/Northwind_Customers_column_analysis_evo_0.1.ana#_d7fcwK0HEfCdr4B5bHeijA"/>
+  <taggedValue xmi:id="_dkThQq0GEfCdr4B5bHeijA" tag="OutputFolder" value="C:\tmp\talend\dq"/>
+  <taggedValue xmi:id="_dkThQ60GEfCdr4B5bHeijA" tag="REP_DBINFO_DBTYPE" value="MySQL"/>
+  <taggedValue xmi:id="_dkThRK0GEfCdr4B5bHeijA" tag="REP_DBINFO_DBVERSION" value="MYSQL_8"/>
+  <taggedValue xmi:id="_dkThRa0GEfCdr4B5bHeijA" tag="REP_DBINFO_HOST" value="localhost"/>
+  <taggedValue xmi:id="_dkThRq0GEfCdr4B5bHeijA" tag="REP_DBINFO_PORT" value="3306"/>
+  <taggedValue xmi:id="_dkThR60GEfCdr4B5bHeijA" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_dkThSK0GEfCdr4B5bHeijA" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_dkThSa0GEfCdr4B5bHeijA" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_dkThSq0GEfCdr4B5bHeijA" tag="REP_DBINFO_USER" value="qlik"/>
+  <taggedValue xmi:id="_dkThS60GEfCdr4B5bHeijA" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v4:QUNqru4oN8aJ+ewtSUGUvJXdU1AzziMjTPwjMCYplJcP9eQ="/>
+  <taggedValue xmi:id="_dkThTK0GEfCdr4B5bHeijA" tag="REP_DBINFO_PARAMETER" value="characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_dkThTa0GEfCdr4B5bHeijA" tag="REP_DBINFO_URL" value="jdbc:mysql://localhost:3306/talend_dq?characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_dkThTq0GEfCdr4B5bHeijA" tag="REP_DBINFO_DRIVER" value="com.mysql.cj.jdbc.Driver"/>
+  <taggedValue xmi:id="_dkThT60GEfCdr4B5bHeijA" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.MySQLDialect"/>
+  <taggedValue xmi:id="_dkThUK0GEfCdr4B5bHeijA" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_dkThUa0GEfCdr4B5bHeijA" tag="Author"/>
+  <taggedValue xmi:id="_dkThUq0GEfCdr4B5bHeijA" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_dkThU60GEfCdr4B5bHeijA" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_dkThVK0GEfCdr4B5bHeijA" tag="OutputFileName" value="northwind_customers_report"/>
+  <taggedValue xmi:id="_dkThVa0GEfCdr4B5bHeijA" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_dkThVq0GEfCdr4B5bHeijA" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_dkThV60GEfCdr4B5bHeijA" tag="Description" value=""/>
+  <taggedValue xmi:id="_dkThWK0GEfCdr4B5bHeijA" tag="Status" value="development"/>
+  <taggedValue xmi:id="_dkThWa0GEfCdr4B5bHeijA" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <analysisMap xmi:id="_dkThWq0GEfCdr4B5bHeijA" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/eost_dq/Northwind_Customers_column_analysis_0.1.ana#_LmzhQK0DEfCdr4B5bHeijA"/>
+  </analysisMap>
+  <analysisMap xmi:id="_Y0EP8K0HEfCdr4B5bHeijA" mustRefresh="true" reportType="Evolution">
+    <analysis href="../../Analyses/eost_dq/Northwind_Customers_column_analysis_evo_0.1.ana#_UyjiUa0HEfCdr4B5bHeijA"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_dkThW60GEfCdr4B5bHeijA" executionDate="2025-10-19T12:34:42.225-0400" executionDuration="1669" executionNumber="6" lastRunOk="true" lastExecutionNumberOk="6"/>
+  <context xmi:id="_dkThXK0GEfCdr4B5bHeijA" confirmationNeeded="false" hide="false" name="Default"/>
+</dataquality.reports:TdReport>

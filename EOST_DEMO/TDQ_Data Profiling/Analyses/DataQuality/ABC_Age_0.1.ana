@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.indicators.sql="http://dataquality.indicators.sql" xmlns:dataquality.rules="http://dataquality.rules" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_cbxc4KnaEfCPYfrxWxsLvw" name="ABC_Age" creationDate="2025-10-15T11:11:19.022-0400" defaultContext="Default">
+    <clientDependency href="../../../TDQ_Libraries/Rules/SQL/Customer_Age_0.1.rules#_A16UIKnaEfCPYfrxWxsLvw"/>
+    <clientDependency href="../../../metadata/connections/TalendQualityCustomer_0.1.item#_mTttEKkDEfCilM20c3cV9g"/>
+    <taggedValue xmi:id="_cbxc4anaEfCPYfrxWxsLvw" tag="Status" value="development"/>
+    <taggedValue xmi:id="_cbxc4qnaEfCPYfrxWxsLvw" tag="Author" value="eof@qlik.com"/>
+    <taggedValue xmi:id="_cbxc46naEfCPYfrxWxsLvw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_cbxc5KnaEfCPYfrxWxsLvw" tag="Description" value=""/>
+    <taggedValue xmi:id="_cbxc5anaEfCPYfrxWxsLvw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_cbxc5qnaEfCPYfrxWxsLvw" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_cbxc56naEfCPYfrxWxsLvw" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <context xmi:id="_cbxc6KnaEfCPYfrxWxsLvw">
+      <connection href="../../../metadata/connections/TalendQualityCustomer_0.1.item#_8YWMsKhlEfCuJ6j3L7ShEQ"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../../metadata/connections/TalendQualityCustomer_0.1.item#_4Svxg6nfEfCPYfrxWxsLvw"/>
+    </context>
+    <results xmi:id="_cbxc6anaEfCPYfrxWxsLvw">
+      <resultMetadata xmi:id="_cbxc6qnaEfCPYfrxWxsLvw" executionDate="2025-10-15T11:59:52.467-0400" executionDuration="45" message="" executionNumber="4" lastRunOk="true" lastExecutionNumberOk="4" outThreshold="true"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_89aJ0KnfEfCPYfrxWxsLvw" count="60" computed="true">
+        <analyzedElement xsi:type="relational:TdTable" href="../../../metadata/connections/TalendQualityCustomer_0.1.item#_4Svxg6nfEfCPYfrxWxsLvw"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="__FROMKnfEfCPYfrxWxsLvw" body="SELECT COUNT(*) FROM `target`.`TalendQualityCustomer` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="__DvkMKnfEfCPYfrxWxsLvw" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="__DvkManfEfCPYfrxWxsLvw" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="__DvkMqnfEfCPYfrxWxsLvw" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="__DvkM6nfEfCPYfrxWxsLvw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators.sql:WhereRuleIndicator" xmi:id="_89aJ0anfEfCPYfrxWxsLvw" count="60" computed="true" userCount="8">
+        <parameters xmi:id="_8_B6cKnfEfCPYfrxWxsLvw">
+          <indicatorValidDomain xmi:id="_-FyHIKnfEfCPYfrxWxsLvw" name="Indicator threshold">
+            <ranges xmi:id="_-FyHIanfEfCPYfrxWxsLvw" name="Value Threshold">
+              <lowerValue xsi:type="dataquality.domain:TextValue" xmi:id="_-FyHIqnfEfCPYfrxWxsLvw" value="2"/>
+              <upperValue xsi:type="dataquality.domain:TextValue" xmi:id="_-FyHI6nfEfCPYfrxWxsLvw" value="5"/>
+            </ranges>
+          </indicatorValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdTable" href="../../../metadata/connections/TalendQualityCustomer_0.1.item#_4Svxg6nfEfCPYfrxWxsLvw"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Rules/SQL/Customer_Age_0.1.rules#_8MBX4KnZEfCPYfrxWxsLvw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="__FROManfEfCPYfrxWxsLvw" body="SELECT COUNT(*) FROM `target`.`TalendQualityCustomer`   WHERE (50 &lt;=((TO_DAYS(NOW())-TO_DAYS(dob))/365))" language="MySQL"/>
+        <builtInIndicatorDefinition xsi:type="dataquality.rules:WhereRule" xmi:id="__FMVsKnfEfCPYfrxWxsLvw" name="Customer_Age" criticalityLevel="1" whereExpression="50 &lt;=((TO_DAYS(NOW())-TO_DAYS(dob))/365)">
+          <taggedValue xmi:id="__FMVsanfEfCPYfrxWxsLvw" tag="Status" value="development"/>
+          <taggedValue xmi:id="__FMVsqnfEfCPYfrxWxsLvw" tag="Author" value="eof@qlik.com"/>
+          <taggedValue xmi:id="__FMVs6nfEfCPYfrxWxsLvw" tag="Purpose" value=""/>
+          <taggedValue xmi:id="__FMVtKnfEfCPYfrxWxsLvw" tag="Description" value=""/>
+          <taggedValue xmi:id="__FMVtanfEfCPYfrxWxsLvw" tag="Version" value="0.1"/>
+          <taggedValue xmi:id="__FMVtqnfEfCPYfrxWxsLvw" tag="Validation_Status" value="true"/>
+          <taggedValue xmi:id="__FMVt6nfEfCPYfrxWxsLvw" tag="Property File" value="/DQ_TUTORIALS/TDQ_Libraries/Rules/SQL/Y3VzdF9hZ2U=20101215024544_0.1.properties"/>
+          <sqlGenericExpression xmi:id="__FMVuKnfEfCPYfrxWxsLvw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__JOIN_CLAUSE__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+    </results>
+    <parameters xmi:id="_cbxdAqnaEfCPYfrxWxsLvw" dataFilter="_cbxdBKnaEfCPYfrxWxsLvw" analysisType="Table Analysis"/>
+    <contextType xmi:id="_cbxdA6naEfCPYfrxWxsLvw" confirmationNeeded="false" hide="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_cbxdBKnaEfCPYfrxWxsLvw" name="ABC_Age">
+    <ranges xmi:id="_cbxdBanaEfCPYfrxWxsLvw">
+      <expressions xmi:id="_cbxdBqnaEfCPYfrxWxsLvw">
+        <expression xsi:type="relational:TdExpression" xmi:id="_cbxdB6naEfCPYfrxWxsLvw" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>

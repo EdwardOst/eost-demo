@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_ESoZAKniEfCPYfrxWxsLvw" name="ABC_Inserts" creationDate="2025-10-15T16:14:46.414+0000" defaultContext="Default">
+  <clientDependency href="../../Analyses/DataQuality/ABC_Inserts_0.1.ana#_TKlrwKniEfCPYfrxWxsLvw"/>
+  <taggedValue xmi:id="_ESoZAaniEfCPYfrxWxsLvw" tag="Status" value="development"/>
+  <taggedValue xmi:id="_ESoZAqniEfCPYfrxWxsLvw" tag="Author" value="eof@qlik.com"/>
+  <taggedValue xmi:id="_ESoZA6niEfCPYfrxWxsLvw" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_ESoZBKniEfCPYfrxWxsLvw" tag="Description" value=""/>
+  <taggedValue xmi:id="_ESoZBaniEfCPYfrxWxsLvw" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_ESoZBqniEfCPYfrxWxsLvw" tag="OutputFolder" value="C:\Data"/>
+  <taggedValue xmi:id="_ESoZB6niEfCPYfrxWxsLvw" tag="REP_DBINFO_DBTYPE" value="MySQL"/>
+  <taggedValue xmi:id="_ESoZCKniEfCPYfrxWxsLvw" tag="REP_DBINFO_DBVERSION" value="MYSQL_8"/>
+  <taggedValue xmi:id="_ESoZCaniEfCPYfrxWxsLvw" tag="REP_DBINFO_HOST" value="mysql.attunitydemo.com"/>
+  <taggedValue xmi:id="_ESoZCqniEfCPYfrxWxsLvw" tag="REP_DBINFO_PORT" value="3306"/>
+  <taggedValue xmi:id="_ESoZC6niEfCPYfrxWxsLvw" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_ESoZDKniEfCPYfrxWxsLvw" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_ESoZDaniEfCPYfrxWxsLvw" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_ESoZDqniEfCPYfrxWxsLvw" tag="REP_DBINFO_USER" value="root"/>
+  <taggedValue xmi:id="_ESoZD6niEfCPYfrxWxsLvw" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v2:3ZiURTiGSNCrsGv1AN+T2WXAWLvWrpgdG9d9lt/qz+tOWlF31tNg8RTIa/o="/>
+  <taggedValue xmi:id="_ESoZEKniEfCPYfrxWxsLvw" tag="REP_DBINFO_PARAMETER" value="characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_ESoZEaniEfCPYfrxWxsLvw" tag="REP_DBINFO_URL" value="jdbc:mysql://mysql.attunitydemo.com:3306/talend_dq?characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_ESoZEqniEfCPYfrxWxsLvw" tag="REP_DBINFO_DRIVER" value="com.mysql.cj.jdbc.Driver"/>
+  <taggedValue xmi:id="_ESoZE6niEfCPYfrxWxsLvw" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.MySQLDialect"/>
+  <taggedValue xmi:id="_ESoZFKniEfCPYfrxWxsLvw" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_TKiocKniEfCPYfrxWxsLvw" tag="OutputFileName" value=""/>
+  <taggedValue xmi:id="_TKiocaniEfCPYfrxWxsLvw" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_TKiocqniEfCPYfrxWxsLvw" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_TKioc6niEfCPYfrxWxsLvw" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_TKjPganiEfCPYfrxWxsLvw" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <analysisMap xmi:id="_TKjPgqniEfCPYfrxWxsLvw" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/DataQuality/ABC_Inserts_0.1.ana#_l7dqcKnaEfCPYfrxWxsLvw"/>
+  </analysisMap>
+  <context xmi:id="_TKjPgKniEfCPYfrxWxsLvw" confirmationNeeded="false" hide="false" name="Default"/>
+</dataquality.reports:TdReport>

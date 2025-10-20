@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_W6aU0KnUEfCPYfrxWxsLvw" name="RawCustomer" creationDate="2025-10-15T14:36:38.418+0000" defaultContext="Default">
+  <clientDependency href="../../Analyses/DataQuality/RawCustomer_0.1.ana#_-Vn68KnUEfCPYfrxWxsLvw"/>
+  <taggedValue xmi:id="_W6aU0anUEfCPYfrxWxsLvw" tag="Status" value="development"/>
+  <taggedValue xmi:id="_W6aU0qnUEfCPYfrxWxsLvw" tag="Author" value="eof@qlik.com"/>
+  <taggedValue xmi:id="_W6aU06nUEfCPYfrxWxsLvw" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_W6aU1KnUEfCPYfrxWxsLvw" tag="Description" value=""/>
+  <taggedValue xmi:id="_W6aU1anUEfCPYfrxWxsLvw" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_W6aU1qnUEfCPYfrxWxsLvw" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_W6aU16nUEfCPYfrxWxsLvw" tag="REP_DBINFO_DBTYPE" value="MySQL"/>
+  <taggedValue xmi:id="_W6aU2KnUEfCPYfrxWxsLvw" tag="REP_DBINFO_DBVERSION" value="MYSQL_8"/>
+  <taggedValue xmi:id="_W6aU2anUEfCPYfrxWxsLvw" tag="REP_DBINFO_HOST" value="mysql.attunitydemo.com"/>
+  <taggedValue xmi:id="_W6aU2qnUEfCPYfrxWxsLvw" tag="REP_DBINFO_PORT" value="3306"/>
+  <taggedValue xmi:id="_W6aU26nUEfCPYfrxWxsLvw" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_W6aU3KnUEfCPYfrxWxsLvw" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_W6aU3anUEfCPYfrxWxsLvw" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_W6aU3qnUEfCPYfrxWxsLvw" tag="REP_DBINFO_USER" value="root"/>
+  <taggedValue xmi:id="_W6aU36nUEfCPYfrxWxsLvw" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v2:R/sKqZd9rFxmZHcifxLkxPn6s8GHLEvfS7vMhxfzySXZAE4H+IgbRvpjTB4="/>
+  <taggedValue xmi:id="_W6aU4KnUEfCPYfrxWxsLvw" tag="REP_DBINFO_PARAMETER" value="characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_W6aU4anUEfCPYfrxWxsLvw" tag="REP_DBINFO_URL" value="jdbc:mysql://mysql.attunitydemo.com:3306/talend_dq?characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_W6aU4qnUEfCPYfrxWxsLvw" tag="REP_DBINFO_DRIVER" value="com.mysql.cj.jdbc.Driver"/>
+  <taggedValue xmi:id="_W6aU46nUEfCPYfrxWxsLvw" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.MySQLDialect"/>
+  <taggedValue xmi:id="_W6aU5KnUEfCPYfrxWxsLvw" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_-Vk3oKnUEfCPYfrxWxsLvw" tag="OutputFileName" value=""/>
+  <taggedValue xmi:id="_-Vk3oanUEfCPYfrxWxsLvw" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_-Vk3oqnUEfCPYfrxWxsLvw" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_-Vk3o6nUEfCPYfrxWxsLvw" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_-VlesanUEfCPYfrxWxsLvw" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <analysisMap xmi:id="_-VlesqnUEfCPYfrxWxsLvw" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/DataQuality/RawCustomer_0.1.ana#_WOLWYKnTEfCPYfrxWxsLvw"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_ASsroKnVEfCPYfrxWxsLvw" executionDate="2025-10-15T14:41:15.291+0000" executionDuration="831" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+  <context xmi:id="_-VlesKnUEfCPYfrxWxsLvw" confirmationNeeded="false" hide="false" name="Default"/>
+</dataquality.reports:TdReport>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.reports="http://dataquality.reports" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_6u6sMK0EEfCdr4B5bHeijA" name="Northwind_Customers_column_analysis_report" creationDate="2025-10-19T12:01:48.133-0400" dateFrom="10/19/2025" dateTo="10/20/2025" defaultContext="Default">
+  <clientDependency href="../../Analyses/eost_dq/Northwind_Customers_column_analysis_0.1.ana#_6u6sQq0EEfCdr4B5bHeijA"/>
+  <taggedValue xmi:id="_6u6sMa0EEfCdr4B5bHeijA" tag="OutputFolder" value="C:\tmp\talend\dq"/>
+  <taggedValue xmi:id="_6u6sMq0EEfCdr4B5bHeijA" tag="REP_DBINFO_DBTYPE" value="MySQL"/>
+  <taggedValue xmi:id="_6u6sM60EEfCdr4B5bHeijA" tag="REP_DBINFO_DBVERSION" value="MYSQL_8"/>
+  <taggedValue xmi:id="_6u6sNK0EEfCdr4B5bHeijA" tag="REP_DBINFO_HOST" value="localhost"/>
+  <taggedValue xmi:id="_6u6sNa0EEfCdr4B5bHeijA" tag="REP_DBINFO_PORT" value="3306"/>
+  <taggedValue xmi:id="_6u6sNq0EEfCdr4B5bHeijA" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_6u6sN60EEfCdr4B5bHeijA" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_6u6sOK0EEfCdr4B5bHeijA" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_6u6sOa0EEfCdr4B5bHeijA" tag="REP_DBINFO_USER" value="qlik"/>
+  <taggedValue xmi:id="_6u6sOq0EEfCdr4B5bHeijA" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v4:aBansYKj3ir6iUlFzMl1+SWL/JkIn1wiTD4+ZmBC83tEKh8="/>
+  <taggedValue xmi:id="_6u6sO60EEfCdr4B5bHeijA" tag="REP_DBINFO_PARAMETER" value="characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_6u6sPK0EEfCdr4B5bHeijA" tag="REP_DBINFO_URL" value="jdbc:mysql://localhost:3306/talend_dq?characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_6u6sPa0EEfCdr4B5bHeijA" tag="REP_DBINFO_DRIVER" value="com.mysql.cj.jdbc.Driver"/>
+  <taggedValue xmi:id="_6u6sPq0EEfCdr4B5bHeijA" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.MySQLDialect"/>
+  <taggedValue xmi:id="_6u6sP60EEfCdr4B5bHeijA" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_6u6sQK0EEfCdr4B5bHeijA" tag="Author"/>
+  <taggedValue xmi:id="_6w3M8K0EEfCdr4B5bHeijA" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_6w3M8a0EEfCdr4B5bHeijA" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_M1LuAK0FEfCdr4B5bHeijA" tag="OutputFileName" value="northwind_customers_report"/>
+  <taggedValue xmi:id="_M1LuAa0FEfCdr4B5bHeijA" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_NIkkEK0FEfCdr4B5bHeijA" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_NIkkEa0FEfCdr4B5bHeijA" tag="Description" value=""/>
+  <taggedValue xmi:id="_NIkkEq0FEfCdr4B5bHeijA" tag="Status" value="development"/>
+  <taggedValue xmi:id="_NIlLIa0FEfCdr4B5bHeijA" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <presentationParams xmi:id="_02ef4K0JEfCdr4B5bHeijA" type="TOP_MIDDLE_PRESENTATIONKEY">
+    <formula xmi:id="_02ef4a0JEfCdr4B5bHeijA">
+      <expression xsi:type="relational:TdExpression" xmi:id="_02ef4q0JEfCdr4B5bHeijA" body="Report Author"/>
+    </formula>
+  </presentationParams>
+  <analysisMap xmi:id="_6u6sQa0EEfCdr4B5bHeijA" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/eost_dq/Northwind_Customers_column_analysis_0.1.ana#_LmzhQK0DEfCdr4B5bHeijA"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_RPYzAK0GEfCdr4B5bHeijA" executionDate="2025-10-19T12:39:33.515-0400" executionDuration="1208" executionNumber="5" lastRunOk="true" lastExecutionNumberOk="5"/>
+  <context xmi:id="_NIlLIK0FEfCdr4B5bHeijA" confirmationNeeded="false" hide="false" name="Default"/>
+</dataquality.reports:TdReport>

@@ -10,4 +10,56 @@
 		<nature>org.talend.core.talendnature</nature>
 		<nature>com.oaklandsw.transform.runtime.nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>.northwind_customers_report-20251019-1211-00029.pdf</name>
+			<type>1</type>
+			<location>C:/tmp/talend/dq/northwind_customers_report-20251019-1211-00029.pdf</location>
+		</link>
+		<link>
+			<name>.northwind_customers_report-20251019-1213-00032.pdf</name>
+			<type>1</type>
+			<location>C:/tmp/talend/dq/northwind_customers_report-20251019-1213-00032.pdf</location>
+		</link>
+		<link>
+			<name>.northwind_customers_report-20251019-1214-00036.pdf</name>
+			<type>1</type>
+			<location>C:/tmp/talend/dq/northwind_customers_report-20251019-1214-00036.pdf</location>
+		</link>
+		<link>
+			<name>.northwind_customers_report-20251019-1220-00006.pdf</name>
+			<type>1</type>
+			<location>C:/tmp/talend/dq/northwind_customers_report-20251019-1220-00006.pdf</location>
+		</link>
+		<link>
+			<name>.northwind_customers_report-20251019-1221-00016.pdf</name>
+			<type>1</type>
+			<location>C:/tmp/talend/dq/northwind_customers_report-20251019-1221-00016.pdf</location>
+		</link>
+		<link>
+			<name>.northwind_customers_report-20251019-1234-00044.pdf</name>
+			<type>1</type>
+			<location>C:/tmp/talend/dq/northwind_customers_report-20251019-1234-00044.pdf</location>
+		</link>
+		<link>
+			<name>.northwind_customers_report-20251019-1235-00036.pdf</name>
+			<type>1</type>
+			<location>C:/tmp/talend/dq/northwind_customers_report-20251019-1235-00036.pdf</location>
+		</link>
+		<link>
+			<name>.northwind_customers_report-20251019-1236-00059.xls</name>
+			<type>1</type>
+			<location>C:/tmp/talend/dq/northwind_customers_report-20251019-1236-00059.xls</location>
+		</link>
+		<link>
+			<name>.northwind_customers_report-20251019-1238-00044.pdf</name>
+			<type>1</type>
+			<location>C:/tmp/talend/dq/northwind_customers_report-20251019-1238-00044.pdf</location>
+		</link>
+		<link>
+			<name>.northwind_customers_report-20251019-1239-00035.pdf</name>
+			<type>1</type>
+			<location>C:/tmp/talend/dq/northwind_customers_report-20251019-1239-00035.pdf</location>
+		</link>
+	</linkedResources>
 </projectDescription>
