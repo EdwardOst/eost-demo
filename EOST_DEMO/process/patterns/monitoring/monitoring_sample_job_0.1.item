@@ -10,6 +10,7 @@
     <contextParameter comment="" name="connection_mysql_Password" prompt="connection_mysql_Password?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_Password" value="enc:system.encryption.key.v4:6L2cXyDgiJdDuaFtwwMLP+KzUfgV7Mj64BU7QNrI3j4tyg4=" internalId="_SGTm1K1gEeuw5ritRo8M1g"/>
     <contextParameter comment="" name="connection_mysql_AdditionalParams" prompt="connection_mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="noDatetimeStringSync=true" internalId="_SGTm1a1gEeuw5ritRo8M1g"/>
     <contextParameter comment="" name="enable_log_bitbucket" prompt="enable_log_bitbucket?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false" internalId="_ZpojgPJeEe-THK0_NyUevA"/>
+    <contextParameter comment="leave blank for default temp folder" name="talend_temp" prompt="talend_temp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/truist" internalId="_E8rsIK6DEfCir43_EFiX4g"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="docker">
     <contextParameter comment="parameter" name="target_state" prompt="target_state?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FL" internalId="_hXUAQBgGEeu7NborGg88uA"/>
@@ -21,6 +22,7 @@
     <contextParameter comment="" name="connection_mysql_Server" prompt="connection_mysql_Server?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="mysql_server" internalId="_bPogVDDLEe6M2t4ERruDkw"/>
     <contextParameter comment="" name="connection_mysql_Database" prompt="connection_mysql_Database?" promptNeeded="false" repositoryContextId="_Jz4IgK1eEeuw5ritRo8M1g" type="id_String" value="qlik" internalId="_bPogVTDLEe6M2t4ERruDkw"/>
     <contextParameter comment="" name="enable_log_bitbucket" prompt="enable_log_bitbucket?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false" internalId="_ZpojgfJeEe-THK0_NyUevA"/>
+    <contextParameter comment="leave blank for default temp folder" name="talend_temp" prompt="talend_temp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/truist" internalId="_E8rsIa6DEfCir43_EFiX4g"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -1001,7 +1003,7 @@
       <elementValue elementRef="job_version" value="jobVersion" id="8"/>
       <elementValue elementRef="context" value="contextStr" id="9"/>
       <elementValue elementRef="origin" value="&quot;valid_customers&quot;" id="10"/>
-      <elementValue elementRef="label" value="&quot;customervalid_inserted&quot;" id="11"/>
+      <elementValue elementRef="label" value="&quot;customerdb_inserted&quot;" id="11"/>
       <elementValue elementRef="count" value="((Integer)globalMap.get(&quot;tDBOutput_1_NB_LINE_INSERTED&quot;))" id="12"/>
       <elementValue elementRef="reference" value="" id="13"/>
       <elementValue elementRef="thresholds" value="" id="14"/>
@@ -1016,7 +1018,7 @@
       <elementValue elementRef="job_version" value="jobVersion" id="23"/>
       <elementValue elementRef="context" value="contextStr" id="24"/>
       <elementValue elementRef="origin" value="&quot;valid_customers&quot;" id="25"/>
-      <elementValue elementRef="label" value="&quot;customervalid_updated&quot;" id="26"/>
+      <elementValue elementRef="label" value="&quot;customerdb_updated&quot;" id="26"/>
       <elementValue elementRef="count" value="((Integer)globalMap.get(&quot;tDBOutput_1_NB_LINE_UPDATED&quot;))" id="27"/>
       <elementValue elementRef="reference" value="" id="28"/>
       <elementValue elementRef="thresholds" value="" id="29"/>
@@ -1031,7 +1033,7 @@
       <elementValue elementRef="job_version" value="jobVersion" id="38"/>
       <elementValue elementRef="context" value="contextStr" id="39"/>
       <elementValue elementRef="origin" value="&quot;valid_customers&quot;" id="40"/>
-      <elementValue elementRef="label" value="&quot;customervalid_deleted&quot;" id="41"/>
+      <elementValue elementRef="label" value="&quot;customerdb_deleted&quot;" id="41"/>
       <elementValue elementRef="count" value="((Integer)globalMap.get(&quot;tDBOutput_1_NB_LINE_DELETED&quot;))" id="42"/>
       <elementValue elementRef="reference" value="" id="43"/>
       <elementValue elementRef="thresholds" value="" id="44"/>
@@ -1494,10 +1496,10 @@
     <elementParameter field="TEXT" name="LABEL" value="meter_log"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileOutputDelimited_8">
-      <column defaultValue="" key="false" length="0" name="moment" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="20" name="pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="20" name="father_pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="20" name="root_pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="0" name="moment" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="20" name="pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="20" name="father_pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="20" name="root_pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="8" name="system_pid" nullable="true" precision="0" sourceType="" type="id_Long" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="50" name="project" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="job" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -1803,13 +1805,13 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="customervalid_total" lineStyle="0" metaname="tFileOutputDelimited_9" offsetLabelX="0" offsetLabelY="0" source="tFileOutputDelimited_9" target="tDBOutput_1">
+  <connection connectorName="FLOW" label="customerdb_total" lineStyle="0" metaname="tFileOutputDelimited_9" offsetLabelX="0" offsetLabelY="0" source="tFileOutputDelimited_9" target="tDBOutput_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="true"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="customervalid_total" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="customerdb_total" show="false"/>
   </connection>
-  <connection connectorName="REJECT" label="customervalid_db_rejected" lineStyle="0" metaname="REJECT" offsetLabelX="0" offsetLabelY="0" source="tDBOutput_1" target="tFileOutputDelimited_5">
+  <connection connectorName="REJECT" label="customerdb_rejected" lineStyle="0" metaname="REJECT" offsetLabelX="0" offsetLabelY="0" source="tDBOutput_1" target="tFileOutputDelimited_5">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="true"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="customervalid_db_rejected" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="customerdb_rejected" show="false"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBOutput_1" offsetLabelX="0" offsetLabelY="0" source="tDBOutput_1" target="tFixedFlowInput_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk4" show="false"/>
