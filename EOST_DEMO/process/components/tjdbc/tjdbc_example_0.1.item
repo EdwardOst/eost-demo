@@ -1,8 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" hide="false" name="Default"/>
+  <context confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter comment="" name="connection_name" prompt="connection_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_3jR2sLrmEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="qlik" internalId="_SJKzYLrrEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="driver" prompt="driver?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="mvn:org.postgresql/postgresql/42.6.1/jar" internalId="_SJKzYbrrEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="driver_class" prompt="driver_class?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="org.postgresql.Driver" internalId="_SJKzYrrrEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="localhost" internalId="_SJKzY7rrEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="qlik123" internalId="_SJKzZLrrEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="5432" internalId="_SJKzZbrrEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="subprotocol" prompt="subprotocol?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="postgresql" internalId="_SJKzZrrrEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="userid" prompt="userid?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="qlik" internalId="_SJKzZ7rrEfCLo41DfUqbcA"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="postgres">
+    <contextParameter comment="" name="connection_name" prompt="connection_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_3jR2sLrmEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="qlik" internalId="_SJKzaLrrEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="driver" prompt="driver?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="mvn:org.postgresql/postgresql/42.6.1/jar" internalId="_SJKzabrrEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="driver_class" prompt="driver_class?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="org.postgresql.Driver" internalId="_SJKzarrrEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="localhost" internalId="_SJKza7rrEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="qlik123" internalId="_SJKzbLrrEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="5432" internalId="_SJKzbbrrEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="subprotocol" prompt="subprotocol?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="postgresql" internalId="_SJKzbrrrEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="userid" prompt="userid?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="qlik" internalId="_SJKzb7rrEfCLo41DfUqbcA"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="mysql">
+    <contextParameter comment="" name="connection_name" prompt="connection_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_3jR2sLrmEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="qlik" internalId="_SJKzcLrrEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="driver" prompt="driver?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="mvn:com.mysql/mysql-connector-j/8.2.0/jar" internalId="_SJKzcbrrEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="driver_class" prompt="driver_class?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="com.mysql.cj.jdbc.Driver" internalId="_SJKzcrrrEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="localhost" internalId="_SJKzc7rrEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="qlik123" internalId="_SJKzdLrrEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="3306" internalId="_SJKzdbrrEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="subprotocol" prompt="subprotocol?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="mysql" internalId="_SJKzdrrrEfCLo41DfUqbcA"/>
+    <contextParameter comment="" name="userid" prompt="userid?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="qlik" internalId="_SJKzd7rrEfCLo41DfUqbcA"/>
+  </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
@@ -42,7 +76,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v3:fEnWtxxnip5Gpif7EOQuYGJ31JHGgqdD+7/4vCk8" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v4:f8NB1WbdbIAsHFCdkWoGTr8PStTY7semeOH0aWd4" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -52,20 +86,20 @@
     <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
     <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
     <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
-    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="true"/>
-    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="true"/>
-    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="true"/>
-    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
-    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="true"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;/tmp/talend/amc&quot;"/>
-    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;"/>
-    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;"/>
-    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/talend/workspaces/2025-08/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="JDBCOutput" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_12" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18" show="false"/>
     <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
     <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
@@ -77,15 +111,15 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v4:M053I0MRrX6tybybF/LAeUk6IresWivdjYOmYeS1" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v4:nrywP5bNELecCZmkU2hkuFgMkaYvsaNsT5shsndE" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
-    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
-    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
-    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
     <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
     <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
     <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
@@ -96,10 +130,193 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
-    <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false"/>
-    <elementParameter field="CHECK" name="STATS_DEFAULT_PROJECTSETTING" value="true"/>
-    <elementParameter field="PROPERTY_TYPE" name="PROPERTY_TYPE" value=""/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value=""/>
   </parameters>
+  <node componentName="JDBCInput" componentVersion="2" offsetLabelX="0" offsetLabelY="0" posX="120" posY="240">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_2" show="false"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bmV3amRiYyNKREJDI0lucHV0" show="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="TACOKIT_GUESS_SCHEMA" name="configuration.dataSet.schema:Guess Schema_configuration.dataSet.schema" value=""/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:REPOSITORY_SCHEMA_TYPE" value="_ViWWoFMEEeqGX97LsLsdLg - co_customers" show="false"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.enableDBType" value="false" show="false"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.setRawUrl" value="true" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="jdbc:" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.port" value="80" show="false"/>
+    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.parameters" show="false"/>
+    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver" show="false"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useSharedDBConnection" value="false" show="false"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="configuration.dataSet.dataStore.dbMapping" value="mysql_id" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.snowflakeAuth.authenticationType" value="BASIC" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.snowflakeAuth.grantType" value="CLIENT_CREDENTIALS" show="false"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;co_customers&quot;"/>
+    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;SELECT * FROM co_customers AS c limit 5&quot;"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useAutoCommit" value="true" show="false"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.autoCommit" value="false" show="false"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.defineProtocol" value="false" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.connectionTimeOut" value="30" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.connectionValidationTimeOut" value="10" show="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useCursor" value="false"/>
+    <elementParameter field="TEXT" name="configuration.config.cursorSize" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="configuration.config.trimAllStringOrCharColumns" value="false"/>
+    <elementParameter field="TABLE" name="configuration.config.columnTrims">
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="sysid" id="0"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim" value="false" id="1"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="customer_id" id="2"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim" value="false" id="3"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="last" id="4"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim" value="false" id="5"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="first" id="6"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim" value="false" id="7"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="gender" id="8"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim" value="false" id="9"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="last_updt" id="10"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim" value="false" id="11"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="configuration.config.enableMapping" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.config.mapping" value="MYSQL" show="false"/>
+    <elementParameter field="CHECK" name="configuration.config.allowSpecialName" value="true"/>
+    <elementParameter field="CHECK" name="configuration.config.usePreparedStatement" value="false"/>
+    <elementParameter field="TABLE" name="configuration.config.preparedStatementParameters" show="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useQueryTimeout" value="false"/>
+    <elementParameter field="TEXT" name="configuration.config.queryTimeout" value="30" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1" show="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1" show="false"/>
+    <metadata connector="FLOW" label="co_customers" name="tDBInput_2">
+      <column comment="" key="true" length="10" name="sysid" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="45" name="customer_id" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="45" name="last" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="45" name="first" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="gender" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="last_updt" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <metadata connector="LOOKUP" name="LOOKUP"/>
+    <metadata connector="MERGE" name="MERGE"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" defaultValue="" key="false" length="255" name="errorCode" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="255" name="errorMessage" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="240">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_2" show="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="sysid" id="0"/>
+      <elementValue elementRef="LENGTH" value="10" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="customer_id" id="2"/>
+      <elementValue elementRef="LENGTH" value="10" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="last" id="4"/>
+      <elementValue elementRef="LENGTH" value="10" id="5"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="first" id="6"/>
+      <elementValue elementRef="LENGTH" value="10" id="7"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="gender" id="8"/>
+      <elementValue elementRef="LENGTH" value="10" id="9"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="last_updt" id="10"/>
+      <elementValue elementRef="LENGTH" value="10" id="11"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="co_customers" name="tLogRow_2">
+      <column comment="" key="true" length="10" name="sysid" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="45" name="customer_id" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="45" name="last" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="45" name="first" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="gender" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="last_updt" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="JDBCConnection" componentVersion="2" offsetLabelX="0" offsetLabelY="0" posX="120" posY="80">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bmV3amRiYyNKREJDI0lucHV0Connection" show="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="TEXT" name="LABEL" value="jdbc"/>
+    <elementParameter field="CHECK" name="configuration.enableDBType" value="false" show="false"/>
+    <elementParameter field="CHECK" name="configuration.setRawUrl" value="true" show="false"/>
+    <elementParameter field="TEXT" name="configuration.jdbcUrl" value="&quot;jdbc:&quot; + context.subprotocol + &quot;://&quot; + context.host + &quot;:&quot; + context.port + &quot;/&quot; + context.database"/>
+    <elementParameter field="TEXT" name="configuration.port" value="80" show="false"/>
+    <elementParameter field="TABLE" name="configuration.parameters" show="false"/>
+    <elementParameter field="TABLE" name="configuration.jdbcDriver">
+      <elementValue elementRef="configuration.jdbcDriver[].path" value="context.driver" id="0"/>
+    </elementParameter>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.jdbcClass" value="context.driver_class"/>
+    <elementParameter field="TEXT" name="configuration.userId" value="context.userid"/>
+    <elementParameter field="PASSWORD" name="configuration.password" value="enc:system.encryption.key.v4:GMe51AxZrUZ8aKIUOhc3SBL+VDaSpWSeGDWUilLvxBDKrxDf+RbmnVAWN+Y="/>
+    <elementParameter field="CHECK" name="configuration.useSharedDBConnection" value="true"/>
+    <elementParameter field="TEXT" name="configuration.sharedDBConnectionName" value="((String)globalMap.get(&quot;connection_name&quot;))"/>
+    <elementParameter field="CHECK" name="configuration.useDataSource" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="configuration.dbMapping" value="mysql_id" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.snowflakeAuth.authenticationType" value="BASIC" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.snowflakeAuth.grantType" value="CLIENT_CREDENTIALS" show="false"/>
+    <elementParameter field="CHECK" name="configuration.useAutoCommit" value="true"/>
+    <elementParameter field="CHECK" name="configuration.autoCommit" value="false"/>
+    <elementParameter field="CHECK" name="configuration.defineProtocol" value="false" show="false"/>
+    <elementParameter field="TEXT" name="configuration.connectionTimeOut" value="30" show="false"/>
+    <elementParameter field="TEXT" name="configuration.connectionValidationTimeOut" value="10" show="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.__version" value="-1" show="false"/>
+    <metadata connector="FLOW" name="tDBConnection_1"/>
+    <metadata connector="LOOKUP" name="LOOKUP"/>
+    <metadata connector="MERGE" name="MERGE"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" defaultValue="" key="false" length="255" name="errorCode" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="255" name="errorMessage" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tLogRow_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tDBInput_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
 </talendfile:ProcessType>

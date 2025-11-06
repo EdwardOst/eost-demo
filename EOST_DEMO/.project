@@ -61,5 +61,15 @@
 			<type>1</type>
 			<location>C:/tmp/talend/dq/northwind_customers_report-20251019-1239-00035.pdf</location>
 		</link>
+		<link>
+			<name>.northwind_customers_report-20251022-1237-00053.pdf</name>
+			<type>1</type>
+			<location>C:/tmp/talend/dq/northwind_customers_report-20251022-1237-00053.pdf</location>
+		</link>
+		<link>
+			<name>.northwind_customers_report-20251022-1238-00019.pdf</name>
+			<type>1</type>
+			<location>C:/tmp/talend/dq/northwind_customers_report-20251022-1238-00019.pdf</location>
+		</link>
 	</linkedResources>
 </projectDescription>

@@ -1666,6 +1666,7 @@
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="14"/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="true"/>
+    <elementParameter field="CHECK" name="USEROWLABEL" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="customer_input" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMysqlInput_1" offsetLabelX="0" offsetLabelY="0" source="tMysqlInput_1" target="tWarn_2">

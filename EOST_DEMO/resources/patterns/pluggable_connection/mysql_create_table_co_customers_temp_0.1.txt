@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS qlik.co_customers_temp;
+
+CREATE TABLE co_customers_temp (
+  sysid int NOT NULL,
+  customer_id varchar(45) NOT NULL,
+  last varchar(45) NOT NULL,
+  first varchar(45) DEFAULT NULL,
+  gender varchar(1) DEFAULT NULL,
+  last_updt datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (sysid)
+);

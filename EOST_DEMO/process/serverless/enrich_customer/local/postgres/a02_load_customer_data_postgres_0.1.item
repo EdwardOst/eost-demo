@@ -6,7 +6,7 @@
     <contextParameter comment="" name="customer_only_records" prompt="customer_only_records?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="50" internalId="_hdSFYhgGEeu7NborGg88uA"/>
     <contextParameter comment="" name="states" prompt="states?" promptNeeded="false" repositoryContextId="built-in" type="id_Resource" value="_AGONAGUIEeuMor5Dr5FCTw|Latest" internalId="_hdSFYxgGEeu7NborGg88uA"/>
     <contextParameter comment="" name="enable_log_bitbucket" prompt="enable_log_bitbucket?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false" internalId="_LhAMIG-2EfC5S8gpF8OJ4Q"/>
-    <contextParameter comment="" name="config_file" prompt="config_file?" promptNeeded="true" repositoryContextId="built-in" type="id_File" value="C:/tmp/talend/EOST_DEMO/a01_create_customers_data/2025-10-15-03-10-54/configuration.csv" internalId="_Jozt4HS4EfCVS8ZbIEp6ow"/>
+    <contextParameter comment="" name="config_file" prompt="config_file?" promptNeeded="true" repositoryContextId="built-in" type="id_File" value="c:\tmp\talend\EOST_DEMO\a01_create_customers_data\2025-11-06-02-10-14\configuration.csv" internalId="_Jozt4HS4EfCVS8ZbIEp6ow"/>
     <contextParameter comment="" name="connection_postgres_Schema" prompt="connection_postgres_Schema?" promptNeeded="false" repositoryContextId="_vZlYMHTIEfCVS8ZbIEp6ow" type="id_String" value="public" internalId="_62-_QHUuEfCTOcuwpXY1CQ"/>
     <contextParameter comment="" name="connection_postgres_Login" prompt="connection_postgres_Login?" promptNeeded="false" repositoryContextId="_vZlYMHTIEfCVS8ZbIEp6ow" type="id_String" value="qlik" internalId="_62-_QXUuEfCTOcuwpXY1CQ"/>
     <contextParameter comment="" name="connection_postgres_Port" prompt="connection_postgres_Port?" promptNeeded="false" repositoryContextId="_vZlYMHTIEfCVS8ZbIEp6ow" type="id_String" value="5432" internalId="_62-_QnUuEfCTOcuwpXY1CQ"/>
@@ -21,7 +21,7 @@
     <contextParameter comment="" name="customer_only_records" prompt="customer_only_records?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="50" internalId="_hdSFYhgGEeu7NborGg88uA"/>
     <contextParameter comment="" name="states" prompt="states?" promptNeeded="false" repositoryContextId="built-in" type="id_Resource" value="_AGONAGUIEeuMor5Dr5FCTw|Latest" internalId="_hdSFYxgGEeu7NborGg88uA"/>
     <contextParameter comment="" name="enable_log_bitbucket" prompt="enable_log_bitbucket?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false" internalId="_LhAzMG-2EfC5S8gpF8OJ4Q"/>
-    <contextParameter comment="" name="config_file" prompt="config_file?" promptNeeded="true" repositoryContextId="built-in" type="id_File" value="/tmp/talend/EOST_QLIK/a01_create_customers_data/2025-09-08-00-33-53/configuration.csv" internalId="_Jo0U9nS4EfCVS8ZbIEp6ow"/>
+    <contextParameter comment="" name="config_file" prompt="config_file?" promptNeeded="true" repositoryContextId="built-in" type="id_File" value="c:\tmp\talend\EOST_DEMO\a01_create_customers_data\2025-11-06-02-10-14\configuration.csv" internalId="_Jo0U9nS4EfCVS8ZbIEp6ow"/>
     <contextParameter comment="" name="connection_postgres_Schema" prompt="connection_postgres_Schema?" promptNeeded="false" repositoryContextId="_vZlYMHTIEfCVS8ZbIEp6ow" type="id_String" value="public" internalId="_62_mU3UuEfCTOcuwpXY1CQ"/>
     <contextParameter comment="" name="connection_postgres_Login" prompt="connection_postgres_Login?" promptNeeded="false" repositoryContextId="_vZlYMHTIEfCVS8ZbIEp6ow" type="id_String" value="qlik" internalId="_62_mVHUuEfCTOcuwpXY1CQ"/>
     <contextParameter comment="" name="connection_postgres_Port" prompt="connection_postgres_Port?" promptNeeded="false" repositoryContextId="_vZlYMHTIEfCVS8ZbIEp6ow" type="id_String" value="5432" internalId="_62_mVXUuEfCTOcuwpXY1CQ"/>
@@ -36,7 +36,7 @@
     <contextParameter comment="" name="customer_only_records" prompt="customer_only_records?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="50" internalId="_hdSFYhgGEeu7NborGg88uA"/>
     <contextParameter comment="" name="states" prompt="states?" promptNeeded="false" repositoryContextId="built-in" type="id_Resource" value="_AGONAGUIEeuMor5Dr5FCTw|Latest" internalId="_hdSFYxgGEeu7NborGg88uA"/>
     <contextParameter comment="" name="enable_log_bitbucket" prompt="enable_log_bitbucket?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false" internalId="_LhAMIG-2EfC5S8gpF8OJ4Q"/>
-    <contextParameter comment="" name="config_file" prompt="config_file?" promptNeeded="true" repositoryContextId="built-in" type="id_File" value="/tmp/talend/EOST_QLIK/a01_create_customers_data/2025-09-08-00-33-53/configuration.csv" internalId="_Jozt4HS4EfCVS8ZbIEp6ow"/>
+    <contextParameter comment="" name="config_file" prompt="config_file?" promptNeeded="true" repositoryContextId="built-in" type="id_File" value="c:\tmp\talend\EOST_DEMO\a01_create_customers_data\2025-11-06-02-10-14\configuration.csv" internalId="_Jozt4HS4EfCVS8ZbIEp6ow"/>
     <contextParameter comment="" name="connection_postgres_Login" prompt="connection_postgres_Login?" promptNeeded="false" repositoryContextId="_vZlYMHTIEfCVS8ZbIEp6ow" type="id_String" value="qlik" internalId="_K29GEHX3EfCTOcuwpXY1CQ"/>
     <contextParameter comment="" name="connection_postgres_Server" prompt="connection_postgres_Server?" promptNeeded="false" repositoryContextId="_vZlYMHTIEfCVS8ZbIEp6ow" type="id_String" value="eost-postgres-1.cdc6ngw47u0b.us-east-2.rds.amazonaws.com" internalId="_K29GEXX3EfCTOcuwpXY1CQ"/>
     <contextParameter comment="" name="connection_postgres_Port" prompt="connection_postgres_Port?" promptNeeded="false" repositoryContextId="_vZlYMHTIEfCVS8ZbIEp6ow" type="id_String" value="5432" internalId="_K29GEnX3EfCTOcuwpXY1CQ"/>
@@ -143,6 +143,7 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter id="_uDi24CvPEemn7J3ssWShHg" name="r"/>
   </parameters>
   <node componentName="tPostgresqlConnection" componentVersion="0.102" offsetLabelX="8" offsetLabelY="0" posX="440" posY="280">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
@@ -1381,7 +1382,7 @@
       <column comment="" defaultValue="'NULL::character varying'" key="false" length="20" name="phone" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="last_updt" nullable="false" pattern="&quot;YYYY-MM-dd HH:mm:ss&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="false">
+      <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="last_updt" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="false">
         <additionalField key="Comment" value=""/>
       </column>
       <additionalProperties key="Comment" value=""/>
@@ -1425,7 +1426,7 @@
       </column>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="last_updt" nullable="false" pattern="&quot;YYYY-MM-dd HH:mm:ss&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="false">
+      <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="last_updt" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="false">
         <additionalField key="Comment" value=""/>
       </column>
       <additionalProperties key="Comment" value=""/>
@@ -1617,7 +1618,7 @@
       <column comment="" key="false" length="1" name="gender" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="last_updt" nullable="false" pattern="&quot;YYYY-MM-dd HH:mm:ss&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="false">
+      <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="last_updt" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="false">
         <additionalField key="Comment" value=""/>
       </column>
       <additionalProperties key="Comment" value=""/>
@@ -1640,7 +1641,7 @@
       </column>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="last_updt" nullable="false" pattern="&quot;YYYY-MM-dd HH:mm:ss&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="false">
+      <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="last_updt" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="false">
         <additionalField key="Comment" value=""/>
       </column>
       <additionalProperties key="Comment" value=""/>
@@ -1832,7 +1833,7 @@
       <column comment="" key="false" length="1" name="gender" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="last_updt" nullable="false" pattern="&quot;YYYY-MM-dd HH:mm:ss&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="false">
+      <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="last_updt" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="false">
         <additionalField key="Comment" value=""/>
       </column>
       <additionalProperties key="Comment" value=""/>
@@ -1855,7 +1856,7 @@
       </column>
       <column key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="last_updt" nullable="false" pattern="&quot;YYYY-MM-dd HH:mm:ss&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="false">
+      <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="last_updt" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="false">
         <additionalField key="Comment" value=""/>
       </column>
       <additionalProperties key="Comment" value=""/>

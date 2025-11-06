@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_aB-0oLrpEfCLo41DfUqbcA" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_aB-0obrpEfCLo41DfUqbcA" comment="" name="subprotocol" prompt="subprotocol?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgresql"/>
+    <contextParameter xmi:id="_aB-0orrpEfCLo41DfUqbcA" comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_aB-0o7rpEfCLo41DfUqbcA" comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter xmi:id="_aB-0pLrpEfCLo41DfUqbcA" comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="qlik"/>
+    <contextParameter xmi:id="_aB-0pbrpEfCLo41DfUqbcA" comment="" name="userid" prompt="userid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="qlik"/>
+    <contextParameter xmi:id="_aB-0prrpEfCLo41DfUqbcA" comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="qlik123"/>
+    <contextParameter xmi:id="_aB-0p7rpEfCLo41DfUqbcA" comment="" name="driver" prompt="driver?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mvn:org.postgresql/postgresql/42.6.1/jar"/>
+    <contextParameter xmi:id="_aB-0qLrpEfCLo41DfUqbcA" comment="" name="driver_class" prompt="driver_class?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="org.postgresql.Driver"/>
+    <contextParameter xmi:id="_OZSUYLsDEfCfS8ByJSDOkw" comment="" name="additional_params" prompt="additional_params?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_uGi2gbrmEfCLo41DfUqbcA" confirmationNeeded="false" hide="false" name="mysql">
+    <contextParameter xmi:id="_uHIFWrrmEfCLo41DfUqbcA" comment="" name="subprotocol" prompt="subprotocol?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql"/>
+    <contextParameter xmi:id="_uHIFW7rmEfCLo41DfUqbcA" comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_uHIFXLrmEfCLo41DfUqbcA" comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_uHIFXbrmEfCLo41DfUqbcA" comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="qlik"/>
+    <contextParameter xmi:id="_uHIFXrrmEfCLo41DfUqbcA" comment="" name="userid" prompt="userid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="qlik"/>
+    <contextParameter xmi:id="_uHIFX7rmEfCLo41DfUqbcA" comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="qlik123"/>
+    <contextParameter xmi:id="_uHIFYLrmEfCLo41DfUqbcA" comment="" name="driver" prompt="driver?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mvn:com.mysql/mysql-connector-j/8.2.0/jar"/>
+    <contextParameter xmi:id="_uHIFYbrmEfCLo41DfUqbcA" comment="" name="driver_class" prompt="driver_class?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="com.mysql.cj.jdbc.Driver"/>
+    <contextParameter xmi:id="_OZSUYbsDEfCfS8ByJSDOkw" comment="" name="additional_params" prompt="additional_params?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="?allowMultiQueries=true"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_uGi2gLrmEfCLo41DfUqbcA" confirmationNeeded="false" hide="false" name="postgres">
+    <contextParameter xmi:id="_uHIFUbrmEfCLo41DfUqbcA" comment="" name="subprotocol" prompt="subprotocol?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgresql"/>
+    <contextParameter xmi:id="_uHIFUrrmEfCLo41DfUqbcA" comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_uHIFU7rmEfCLo41DfUqbcA" comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter xmi:id="_uHIFVLrmEfCLo41DfUqbcA" comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="qlik"/>
+    <contextParameter xmi:id="_uHIFVbrmEfCLo41DfUqbcA" comment="" name="userid" prompt="userid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="qlik"/>
+    <contextParameter xmi:id="_uHIFVrrmEfCLo41DfUqbcA" comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="qlik123"/>
+    <contextParameter xmi:id="_uHIFV7rmEfCLo41DfUqbcA" comment="" name="driver" prompt="driver?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mvn:org.postgresql/postgresql/42.6.1/jar"/>
+    <contextParameter xmi:id="_uHIFWLrmEfCLo41DfUqbcA" comment="" name="driver_class" prompt="driver_class?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="org.postgresql.Driver"/>
+    <contextParameter xmi:id="_OZSUYrsDEfCfS8ByJSDOkw" comment="" name="additional_params" prompt="additional_params?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_5GNAgI1zEe-NM8Jt8Yr7RA" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_5GNAgo1zEe-NM8Jt8Yr7RA" comment="" name="SF_Vault_Schema" prompt="SF_Vault_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_5GNAg41zEe-NM8Jt8Yr7RA" comment="" name="SF_Vault_Name" prompt="SF_Vault_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_2ZsXUKYnEe-SP-832rPSnw" comment="" name="SF_AWS_Schema" prompt="SF_AWS_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_2ZsXUaYnEe-SP-832rPSnw" comment="" name="SF_AWS_Name" prompt="SF_AWS_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_5GNAhY1zEe-NM8Jt8Yr7RA" confirmationNeeded="false" hide="false" name="dev">
+    <contextParameter xmi:id="_5GNAh41zEe-NM8Jt8Yr7RA" comment="" name="SF_Vault_Schema" prompt="SF_Vault_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_5GNAiI1zEe-NM8Jt8Yr7RA" comment="" name="SF_Vault_Name" prompt="SF_Vault_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_2ZsXUqYnEe-SP-832rPSnw" comment="" name="SF_AWS_Schema" prompt="SF_AWS_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_2ZsXU6YnEe-SP-832rPSnw" comment="" name="SF_AWS_Name" prompt="SF_AWS_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_5GNAio1zEe-NM8Jt8Yr7RA" confirmationNeeded="false" hide="false" name="preprod">
+    <contextParameter xmi:id="_5GNAjI1zEe-NM8Jt8Yr7RA" comment="" name="SF_Vault_Schema" prompt="SF_Vault_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_5GNAjY1zEe-NM8Jt8Yr7RA" comment="" name="SF_Vault_Name" prompt="SF_Vault_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_2ZsXVKYnEe-SP-832rPSnw" comment="" name="SF_AWS_Schema" prompt="SF_AWS_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_2ZsXVaYnEe-SP-832rPSnw" comment="" name="SF_AWS_Name" prompt="SF_AWS_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_5GNAj41zEe-NM8Jt8Yr7RA" confirmationNeeded="false" hide="false" name="prod">
+    <contextParameter xmi:id="_5GNAkY1zEe-NM8Jt8Yr7RA" comment="" name="SF_Vault_Schema" prompt="SF_Vault_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_5GNAko1zEe-NM8Jt8Yr7RA" comment="" name="SF_Vault_Name" prompt="SF_Vault_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_2ZsXVqYnEe-SP-832rPSnw" comment="" name="SF_AWS_Schema" prompt="SF_AWS_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_2ZsXV6YnEe-SP-832rPSnw" comment="" name="SF_AWS_Name" prompt="SF_AWS_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_5GNAlI1zEe-NM8Jt8Yr7RA" confirmationNeeded="false" hide="false" name="test">
+    <contextParameter xmi:id="_5GNAlo1zEe-NM8Jt8Yr7RA" comment="" name="SF_Vault_Schema" prompt="SF_Vault_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_5GNAl41zEe-NM8Jt8Yr7RA" comment="" name="SF_Vault_Name" prompt="SF_Vault_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_2ZsXWKYnEe-SP-832rPSnw" comment="" name="SF_AWS_Schema" prompt="SF_AWS_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_2ZsXWaYnEe-SP-832rPSnw" comment="" name="SF_AWS_Name" prompt="SF_AWS_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

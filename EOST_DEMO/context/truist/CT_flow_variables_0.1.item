@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="__aM6EKE7Ee-zNMPQ4o5mTQ" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="__aM6EaE7Ee-zNMPQ4o5mTQ" comment="RunID" name="flow_execution_id" prompt="flow_execution_id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_SJDl4KE8Ee-zNMPQ4o5mTQ" comment="" name="flow_workspace" prompt="flow_workspace?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_3CfpoKF6Ee-zNMPQ4o5mTQ" comment="TaskID" name="flow_id" prompt="flow_id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_r75O8KJGEe-CIIT_hojDjA" comment="" name="flow_name" prompt="flow_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_r75O8aJGEe-CIIT_hojDjA" comment="" name="flow_version" prompt="flow_version?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_r75O8qJGEe-CIIT_hojDjA" comment="" name="flow_start_datetime" prompt="flow_start_datetime?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_r75O86JGEe-CIIT_hojDjA" comment="" name="resource_flow_temp_folder" prompt="resource_flow_temp_folder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+</talendfile:ContextType>

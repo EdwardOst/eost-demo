@@ -168,27 +168,21 @@
     <metadata connector="FLOW" label="co_customers" name="tDBInput_1">
       <column comment="" key="true" length="10" name="sysid" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
-        <additionalField key="Content Type" value="Interval"/>
       </column>
       <column comment="" key="false" length="45" name="customer_id" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
-        <additionalField key="Content Type" value="Nominal"/>
       </column>
       <column comment="" key="false" length="45" name="last" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
-        <additionalField key="Content Type" value="Nominal"/>
       </column>
       <column comment="" key="false" length="45" name="first" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
-        <additionalField key="Content Type" value="Nominal"/>
       </column>
       <column comment="" key="false" length="1" name="gender" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
-        <additionalField key="Content Type" value="Nominal"/>
       </column>
-      <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="last_updt" nullable="false" pattern="&quot;YYYY-MM-dd HH:mm:ss&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+      <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="last_updt" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
-        <additionalField key="Content Type" value="Interval"/>
       </column>
     </metadata>
   </node>
@@ -225,27 +219,21 @@
     <metadata connector="FLOW" label="co_customers" name="tLogRow_1">
       <column comment="" key="true" length="10" name="sysid" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
-        <additionalField key="Content Type" value="Interval"/>
       </column>
       <column comment="" key="false" length="45" name="customer_id" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
-        <additionalField key="Content Type" value="Nominal"/>
       </column>
       <column comment="" key="false" length="45" name="last" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
-        <additionalField key="Content Type" value="Nominal"/>
       </column>
       <column comment="" key="false" length="45" name="first" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
-        <additionalField key="Content Type" value="Nominal"/>
       </column>
       <column comment="" key="false" length="1" name="gender" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
-        <additionalField key="Content Type" value="Nominal"/>
       </column>
-      <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="last_updt" nullable="false" pattern="&quot;YYYY-MM-dd HH:mm:ss&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+      <column comment="" defaultValue="'CURRENT_TIMESTAMP'" key="false" length="29" name="last_updt" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
-        <additionalField key="Content Type" value="Interval"/>
       </column>
     </metadata>
   </node>

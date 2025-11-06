@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS public.co_customers_temp;
+
+CREATE TABLE public.co_customers_temp (
+	sysid int4 NOT NULL,
+	customer_id varchar(45) NOT NULL,
+	last varchar(45) NOT NULL,
+	first varchar(45) NULL,
+	gender varchar(1) NULL,
+	last_updt timestamp(6) DEFAULT CURRENT_TIMESTAMP NOT NULL,
+	CONSTRAINT co_customers_temp_pkey PRIMARY KEY (sysid)
+);
