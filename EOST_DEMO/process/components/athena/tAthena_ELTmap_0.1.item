@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendDBMap="http://www.talend.org/dbmap" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" hide="false" name="Default"/>
+  <context confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter comment="" name="additional_params" prompt="additional_params?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="" internalId="_umCTcLspEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="qlik" internalId="_umCTcbspEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="driver" prompt="driver?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="mvn:org.postgresql/postgresql/42.6.1/jar" internalId="_umCTcrspEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="driver_class" prompt="driver_class?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="org.postgresql.Driver" internalId="_umCTc7spEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="localhost" internalId="_umCTdLspEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="qlik123" internalId="_umCTdbspEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="5432" internalId="_umCTdrspEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="subprotocol" prompt="subprotocol?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="postgresql" internalId="_umCTd7spEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="userid" prompt="userid?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="qlik" internalId="_umCTeLspEfCfS8ByJSDOkw"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="mysql">
+    <contextParameter comment="" name="additional_params" prompt="additional_params?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="?allowMultiQueries=true" internalId="_umCTebspEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="qlik" internalId="_umCTerspEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="driver" prompt="driver?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="mvn:com.mysql/mysql-connector-j/8.2.0/jar" internalId="_umCTe7spEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="driver_class" prompt="driver_class?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="com.mysql.cj.jdbc.Driver" internalId="_umCTfLspEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="localhost" internalId="_umCTfbspEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="qlik123" internalId="_umCTfrspEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="3306" internalId="_umCTf7spEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="subprotocol" prompt="subprotocol?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="mysql" internalId="_umCTgLspEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="userid" prompt="userid?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="qlik" internalId="_umCTgbspEfCfS8ByJSDOkw"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="postgres">
+    <contextParameter comment="" name="additional_params" prompt="additional_params?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="" internalId="_umCTgrspEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="qlik" internalId="_umCTg7spEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="driver" prompt="driver?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="mvn:org.postgresql/postgresql/42.6.1/jar" internalId="_umCThLspEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="driver_class" prompt="driver_class?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="org.postgresql.Driver" internalId="_umCThbspEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="localhost" internalId="_umCThrspEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="qlik123" internalId="_umCTh7spEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="5432" internalId="_umCTiLspEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="subprotocol" prompt="subprotocol?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="postgresql" internalId="_umCTibspEfCfS8ByJSDOkw"/>
+    <contextParameter comment="" name="userid" prompt="userid?" promptNeeded="false" repositoryContextId="_uGiPcLrmEfCLo41DfUqbcA" type="id_String" value="qlik" internalId="_umCTirspEfCfS8ByJSDOkw"/>
+  </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -107,11 +139,16 @@
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="CHECK" name="configuration.enableDBType" value="false" show="false"/>
     <elementParameter field="CHECK" name="configuration.setRawUrl" value="true" show="false"/>
-    <elementParameter field="TEXT" name="configuration.jdbcUrl" value="jdbc:"/>
+    <elementParameter field="TEXT" name="configuration.jdbcUrl" value="&quot;jdbc:&quot; + context.subprotocol + &quot;://&quot; + context.host + &quot;:&quot; + context.port + &quot;/&quot; + context.database + context.additional_params"/>
     <elementParameter field="TEXT" name="configuration.port" value="80" show="false"/>
     <elementParameter field="TABLE" name="configuration.parameters" show="false"/>
-    <elementParameter field="TABLE" name="configuration.jdbcDriver"/>
-    <elementParameter field="CHECK" name="configuration.useSharedDBConnection" value="false"/>
+    <elementParameter field="TABLE" name="configuration.jdbcDriver">
+      <elementValue elementRef="configuration.jdbcDriver[].path" value="context.driver" id="0"/>
+    </elementParameter>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.jdbcClass" value="context.driver_class"/>
+    <elementParameter field="TEXT" name="configuration.userId" value="context.userid"/>
+    <elementParameter field="PASSWORD" name="configuration.password" value="enc:system.encryption.key.v4:LSJF0WJJQTNUIFxCoHQEI9LH+lt8EwXZb6dUZrkCmVmazXTOElpkf5J+b7g="/>
+    <elementParameter field="CHECK" name="configuration.useSharedDBConnection" value="true"/>
     <elementParameter field="CHECK" name="configuration.useDataSource" value="false"/>
     <elementParameter field="MAPPING_TYPE" name="configuration.dbMapping" value="mysql_id" show="false"/>
     <elementParameter field="CLOSED_LIST" name="configuration.snowflakeAuth.authenticationType" value="BASIC" show="false"/>
@@ -144,9 +181,9 @@
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v4:ZpqhS6RAisuxvodiIiZxKJGBTkTKMvvjT9tEQ4f8"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="inputTable1_ER0mMLmEEfCLo41DfUqbcAinputTable1-inputTable1tELTMap_1inputTable1-PREVIEW.inputTable1bmpinputTable1"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_ER0mMLmEEfCLo41DfUqbcA-tELTMap_1-PREVIEW.bmp"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="inputTable1mysql_idinputTable1"/>
-    <elementParameter field="CHECK" name="DRY_RUN" value="false"/>
+    <elementParameter field="CHECK" name="DRY_RUN" value="true"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="LABEL" value="inputTable1__UNIQUE_NAME__inputTable1"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;inputTable1binputTable1>inputTable1__UNIQUE_NAME__inputTable1&lt;/inputTable1binputTable1>&lt;inputTable1brinputTable1>inputTable1__COMMENT__inputTable1"/>
@@ -156,40 +193,60 @@
   </node>
   <node componentName="tELTInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="200" posY="280">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tELTInput_1" show="false"/>
-    <elementParameter field="TEXT" name="ELT_TABLE_NAME" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="ELT_SCHEMA_NAME" value="&quot;&quot;"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id"/>
+    <elementParameter field="TEXT" name="ELT_TABLE_NAME" value="&quot;co_customers&quot;"/>
+    <elementParameter field="TEXT" name="ELT_SCHEMA_NAME" value="&quot;public&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="athena_id"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="TABLE" label="primaryTable" name="tELTInput_1"/>
+    <metadata connector="TABLE" label="public.co_customers" name="tELTInput_1"/>
   </node>
   <node componentName="tELTInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="440" posY="80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tELTInput_2" show="false"/>
-    <elementParameter field="TEXT" name="ELT_TABLE_NAME" value="lookupTable"/>
-    <elementParameter field="TEXT" name="ELT_SCHEMA_NAME" value="&quot;&quot;"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id"/>
+    <elementParameter field="TEXT" name="ELT_TABLE_NAME" value="&quot;co_addresses&quot;"/>
+    <elementParameter field="TEXT" name="ELT_SCHEMA_NAME" value="&quot;public&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="TABLE" label="lookupTable" name="tELTInput_2"/>
+    <metadata connector="TABLE" label="public.co_addresses" name="tELTInput_2"/>
   </node>
   <node componentName="tELTOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="720" posY="280">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tELTOutput_1" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CLEAR"/>
     <elementParameter field="CLOSED_LIST" name="CREATE_TABLE_TYPE" value="SET" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="CHECK" name="USE_WHERE_CONDITIONS_TABLE" value="false" show="false"/>
     <elementParameter field="MEMO" name="WHERE_CLAUSE" value="&quot;&quot;" show="false"/>
     <elementParameter field="LABEL" name="NOTE" value="WHERE conditions table&#xA;(for UPDATE and DELETE only)" show="false"/>
     <elementParameter field="TABLE" name="WHERE_CONDITIONS_TABLE" show="false"/>
-    <elementParameter field="TEXT" name="ELT_TABLE_NAME" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="ELT_SCHEMA_NAME" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="ELT_TABLE_NAME" value="&quot;valid_customers_elt&quot;"/>
+    <elementParameter field="TEXT" name="ELT_SCHEMA_NAME" value="&quot;public&quot;"/>
     <elementParameter field="CHECK" name="IS_TABLE_NAME_VARIABLE" value="false"/>
     <elementParameter field="CHECK" name="USE_DIFFERENT_TABLE" value="false"/>
     <elementParameter field="TEXT" name="DIFFERENT_TABLE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="PARTITION" value="&quot;&quot;" show="false"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id"/>
     <elementParameter field="CHECK" name="USE_UPDATE_STATEMENT" value="false" show="false"/>
     <elementParameter field="TABLE" name="SET_COLUMN" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="TABLE" name="tELTOutput_1"/>
+  </node>
+  <node componentName="tELTMap" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="440" posY="400">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tELTMap_2" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v4:RYPdZ1FkzfWsRoaSXKV5E9Nl+ZcRU7R3xZ4XMVrE"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_ER0mMLmEEfCLo41DfUqbcA-tELTMap_2-PREVIEW.bmp"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id"/>
+    <elementParameter field="CHECK" name="DRY_RUN" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <nodeData xsi:type="TalendDBMap:DBMapData"/>
   </node>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tELTMap_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
@@ -197,14 +254,19 @@
   <connection connectorName="TABLE" label="outputTable" lineStyle="9" metaname="table1" offsetLabelX="0" offsetLabelY="0" source="tELTMap_1" target="tELTOutput_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="table1" show="false"/>
   </connection>
-  <connection connectorName="TABLE" label="primaryTable" lineStyle="9" metaname="tELTInput_1" offsetLabelX="0" offsetLabelY="0" source="tELTInput_1" target="tELTMap_1">
+  <connection connectorName="TABLE" label="public.co_customers" lineStyle="9" metaname="tELTInput_1" offsetLabelX="0" offsetLabelY="0" source="tELTInput_1" target="tELTMap_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tELTInput_1" show="false"/>
   </connection>
-  <connection connectorName="TABLE" label="lookupTable" lineStyle="9" metaname="tELTInput_2" offsetLabelX="0" offsetLabelY="0" source="tELTInput_2" target="tELTMap_1">
+  <connection connectorName="TABLE" label="public.co_addresses" lineStyle="9" metaname="tELTInput_2" offsetLabelX="0" offsetLabelY="0" source="tELTInput_2" target="tELTMap_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tELTInput_2" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tELTMap_2" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>

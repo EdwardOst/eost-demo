@@ -1,0 +1,14 @@
+{
+  "itemId" : "_6yN4kI2CEe-dMfU2R79aeA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_R_56AIt8Ee-v1IJwYj0hww",
+    "parameterList" : [ {
+      "id" : "_SAtLQot8Ee-v1IJwYj0hww",
+      "name" : "output_folder"
+    }, {
+      "id" : "_SAtLQYt8Ee-v1IJwYj0hww",
+      "name" : "staging_folder"
+    } ]
+  } ]
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_L93ZMNFcEfCi25kdhLpyFA" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_L93ZMdFcEfCi25kdhLpyFA" confirmationNeeded="false" hide="false" name="Default"/>
+  <parameters xmi:id="_L94AQNFcEfCi25kdhLpyFA">
+    <elementParameter xmi:id="_L94AQdFcEfCi25kdhLpyFA" field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter xmi:id="_L94AQtFcEfCi25kdhLpyFA" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_L94AQ9FcEfCi25kdhLpyFA" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_L94ARNFcEfCi25kdhLpyFA" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_L94ARdFcEfCi25kdhLpyFA" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_L94ARtFcEfCi25kdhLpyFA" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_L94AR9FcEfCi25kdhLpyFA" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_L94ASNFcEfCi25kdhLpyFA" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_L94ASdFcEfCi25kdhLpyFA" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_L94AStFcEfCi25kdhLpyFA" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_L94AS9FcEfCi25kdhLpyFA" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_L94ATNFcEfCi25kdhLpyFA" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_L94ATdFcEfCi25kdhLpyFA" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_L94ATtFcEfCi25kdhLpyFA" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_L94AT9FcEfCi25kdhLpyFA" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_L94AUNFcEfCi25kdhLpyFA" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+  </parameters>
+</talendfile:ProcessType>

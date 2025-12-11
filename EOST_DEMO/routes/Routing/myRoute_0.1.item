@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_3ExPMMbuEfCRh-G4ECZhvQ" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_3ExPMcbuEfCRh-G4ECZhvQ" confirmationNeeded="false" hide="false" name="Default"/>
+  <parameters xmi:id="_3ExPMsbuEfCRh-G4ECZhvQ">
+    <elementParameter xmi:id="_3ExPM8buEfCRh-G4ECZhvQ" field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter xmi:id="_3ExPNMbuEfCRh-G4ECZhvQ" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_3ExPNcbuEfCRh-G4ECZhvQ" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_3ExPNsbuEfCRh-G4ECZhvQ" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_3ExPN8buEfCRh-G4ECZhvQ" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_3ExPOMbuEfCRh-G4ECZhvQ" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_3ExPOcbuEfCRh-G4ECZhvQ" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_3ExPOsbuEfCRh-G4ECZhvQ" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_3ExPO8buEfCRh-G4ECZhvQ" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_3ExPPMbuEfCRh-G4ECZhvQ" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_3ExPPcbuEfCRh-G4ECZhvQ" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_3ExPPsbuEfCRh-G4ECZhvQ" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_3ExPP8buEfCRh-G4ECZhvQ" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_3ExPQMbuEfCRh-G4ECZhvQ" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_3ExPQcbuEfCRh-G4ECZhvQ" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_3ExPQsbuEfCRh-G4ECZhvQ" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_3ExPQ8buEfCRh-G4ECZhvQ" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_3ExPRMbuEfCRh-G4ECZhvQ" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <routinesParameter xmi:id="_D74EgMbvEfCRh-G4ECZhvQ" id="_bznLIMbuEfCRh-G4ECZhvQ" type="BEANSJAR"/>
+  </parameters>
+  <node xmi:id="_3ExPRcbuEfCRh-G4ECZhvQ" componentName="cBean" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="360" posY="160">
+    <elementParameter xmi:id="_3ExPRsbuEfCRh-G4ECZhvQ" field="TEXT" name="UNIQUE_NAME" value="cBean_1" show="false"/>
+    <elementParameter xmi:id="_3ExPR8buEfCRh-G4ECZhvQ" field="RADIO" name="FROM_REGISTRY" value="false"/>
+    <elementParameter xmi:id="_3ExPSMbuEfCRh-G4ECZhvQ" field="RADIO" name="FROM_CLASS" value="true"/>
+    <elementParameter xmi:id="_3ExPScbuEfCRh-G4ECZhvQ" field="TEXT" name="BEAN" value="beans.MyBean.class"/>
+    <elementParameter xmi:id="_3ExPSsbuEfCRh-G4ECZhvQ" field="TEXT" name="REF_ID" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_3ExPS8buEfCRh-G4ECZhvQ" field="CHECK" name="SPECIFY_METHOD" value="false"/>
+    <elementParameter xmi:id="_3ExPTMbuEfCRh-G4ECZhvQ" field="TEXT" name="METHOD" value="&quot;Method&quot;" show="false"/>
+    <elementParameter xmi:id="_3ExPTcbuEfCRh-G4ECZhvQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_3ExPTsbuEfCRh-G4ECZhvQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <subjob xmi:id="_3ExPT8buEfCRh-G4ECZhvQ">
+    <elementParameter xmi:id="_3ExPUMbuEfCRh-G4ECZhvQ" field="TEXT" name="UNIQUE_NAME" value="cBean_1" show="false"/>
+  </subjob>
+</talendfile:ProcessType>

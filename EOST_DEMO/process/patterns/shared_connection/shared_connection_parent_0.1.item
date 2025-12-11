@@ -179,7 +179,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
-    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="shared_connection_child_read_data"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="shared_connection_read_data"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="EOST_DEMO:_UHbEwLm3EfCLo41DfUqbcA"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
@@ -302,6 +302,9 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2" show="false"/>
   </connection>
   <note opaque="true" posX="520" posY="40" sizeHeight="121" sizeWidth="561" text="This parent job creates a shared connection and passes it to the child &#xD;&#xA;job via connection_name context variable.&#xD;&#xA;Since it is a shared connection object (not just connection parameters)&#xD;&#xA;it might be a different type of database than the default used in the&#xD;&#xA;child job, e.g. postgres rather than mysql.">
+    <elementParameter field="COLOR" name="NOTE_COLOR" value="255;255;128"/>
+  </note>
+  <note opaque="true" posX="520" posY="440" sizeHeight="121" sizeWidth="561" text="This job won't work outside of Studio unless the desired jdbc jars are attached&#xD;&#xA;to this job.  Since we use the Share Connection feature to launch child jobs, this&#xD;&#xA;is the only job which gets deployed and hence the only job which needs the jdbc&#xD;&#xA;dependencies attached.  The alternative would have been to attach them to each&#xD;&#xA;individual job.">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="255;255;128"/>
   </note>
   <subjob>
